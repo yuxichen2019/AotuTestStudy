@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>selenium training</title>
+    <SCRIPT type="text/javascript" LANGUAGE="JavaScript">
+        function clickMe() {
+            // alert("点就点了,我还怕你~~~");
+            // confirm('这是选择是否的对话框?');
+            if (confirm('这是选择是否的对话框?')) {
+                alert('选择了是');
+            }
+            else {
+                alert('选择了否');
+            }
+        }
+
+        function changeBackGround() {
+            var colour = document.getElementById('select');
+            var index = colour.selectedIndex; // 选中索引
+            var value = colour.options[index].value; // 选中文本
+            if (value == "1") {
+                document.getElementById('secondDiv').style.backgroundColor = "#FF0000";
+            }
+            if (value == "2") {
+                document.getElementById('secondDiv').style.backgroundColor = "#141AFF";
+            }
+            if (value == "3") {
+                document.getElementById('secondDiv').style.backgroundColor = "#F93AFF";
+            }
+        }
+    </script>
+</head>
+<body>
+<form id="seleniumForm">
+    <div id="firstDiv">
+        text:<input type="text"><br>
+        checkbox:<input type="checkbox"><br>
+        password:<input type="password"><br>
+        radio:<input type="radio"><br>
+    </div>
+    <div id="secondDiv" style="background-color: #f2f0fb">
+        select:
+        <select onchange="changeBackGround();" id="select">
+            <option value="0"></option>
+            <option value="1">我是红的</option>
+            <option value="2">我是蓝的</option>
+            <option value="3">我是粉的</option>
+        </select>
+    </div>
+    <div>
+        button:<input id="clickme" name="confirmme" type="button" value="点我呀" onclick="clickMe();"><br>
+    </div>
+</form>
+</form>
+</body>
+</html>
