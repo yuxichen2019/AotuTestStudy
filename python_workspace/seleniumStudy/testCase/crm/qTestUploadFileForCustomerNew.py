@@ -4,7 +4,7 @@ import win32con
 from ddt import ddt, data, unpack
 from testCase.crm.BaseCase import BaseCase
 
-#上传文件的第三种方式
+
 @ddt
 class TestUploadFileForCustomer(BaseCase):
 

@@ -13,7 +13,6 @@ from parameterized import parameterized
 import datetime
 from testCase.crm.BaseCase import BaseCase
 
-
 class TestAddBusinessOpportunity(BaseCase):
 
     # 新增商机
