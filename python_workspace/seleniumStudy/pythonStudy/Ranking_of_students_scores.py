@@ -43,4 +43,8 @@ if __name__ == '__main__':
         dict[i.getname()]=i.getscore()
     print(dict)
 
+    avg_socre=0
+    for k in dict:
+        avg_socre += int(dict[k])
 
+    print('平均成绩：',avg_socre/len(dict))
