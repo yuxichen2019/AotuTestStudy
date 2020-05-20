@@ -11,7 +11,7 @@ class TestBaiduSearchRemote(unittest.TestCase):
         # self.driver = webdriver.Firefox()
         # 谷歌浏览器
         self.imgs = []
-        self.driver = BlueRose(browser="chrome", isMultitask=True)
+        self.driver = BlueRose(browser="chrome", isMultitask=False)
         # self.driver = BlueRose(browser="chrome")
         # 最大化浏器
         self.driver.max_window()
