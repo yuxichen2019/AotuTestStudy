@@ -49,3 +49,4 @@ if __name__ == '__main__':
         avg_socre += int(dict[k])
 
     print('平均成绩：',avg_socre/len(dict))
+
