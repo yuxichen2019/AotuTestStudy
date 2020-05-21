@@ -1,7 +1,6 @@
 import unittest
 from HTMLTestRunner_cn import HTMLTestRunner
 from time import sleep
-
 from framework.BlueRose import BlueRose
 
 

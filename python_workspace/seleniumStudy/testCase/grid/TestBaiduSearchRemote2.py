@@ -32,6 +32,6 @@ class TestBaiduSearchRemote2(unittest.TestCase):
 
 if __name__ == '__main__':
     suite = unittest.TestLoader().loadTestsFromTestCase(TestBaiduSearchRemote2)
-    runner = HTMLTestRunner(title="百度搜索", description="这是一个百度搜索的自动化测试小例子", stream=open("Baidu_test_report.html", "wb"),
+    runner = HTMLTestRunner(title="百度搜索", description="这是一个百度搜索的自动化测试小例子", stream=open("Baidu_test_report2.html", "wb"),
                             verbosity=2, retry=0, save_last_try=True)
     runner.run(suite)

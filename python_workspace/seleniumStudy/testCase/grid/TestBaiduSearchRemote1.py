@@ -11,7 +11,7 @@ class TestBaiduSearchRemote1(unittest.TestCase):
         # 火狐浏览器
         # self.driver = webdriver.Firefox()
         # 谷歌浏览器
-        self.driver = BlueRose(browser="chrome", isMultitask=True)
+        self.driver = BlueRose(browser="chrome", isMultitask=False)
         # self.driver = BlueRose(browser="chrome")
         # 最大化浏器
         self.driver.max_window()
@@ -32,6 +32,6 @@ class TestBaiduSearchRemote1(unittest.TestCase):
 
 if __name__ == '__main__':
     suite = unittest.TestLoader().loadTestsFromTestCase(TestBaiduSearchRemote1)
-    runner = HTMLTestRunner(title="百度搜索", description="这是一个百度搜索的自动化测试小例子", stream=open("Baidu_test_report.html", "wb"),
+    runner = HTMLTestRunner(title="百度搜索", description="这是一个百度搜索的自动化测试小例子", stream=open("Baidu_test_report1.html", "wb"),
                             verbosity=2, retry=0, save_last_try=True)
     runner.run(suite)
