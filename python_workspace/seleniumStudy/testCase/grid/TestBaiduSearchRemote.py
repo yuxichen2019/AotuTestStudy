@@ -16,6 +16,8 @@ class TestBaiduSearchRemote(unittest.TestCase):
         # 最大化浏器
         self.driver.max_window()
 
+
+
     def test_baiduSearchRemote(self):
         """百度测试来了"""
         # 打开百度
