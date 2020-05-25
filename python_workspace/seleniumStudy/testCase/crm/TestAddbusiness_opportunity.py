@@ -39,10 +39,12 @@ class TestAddBusinessOpportunity(BaseCase):
         self.driver.click('xpath=//td[text()="测试客户1"]')
         #点击选择客户框的确定
         self.driver.click_index('xpath=//span[text()="确认"]',0)
-        # self.driver.click("xpath=(//span[text()='确认'])[1]")
+        self.driver.click("xpath=(//span[text()='确认'])[1]")
 
         # 选择商机进度
-        self.driver.click('xpath=//option[text()="完成收款"]')
+        self.driver.click('xpath=//select[@name="status_id"]/option[4]')
+        #self.driver.click('xpath=//option[text()="完成收款"]')
+
         #时间-1-input的时间控件
         self.driver.send_keys("xpath=//input[@input_type='time']",'2020-04-28 16:28')
         #保存商机
