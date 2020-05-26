@@ -4,19 +4,19 @@ import pymysql
 
 
 class UtilsDB(object):
-    def __init__(self, url, dbName, userName, passWord):
+    def __init__(self, url,port, userName, passWord, dbName):
         self.url = url
-        self.dbName = dbName
+        self.port= port
         self.userName = userName
         self.passWord = passWord
+        self.dbName = dbName
 
     """
         get connection to data base
     """
-
     def getConnection(self):
         return pymysql.connect(host=self.url,
-                               port=3306,
+                               port=self.port,
                                user=self.userName,
                                passwd=self.passWord,
                                db=self.dbName,
@@ -32,8 +32,8 @@ class UtilsDB(object):
             cursor = connection.cursor()
             cursor.execute(sqlStr)
             dataAll = cursor.fetchall()
-            for data in dataAll:
-                print("Database data :", data)
+
+            print( dataAll)
             return dataAll
         except BaseException as e:
             msg = traceback.format_exc()
@@ -71,7 +71,7 @@ class UtilsDB(object):
 
 
 if __name__ == '__main__':
-    utilsDB = UtilsDB("localhost", "studentinfo", "root", "123456")
+    utilsDB = UtilsDB("192.168.1.104",3308,"root", "sy666.com", "icms")
     #utilsDB.executeSql('select st1.name,s1.chinese from class c1,score s1, student st1 where c1.id=st1.class_id and st1.id =s1.student_id and s1.chinese>80 and c1.name LIKE "%一年级%"')
     #utilsDB.editData("insert into student VALUES(4,1,'小李',16)")
     #utilsDB.editData("insert into student VALUES(4,1,'小李',16)")
@@ -91,4 +91,4 @@ if __name__ == '__main__':
     # print(sqlStr)
     # utilsDB.editData(sqlStr)
     # # 最后执行查询
-    # utilsDB.executeSql("select input,expect from testData")
+    # utilsDB.executeSql("SELECT iccid from t_card_store")
