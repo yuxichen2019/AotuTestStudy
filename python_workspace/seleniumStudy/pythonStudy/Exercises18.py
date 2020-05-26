@@ -15,9 +15,14 @@ n=int(input('n='))
 sn=0
 list=[]
 for i in range(n):
-    sn+=a * (10 ** i)
-    list.append(sn)
-    print('{} + '.format(sn),end='')
+    if i != n-1:
+        sn+=a * (10 ** i)
+        list.append(sn)
+        print('{} + '.format(sn),end='')
+    else:
+        sn += a * (10 ** i)
+        list.append(sn)
+        print('{} = '.format(sn),end='')
 
 
 sum=0
