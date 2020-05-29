@@ -26,3 +26,22 @@ for j in range(2, 1001):
             stdout.write(str(k[i]))
             stdout.write(' ')
         print(k[n-1])
+
+
+'''
+#自己的
+for i in range(2,1001):
+    list=[]
+    a=0
+    for j in range(1,int(i)):
+        if i%j== 0:
+            a+=j
+            list.append(j)
+    if i == a:
+        print('{} '.format(i))
+        for k in list:
+            if k != list[-1]:
+                print(k,end=' ')
+            else:
+                print(k)
+'''
