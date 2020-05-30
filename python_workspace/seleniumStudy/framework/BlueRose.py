@@ -6,7 +6,6 @@ from selenium.webdriver import DesiredCapabilities, ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-
 from framework.Logger import Logger
 
 

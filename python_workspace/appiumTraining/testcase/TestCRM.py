@@ -15,7 +15,7 @@ class TestCRM(unittest.TestCase):
         #                         "com.wukong.crm",
         #                         "com.wukong.crm.MainActivity")
         # 三星手机
-        self.driver = SunFlower("8FS7N16422000903", "7.0",
+        self.driver = SunFlower("K6T6R17124002359", "7.0",
                                 "com.jianxin.crm",
                                 "com.jianxin.crm.MainAppActivity")
 

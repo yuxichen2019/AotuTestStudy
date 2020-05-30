@@ -178,7 +178,8 @@ class SunFlower(object):
         self.wait_element(element)
         androidElement = self.find_element(element)
         touchAction = TouchAction(self.driver)
-        touchAction.long_press(androidElement, None, None, times * 1000).perform()
+        #touchAction.long_press(androidElement, None, None, times * 1000).perform()
+        touchAction.long_press(androidElement, None, None, times * 1000).wait(1000).perform()
 
     def send_keyEvent(self,keyCode):
         """

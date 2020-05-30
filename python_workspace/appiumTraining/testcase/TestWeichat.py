@@ -4,45 +4,34 @@ import unittest
 from HTMLTestRunner_cn import HTMLTestRunner
 from time import sleep
 
-from framework.SunFlower import SunFlower
+from testcase.BaseCase import BaseCase
 
 
-class TestWebChat(unittest.TestCase):
-    @classmethod
-    def setUpClass(self):
-        # 模拟器
-        # self.driver = SunFlower("192.168.136.101:5555", "5.1", "com.tencent.mm", "com.tencent.mm.ui.LauncherUI")
-        # 三星手机
-        self.driver = SunFlower("7eaeef32", "9", "com.tencent.mm",
-                                "com.tencent.mm.ui.LauncherUI")
-
-    @classmethod
-    def tearDownClass(self):
-        self.driver.quit()
+class TestWebChat(BaseCase):
 
     # 登录微信
     def login(self):
         #切换验证方式
-        self.driver.click("id=com.tencent.mm:id/cqq")
+        #self.driver.click("id=com.tencent.mm:id/cqq")
         #用密码登录
-        self.driver.click("id=com.tencent.mm:id/l_")
+        #self.driver.click("id=com.tencent.mm:id/l_")
         # 输入密码
-        self.driver.send_keys("id=com.tencent.mm:id/l3", "password123")
+        self.driver.send_keys("id=com.tencent.mm:id/bfl", "yb092226")
         # 点击登录
-        self.driver.click("id=com.tencent.mm:id/cqc")
+        self.driver.click("id=com.tencent.mm:id/d2y")
 
     # 退出微信登录
     def logout(self):
         # 点击返回
         self.driver.click("des=返回")
         # 点击返回
-        self.driver.click("des=返回")
+        self.driver.click("text=取消")
         # 点击我标签
         self.driver.click("text=我")
         # 点击设置
         self.driver.click("text=设置")
         # 向上滑动屏幕
-        self.driver.swipe_up(n=2)
+        #self.driver.swipe_up(n=2)
         # 点击退出
         self.driver.click("text=退出")
         # 点击退出登录
@@ -55,16 +44,12 @@ class TestWebChat(unittest.TestCase):
 
     # 查找好友
     def searchFriend(self):
-        # 点击通讯录
-        self.driver.click("text=通讯录")
-        # 点击查询
-        self.driver.click("id=com.tencent.mm:id/jb")
+        # 点击放大镜
+        self.driver.click("id=com.tencent.mm:id/f4u")
         # 输入要搜索的好友名称
-
-        self.driver.send_keys("id=com.tencent.mm:id/l3", "Ymei")
-
+        self.driver.send_keys("id=com.tencent.mm:id/bfl", "yu")
         # 点击好友名称
-        self.driver.click("id=com.tencent.mm:id/qm")
+        self.driver.click("id=com.tencent.mm:id/g8b")
 
 
     # 给好友发消息
@@ -72,33 +57,41 @@ class TestWebChat(unittest.TestCase):
         count = 0
         while True:
             print('重复' + str(count) + '遍')
-            count = count + 1
-            if count == 2:
+
+            if count > 1:
                 break
             # 输入文字消息
-            self.driver.send_keys("id=com.tencent.mm:id/ami", "等你等了这么久")
+            self.driver.send_keys("id=com.tencent.mm:id/ak7", "等你等了这么久"+str(count))
             # 点击发送按钮
-            self.driver.click("id=com.tencent.mm:id/amp")
+            self.driver.click("id=com.tencent.mm:id/amr")
             # 点击表情按钮
-            self.driver.click("id=com.tencent.mm:id/amk")
+            self.driver.click("des=表情")
             # 选择表情
-            self.driver.click("des=[闭嘴]")
-            self.driver.click("des=[撇嘴]")
-            self.driver.click("des=[色]")
+            self.driver.click("des=[得意]")
+            self.driver.click("des=[呲牙]")
+            self.driver.click("des=[偷笑]")
             # 点击发送按钮
             self.driver.click("xpath=//android.widget.Button[@text=\"发送\"]")
-
             # 点击发送语音按钮
             self.driver.click("des=切换到按住说话")
-            # # 长按，按住说话
-            # self.driver.long_press("xpath=//android.widget.Button[@text=\"按住 说话\"]", 10)
-            self.driver.long_press("des=按住说话", 10)
+            # 长按，按住说话
+            self.driver.long_press("des=按住说话",1)
 
-            # # 切换回键盘
-            self.driver.click("des=切换到键盘")
-
+            # 点击 + 号
+            self.driver.click('id=com.tencent.mm:id/ajp')
+            #self.driver.click("text=更多功能按钮")
+            # 点击拍摄
+            self.driver.click_index("id=com.tencent.mm:id/p9",1)
+            # 长按录制按钮3秒
+            self.driver.long_press("id=com.tencent.mm:id/coe", 3)
+            # 点击完成
+            self.driver.click('id=com.tencent.mm:id/bfa')
+            # 切换回键盘
+            #self.driver.click("des=切换到键盘")
+            sleep(2)
+            count = count + 1
     def test_weiChat(self):
-        self.login()
+        # self.login()
         self.searchFriend()
         self.sendMsgToFriend()
         self.logout()
