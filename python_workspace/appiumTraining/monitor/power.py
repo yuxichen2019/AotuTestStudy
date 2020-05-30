@@ -30,7 +30,7 @@ class MonitoringPowerResources(object):
     # 多次测试过程控制
     def run(self):
         # 设置手机进入非充电状态
-        os.popen("adb shell dumpsys battery set status 1")
+        os.popen("adb shell dumpsys battery set status 1")  # 2是充电
         while self.counter > 0:
             self.testprocess()
             self.counter = self.counter - 1
@@ -52,6 +52,6 @@ class MonitoringPowerResources(object):
 
 
 if __name__ == "__main__":
-    monitoringPowerResources = MonitoringPowerResources(5)
+    monitoringPowerResources = MonitoringPowerResources(100)
     monitoringPowerResources.run()
     monitoringPowerResources.SaveDataToCSV()

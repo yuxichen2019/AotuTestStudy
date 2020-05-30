@@ -11,13 +11,32 @@ class MonitoringCPUResources(object):
         self.counter = count
         self.alldata = [("timestamp", "cpustatus")]
 
-    # 单次执行监控过程
+    # # 单次执行监控过程
+    # def monitoring(self):
+    #     result = os.popen("adb shell dumpsys cpuinfo | findstr com.tencent.mm")
+    #     cpuvalue=0.0
+    #     for line in result:
+    #         cpuvalue1 =line.split("%")[0].strip()
+    #         cpuvalue=cpuvalue+float(cpuvalue1)
+    #     currenttime = self.getCurrentTime()
+    #     print("current time is:" + currenttime)
+    #     print("cpu used is:" + str(cpuvalue))
+    #     self.alldata.append([currenttime, cpuvalue])
+
     def monitoring(self):
+        list=[]
+        s=0
         result = os.popen("adb shell dumpsys cpuinfo | findstr com.tencent.mm")
-        cpuvalue = result.readline().split("%")[0].strip()
         currenttime = self.getCurrentTime()
         print("current time is:" + currenttime)
-        print("cpu used is:" + cpuvalue)
+        cpuvalue = result.readline().split("%")[0].strip()
+        while cpuvalue :
+            list.append(cpuvalue)
+            cpuvalue = result.readline().split("%")[0].strip()
+        print(list)
+        for i in list:
+            s+=float(i)
+        print("cpu used is:  " + str("%.2f" % s))
         self.alldata.append([currenttime, cpuvalue])
 
     # 多次执行监控过程
@@ -41,6 +60,6 @@ class MonitoringCPUResources(object):
 
 
 if __name__ == "__main__":
-    monitoringCPUResources = MonitoringCPUResources(50)
+    monitoringCPUResources = MonitoringCPUResources(100)
     monitoringCPUResources.run()
     monitoringCPUResources.SaveDataToCSV()

@@ -26,16 +26,17 @@ class MonitoringMemResources(object):
         print("pid is:" + pid)
         # 获取进程ID使用的流量
         traffic = os.popen("adb shell top -n 1 -d 0.5 | findstr " + pid)
+
         for line in traffic:
             if "root" in line:
                 line = "#".join(line.split())
                 print(line)
-                vss = line.split("#")[5].strip("K")
-                rss = line.split("#")[6].strip("K")
+                vss = line.split("#")[7].strip("K")
+                rss = line.split("#")[8].strip("K")
         currenttime = self.getCurrentTime()
         print("current time is:"+currenttime)
-        print("vss used is:"+vss)
-        print("rss used is:"+rss)
+        print("vss used is:"+vss+' K')
+        print("rss used is:"+rss+' K')
         # 将获取到的数据存到数组中
         self.alldata.append((currenttime, int(rss) / 1024))
 
