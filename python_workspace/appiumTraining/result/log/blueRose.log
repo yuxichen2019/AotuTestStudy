@@ -1,0 +1,5 @@
+2018-07-02 14:53:48,358 - E:/python-workSpace/appiumTraining/framework/Logger.py[line:47] - DEBUG: debug
+2018-07-02 14:53:48,358 - E:/python-workSpace/appiumTraining/framework/Logger.py[line:48] - INFO: info
+2018-07-02 14:53:48,358 - E:/python-workSpace/appiumTraining/framework/Logger.py[line:49] - WARNING: 警告
+2018-07-02 14:53:48,359 - E:/python-workSpace/appiumTraining/framework/Logger.py[line:50] - ERROR: 报错
+2018-07-02 14:53:48,359 - E:/python-workSpace/appiumTraining/framework/Logger.py[line:51] - CRITICAL: 严重
