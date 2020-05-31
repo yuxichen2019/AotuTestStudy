@@ -22,9 +22,7 @@ class TestWebChat(BaseCase):
     def sendMsgToFriend(self):
         count = 1
         while True:
-
-            if count > 5:
-                print('重复' + str(count) + '遍')
+            if count > 1:
                 break
             # 输入文字消息
             self.driver.send_keys("id=com.tencent.mm:id/ak7", "等你等了这么久"+str(count))
@@ -55,6 +53,7 @@ class TestWebChat(BaseCase):
             # 切换回键盘
             #self.driver.click("des=切换到键盘")
             sleep(1)
+            print('重复' + str(count) + '遍')
             count = count + 1
 
     def test_weiChat(self):

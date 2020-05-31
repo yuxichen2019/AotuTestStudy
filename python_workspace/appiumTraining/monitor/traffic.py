@@ -43,13 +43,13 @@ class MonitoringTrafficResources(object):
         # alltraffic = string.atoi(receive) + string.atoi(transmit) + string.atoi(receive2) + string.atoi(transmit2)
         # alltraffic = receive + transmit + receive2 + transmit2
         alltraffic = float(receive) + float(transmit)
-        # 按KB计算流量值
+        # 按M计算流量值
         alltraffic = float(alltraffic) / (1024*1024)
         # 获取当前时间
         currenttime = self.getCurrentTime()
         # 将获取到的数据存到数组中
         print("currenttime is:"+currenttime)
-        print("alltraffic is:"+ str(alltraffic))
+        print("alltraffic is:"+ str('%.2f' % (alltraffic)) + ' M')
         self.alldata.append((currenttime, alltraffic))
 
     # 多次测试过程控制

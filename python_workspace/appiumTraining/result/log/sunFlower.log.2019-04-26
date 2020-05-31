@@ -1,0 +1,142 @@
+2019-04-25 21:45:40,776 - D:\appium-workspace\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:D:\appium-workspace\appiumTraining\result\screenshot\2019-04-25\2019-04-25-21_45_40.png
+Traceback (most recent call last):
+  File "D:\appium-workspace\appiumTraining\framework\SunFlower.py", line 59, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_accessibility_id(value))
+  File "D:\python\python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-04-25 21:47:11,797 - D:\appium-workspace\appiumTraining\framework\SunFlower.py[line:62] - ERROR: Please enter the correct targeting elements,'id','class','text','xpath','content-des'.
+2019-04-25 21:47:12,466 - D:\appium-workspace\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:D:\appium-workspace\appiumTraining\result\screenshot\2019-04-25\2019-04-25-21_47_11.png
+Traceback (most recent call last):
+  File "D:\appium-workspace\appiumTraining\framework\SunFlower.py", line 63, in wait_element
+    raise NameError("Please enter the correct targeting elements,'id','name','class','text','xpaht','css'.")
+NameError: Please enter the correct targeting elements,'id','name','class','text','xpaht','css'.
+2019-04-25 21:49:33,323 - D:\appium-workspace\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:D:\appium-workspace\appiumTraining\result\screenshot\2019-04-25\2019-04-25-21_49_32.png
+Traceback (most recent call last):
+  File "D:\appium-workspace\appiumTraining\framework\SunFlower.py", line 59, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_accessibility_id(value))
+  File "D:\python\python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-04-26 11:18:13,009 - F:\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:F:\appiumTraining\result\screenshot\2019-04-26\2019-04-26-11_18_12.png
+Traceback (most recent call last):
+  File "F:\appiumTraining\framework\SunFlower.py", line 53, in wait_element
+    lambda x: x.find_element_by_android_uiautomator("new UiSelector().text(\"" + value + "\")"))
+  File "D:\Python\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-04-26 11:38:02,316 - F:\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:F:\appiumTraining\result\screenshot\2019-04-26\2019-04-26-11_38_01.png
+Traceback (most recent call last):
+  File "F:\appiumTraining\framework\SunFlower.py", line 55, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_class_name(value))
+  File "D:\Python\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-04-26 11:42:29,002 - F:\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:F:\appiumTraining\result\screenshot\2019-04-26\2019-04-26-11_42_28.png
+Traceback (most recent call last):
+  File "F:\appiumTraining\framework\SunFlower.py", line 55, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_class_name(value))
+  File "D:\Python\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-04-26 11:44:59,107 - F:\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:F:\appiumTraining\result\screenshot\2019-04-26\2019-04-26-11_44_58.png
+Traceback (most recent call last):
+  File "F:\appiumTraining\framework\SunFlower.py", line 50, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_id(value))
+  File "D:\Python\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-04-26 11:50:16,432 - F:\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:F:\appiumTraining\result\screenshot\2019-04-26\2019-04-26-11_50_15.png
+Traceback (most recent call last):
+  File "F:\appiumTraining\framework\SunFlower.py", line 50, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_id(value))
+  File "D:\Python\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-04-26 14:44:13,568 - F:\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:F:\appiumTraining\result\screenshot\2019-04-26\2019-04-26-14_44_12.png
+Traceback (most recent call last):
+  File "F:\appiumTraining\framework\SunFlower.py", line 50, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_id(value))
+  File "D:\Python\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-04-26 15:21:45,689 - F:\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:F:\appiumTraining\result\screenshot\2019-04-26\2019-04-26-15_21_44.png
+Traceback (most recent call last):
+  File "F:\appiumTraining\framework\SunFlower.py", line 50, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_id(value))
+  File "D:\Python\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-04-26 15:24:51,089 - F:\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:F:\appiumTraining\result\screenshot\2019-04-26\2019-04-26-15_24_50.png
+Traceback (most recent call last):
+  File "F:\appiumTraining\framework\SunFlower.py", line 50, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_id(value))
+  File "D:\Python\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-04-26 15:29:28,120 - F:\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:F:\appiumTraining\result\screenshot\2019-04-26\2019-04-26-15_29_27.png
+Traceback (most recent call last):
+  File "F:\appiumTraining\framework\SunFlower.py", line 55, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_class_name(value))
+  File "D:\Python\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-04-26 17:32:06,912 - F:\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:F:\appiumTraining\result\screenshot\2019-04-26\2019-04-26-17_32_06.png
+Traceback (most recent call last):
+  File "F:\appiumTraining\framework\SunFlower.py", line 55, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_class_name(value))
+  File "D:\Python\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-04-26 17:48:34,608 - F:\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:F:\appiumTraining\result\screenshot\2019-04-26\2019-04-26-17_48_32.png
+Traceback (most recent call last):
+  File "F:\appiumTraining\framework\SunFlower.py", line 53, in wait_element
+    lambda x: x.find_element_by_android_uiautomator("new UiSelector().text(\"" + value + "\")"))
+  File "D:\Python\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-04-26 17:50:25,756 - F:\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:F:\appiumTraining\result\screenshot\2019-04-26\2019-04-26-17_50_25.png
+Traceback (most recent call last):
+  File "F:\appiumTraining\framework\SunFlower.py", line 55, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_class_name(value))
+  File "D:\Python\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-04-26 17:55:44,222 - F:\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:F:\appiumTraining\result\screenshot\2019-04-26\2019-04-26-17_55_43.png
+Traceback (most recent call last):
+  File "F:\appiumTraining\framework\SunFlower.py", line 55, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_class_name(value))
+  File "D:\Python\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-04-26 17:57:33,556 - F:\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:F:\appiumTraining\result\screenshot\2019-04-26\2019-04-26-17_57_33.png
+Traceback (most recent call last):
+  File "F:\appiumTraining\framework\SunFlower.py", line 55, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_class_name(value))
+  File "D:\Python\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-04-26 19:05:40,053 - F:\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:F:\appiumTraining\result\screenshot\2019-04-26\2019-04-26-19_05_39.png
+Traceback (most recent call last):
+  File "F:\appiumTraining\framework\SunFlower.py", line 57, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_xpath(value))
+  File "D:\Python\Python36\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
