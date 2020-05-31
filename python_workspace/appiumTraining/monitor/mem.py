@@ -14,6 +14,33 @@ class MonitoringMemResources(object):
         self.alldata = [("timestamp", "rss")]
 
     # 单次测试过程
+    # def testprocess(self):
+    #     # 执行获取进程的命令
+    #     result = os.popen("adb shell ps | findstr com.tencent.mm")
+    #     # 获取进程ID
+    #     # pid = result.readlines()[0].split(" ")[5]
+    #     pidLine = result.readlines()[0]
+    #     pidStr = "#".join(pidLine.split())
+    #     print("pidStr is:" + pidStr)
+    #     pid = pidStr.split("#")[2]
+    #     print("pid is:" + pid)
+    #     # 获取进程ID使用的流量
+    #     traffic = os.popen("adb shell top -n 1 -d 0.5 | findstr " + pid)
+    #
+    #     for line in traffic:
+    #         if "root" in line:
+    #             line = "#".join(line.split())
+    #             print(line)
+    #             vss = line.split("#")[7].strip("K")
+    #             rss = line.split("#")[8].strip("K")
+    #     currenttime = self.getCurrentTime()
+    #     print("current time is:"+currenttime)
+    #     print("vss used is:"+vss+' K')
+    #     print("rss used is:"+rss+' K')
+    #     # 将获取到的数据存到数组中
+    #     self.alldata.append((currenttime, int(rss) / 1024))
+
+    # 累加内存
     def testprocess(self):
         # 执行获取进程的命令
         result = os.popen("adb shell ps | findstr com.tencent.mm")
@@ -27,18 +54,25 @@ class MonitoringMemResources(object):
         # 获取进程ID使用的流量
         traffic = os.popen("adb shell top -n 1 -d 0.5 | findstr " + pid)
 
+        vss=0.0
+        rss=0.0
         for line in traffic:
             if "root" in line:
                 line = "#".join(line.split())
                 print(line)
-                vss = line.split("#")[7].strip("K")
-                rss = line.split("#")[8].strip("K")
+                vss1 = line.split("#")[7].strip("K")
+                rss1 = line.split("#")[8].strip("K")
+                vss+=float(vss1)
+                rss+=float(rss1)
+
         currenttime = self.getCurrentTime()
         print("current time is:"+currenttime)
-        print("vss used is:"+vss+' K')
-        print("rss used is:"+rss+' K')
+        print("vss used is:"+str(vss)+' K')
+        print("rss used is:"+str(rss)+' K')
         # 将获取到的数据存到数组中
-        self.alldata.append((currenttime, int(rss) / 1024))
+        self.alldata.append((currenttime, int(rss) / (1024*1024)))
+
+
 
     # 多次测试过程控制
     def run(self):
@@ -63,6 +97,6 @@ class MonitoringMemResources(object):
 
 
 if __name__ == "__main__":
-    monitoringMemResources = MonitoringMemResources(20)
+    monitoringMemResources = MonitoringMemResources(1)
     monitoringMemResources.run()
     monitoringMemResources.SaveDataToCSV()
