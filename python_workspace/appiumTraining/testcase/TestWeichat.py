@@ -6,6 +6,7 @@ from time import sleep
 from testcase.BaseCase import BaseCase
 
 
+
 class TestWebChat(BaseCase):
     # 查找好友
     def searchFriend(self):
@@ -22,7 +23,7 @@ class TestWebChat(BaseCase):
         count = 1
         while True:
 
-            if count > 50:
+            if count > 5:
                 print('重复' + str(count) + '遍')
                 break
             # 输入文字消息
