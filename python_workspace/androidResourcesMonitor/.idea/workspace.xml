@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e4fc2be5-5b2a-46fb-b50b-5256c55dee38" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/androidResourcesMonitor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/M.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainWindows.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainWindows.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/MainWindows/Analysis-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/MainWindows/EXE-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/MainWindows/MainWindows.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/MainWindows/PKG-00.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/MainWindows/PKG-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/MainWindows/PYZ-00.pyz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/MainWindows/PYZ-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/MainWindows/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/MainWindows/warn-MainWindows.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/MainWindows/xref-MainWindows.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/cpu.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/memory.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/netWork.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/power.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/2019-07-22-19-26-18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/2020-01-11-17-10-38.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/qt.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/2019-07-22-19-14-39.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/monitor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/setup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/start.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/stop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images.qrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images_qr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/start.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/SplashScreen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/commonUtil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/cpuUtil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/fileUtil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/memoryUtil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/monkeyUtil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/networkUtil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/powerUtil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/reportUtil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/timeUtil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/mainTabs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/monkey.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/resources.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../appiumTraining/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../appiumTraining/.idea/appiumTraining.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../appiumTraining/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../appiumTraining/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../appiumTraining/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../appiumTraining/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/log/sunFlower.log.2019-04-26" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-30/2020-05-30-10_54_25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-30/2020-05-30-10_55_47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-30/2020-05-30-10_57_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-30/2020-05-30-11_02_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-30/2020-05-30-11_03_56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-30/2020-05-30-11_41_59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-30/2020-05-30-11_48_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-30/2020-05-30-11_51_47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-30/2020-05-30-11_54_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-30/2020-05-30-12_21_59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-30/2020-05-30-12_51_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-30/2020-05-30-13_41_31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-30/2020-05-30-14_35_38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-30/2020-05-30-17_05_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-31/2020-05-31-14_51_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-31/2020-05-31-15_41_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-31/2020-05-31-17_50_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-31/2020-05-31-17_50_44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-31/2020-05-31-18_27_29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-31/2020-05-31-18_28_41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appiumTraining/monitor/result/cpustatus.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../appiumTraining/monitor/result/cpustatus.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appiumTraining/monitor/result/meminfo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../appiumTraining/monitor/result/meminfo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appiumTraining/monitor/result/power.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../appiumTraining/monitor/result/power.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appiumTraining/monitor/result/traffic.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../appiumTraining/monitor/result/traffic.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appiumTraining/monitor/traffic.py" beforeDir="false" afterPath="$PROJECT_DIR$/../appiumTraining/monitor/traffic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appiumTraining/result/log/sunFlower.log" beforeDir="false" afterPath="$PROJECT_DIR$/../appiumTraining/result/log/sunFlower.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appiumTraining/result/log/sunFlower.log.2018-09-20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appiumTraining/testcase/TestWeichat.py" beforeDir="false" afterPath="$PROJECT_DIR$/../appiumTraining/testcase/TestWeichat.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/androidResourcesMonitor$MainWindows.coverage" NAME="MainWindows Coverage Results" MODIFIED="1572877015751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/androidResourcesMonitor$cpuUtil.coverage" NAME="cpuUtil Coverage Results" MODIFIED="1563805968352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\yuxichen\AotuTestStudy\python_workspace\androidResourcesMonitor\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectId" id="1cf1HbotEk86hVzdSaMYERiuCm6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../appiumTraining" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.cpuUtil">
+    <configuration name="MainWindows" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="androidResourcesMonitor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MainWindows.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cpuUtil" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="androidResourcesMonitor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/cpuUtil.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="memoryUtil" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="androidResourcesMonitor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/memoryUtil.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.MainWindows" />
+      <item itemvalue="Python.cpuUtil" />
+      <item itemvalue="Python.memoryUtil" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.cpuUtil" />
+        <item itemvalue="Python.MainWindows" />
+        <item itemvalue="Python.memoryUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\ecuser\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4fc2be5-5b2a-46fb-b50b-5256c55dee38" name="Default Changelist" comment="" />
+      <created>1563790074587</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563790074587</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

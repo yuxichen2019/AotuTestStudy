@@ -1,0 +1,214 @@
+2020-05-30 10:54:26,237 - E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\result\screenshot\2020-05-30\2020-05-30-10_54_25.png
+Traceback (most recent call last):
+  File "E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py", line 50, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_id(value))
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-05-30 10:55:48,488 - E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\result\screenshot\2020-05-30\2020-05-30-10_55_47.png
+Traceback (most recent call last):
+  File "E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py", line 50, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_id(value))
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-05-30 10:57:49,116 - E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\result\screenshot\2020-05-30\2020-05-30-10_57_48.png
+Traceback (most recent call last):
+  File "E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py", line 50, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_id(value))
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-05-30 11:02:15,837 - E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\result\screenshot\2020-05-30\2020-05-30-11_02_15.png
+Traceback (most recent call last):
+  File "E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py", line 50, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_id(value))
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-05-30 11:03:56,927 - E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\result\screenshot\2020-05-30\2020-05-30-11_03_56.png
+Traceback (most recent call last):
+  File "E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py", line 50, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_id(value))
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-05-30 11:42:00,403 - E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\result\screenshot\2020-05-30\2020-05-30-11_41_59.png
+Traceback (most recent call last):
+  File "E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py", line 53, in wait_element
+    lambda x: x.find_element_by_android_uiautomator("new UiSelector().text(\"" + value + "\")"))
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-05-30 11:48:22,932 - E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\result\screenshot\2020-05-30\2020-05-30-11_48_21.png
+Traceback (most recent call last):
+  File "E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py", line 59, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_accessibility_id(value))
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-05-30 11:51:47,893 - E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\result\screenshot\2020-05-30\2020-05-30-11_51_47.png
+Traceback (most recent call last):
+  File "E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py", line 50, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_id(value))
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-05-30 11:54:10,980 - E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\result\screenshot\2020-05-30\2020-05-30-11_54_09.png
+Traceback (most recent call last):
+  File "E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py", line 59, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_accessibility_id(value))
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-05-30 12:22:00,635 - E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\result\screenshot\2020-05-30\2020-05-30-12_21_59.png
+Traceback (most recent call last):
+  File "E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py", line 50, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_id(value))
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-05-30 12:51:03,107 - E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\result\screenshot\2020-05-30\2020-05-30-12_51_02.png
+Traceback (most recent call last):
+  File "E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py", line 50, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_id(value))
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-05-30 13:41:32,524 - E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\result\screenshot\2020-05-30\2020-05-30-13_41_31.png
+Traceback (most recent call last):
+  File "E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py", line 53, in wait_element
+    lambda x: x.find_element_by_android_uiautomator("new UiSelector().text(\"" + value + "\")"))
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-05-30 14:35:39,949 - E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\result\screenshot\2020-05-30\2020-05-30-14_35_38.png
+Traceback (most recent call last):
+  File "E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py", line 59, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_accessibility_id(value))
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-05-30 17:05:02,867 - E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\result\screenshot\2020-05-30\2020-05-30-17_05_01.png
+Traceback (most recent call last):
+  File "E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py", line 50, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_id(value))
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-05-31 14:51:05,398 - E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\result\screenshot\2020-05-31\2020-05-31-14_51_04.png
+Traceback (most recent call last):
+  File "E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py", line 59, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_accessibility_id(value))
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-05-31 15:41:58,520 - E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\result\screenshot\2020-05-31\2020-05-31-15_41_04.png
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\urllib3\connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\urllib3\connectionpool.py", line 426, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\urllib3\connectionpool.py", line 421, in _make_request
+    httplib_response = conn.getresponse()
+  File "D:\Program Files (x86)\Python\python3.7\lib\http\client.py", line 1336, in getresponse
+    response.begin()
+  File "D:\Program Files (x86)\Python\python3.7\lib\http\client.py", line 306, in begin
+    version, status, reason = self._read_status()
+  File "D:\Program Files (x86)\Python\python3.7\lib\http\client.py", line 275, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py", line 50, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_id(value))
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py", line 50, in <lambda>
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_id(value))
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\appium\webdriver\webdriver.py", line 284, in find_element
+    'value': value})['value']
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\urllib3\request.py", line 80, in request
+    method, url, fields=fields, headers=headers, **urlopen_kw
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\urllib3\request.py", line 171, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\urllib3\poolmanager.py", line 336, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\urllib3\connectionpool.py", line 725, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\urllib3\util\retry.py", line 403, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\urllib3\packages\six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\urllib3\connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\urllib3\connectionpool.py", line 426, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\urllib3\connectionpool.py", line 421, in _make_request
+    httplib_response = conn.getresponse()
+  File "D:\Program Files (x86)\Python\python3.7\lib\http\client.py", line 1336, in getresponse
+    response.begin()
+  File "D:\Program Files (x86)\Python\python3.7\lib\http\client.py", line 306, in begin
+    version, status, reason = self._read_status()
+  File "D:\Program Files (x86)\Python\python3.7\lib\http\client.py", line 275, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2020-05-31 17:50:09,506 - E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\result\screenshot\2020-05-31\2020-05-31-17_50_08.png
+Traceback (most recent call last):
+  File "E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py", line 50, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_id(value))
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-05-31 17:50:45,498 - E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\result\screenshot\2020-05-31\2020-05-31-17_50_44.png
+Traceback (most recent call last):
+  File "E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py", line 59, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_accessibility_id(value))
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-05-31 18:27:31,351 - E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\result\screenshot\2020-05-31\2020-05-31-18_27_29.png
+Traceback (most recent call last):
+  File "E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py", line 50, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_id(value))
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-05-31 18:28:42,228 - E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\result\screenshot\2020-05-31\2020-05-31-18_28_41.png
+Traceback (most recent call last):
+  File "E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py", line 50, in wait_element
+    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_id(value))
+  File "D:\Program Files (x86)\Python\python3.7\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+

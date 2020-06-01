@@ -17,7 +17,7 @@ class BaseCase(unittest.TestCase):
         self.driver.send_keys("id=password", '123456')
         self.driver.click("id=loginsub")
 
-    # @classmethod
-    # def tearDownClass(self):
-    #     self.driver.quit()
+    @classmethod
+    def tearDownClass(self):
+        self.driver.quit()
 
