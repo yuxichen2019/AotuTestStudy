@@ -9,19 +9,12 @@
 有人向队员打听比赛的名单。a说他不和x比，c说他不和x,z比，请编程序找出三队赛手的名单。'''
 
 
-list1=['a','b','c']
-list2=['x','y','z']
-list=[]
-list3=[]
-
-
-for i in list1:
-    for j in list2:
-        list.append(i+j)
-
-
-for k in list:
-    if k not in ('ax','cx','cz'):
-
+for i in range(ord('x'),ord('z') + 1):
+    for j in range(ord('x'),ord('z') + 1):
+        if i != j:
+            for k in range(ord('x'),ord('z') + 1):
+                if (i != k) and (j != k):
+                    if (i != ord('x')) and (k != ord('x')) and (k != ord('z')):
+                        print('order is a -- %s\t b -- %s\tc--%s' % (chr(i),chr(j),chr(k)))
 
 
