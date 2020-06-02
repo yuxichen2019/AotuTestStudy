@@ -1,0 +1,36 @@
+*** Settings ***
+Library           SeleniumLibrary
+
+*** Keywords ***
+打开浏览器
+    [Arguments]    ${url}    ${browser}
+    Open Browser    ${url}    ${browser}
+
+输入查询内容
+    [Arguments]    ${content}
+    Input Text    id=kw    ${content}
+
+点击查询按钮
+    Click Button    id=su
+
+关闭浏览器
+    close Browser
+
+最大化浏览器
+    Maximize Browser Window
+
+跳转iframe
+    [Arguments]    ${locator}
+    Select Frame    ${locator}
+
+输入文本
+    [Arguments]    ${locator}    ${content}
+    Input Text    ${locator}    ${content}
+
+输入密码
+    [Arguments]    ${locator}    ${content}
+    Input Password    ${locator}    ${content}
+
+点击超链接
+    [Arguments]    ${locator}
+    Click Link    ${locator}

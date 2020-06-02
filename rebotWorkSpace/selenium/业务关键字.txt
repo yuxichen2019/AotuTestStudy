@@ -1,0 +1,35 @@
+*** Settings ***
+Resource          基础关键字.txt
+
+*** Keywords ***
+百度搜索
+    [Arguments]    ${url}    ${searchContent}
+    打开浏览器    ${url}    chrome
+    输入查询内容    ${searchContent}
+    点击查询按钮
+    关闭浏览器
+
+登录网易邮箱
+    [Arguments]    ${username}    ${password}
+    Comment    Click Element    xpath=//div[@class="new-loginFuncNormal account-163-icon"]
+    跳转iframe    xpath=//iframe[starts-with(@id,'x-URS-iframe')]
+    输入文本    name=email    ${username}
+    输入密码    name=password    ${password}
+    点击超链接    id=dologin
+
+百度搜索数据驱动
+    [Arguments]    ${searchContent}
+    百度搜索    https://www.baidu.com/    ${searchContent}
+
+发送邮件
+    Wait Until Element Is Enabled    xpath=//span[contains(text(), '写 信')]    30s
+    Click Element    xpath=//span[contains(text(), '写 信')]
+    Comment    Wait Until Element Is Enabled    css=.nui-editableAddr-ipt    50s
+    Input Text    css=.nui-editableAddr-ipt    gavintraining@163.com
+    Input Text    xpath=/html/body/div[2]/div[1]/div[2]/div[1]/section/header/div[2]/div[1]/div/div/input    selenium training email
+    Select Frame    css=.APP-editor-iframe
+    Input Text    css=.nui-scroll    please tell me content
+    Unselect Frame
+    Click Element    css=.nui-toolbar-item
+    Sleep    5s
+    Page Should Contain    发送成功
