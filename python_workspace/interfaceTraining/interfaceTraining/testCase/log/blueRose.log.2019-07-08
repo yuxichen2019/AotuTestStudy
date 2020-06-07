@@ -1,0 +1,164 @@
+2019-07-07 15:03:42,591 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:12] - INFO: Test case execute begin
+2019-07-07 15:03:42,611 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:32] - INFO: send get request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-07 15:03:42,752 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:52] - INFO: get cookies PHPSESSID is: 19tlo7m8k5onm9c4du5osqjai0
+2019-07-07 15:03:42,752 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-07 15:03:42,923 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value info is: 登录成功
+2019-07-07 15:03:42,924 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=customer&a=add
+2019-07-07 15:03:43,303 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=business&a=add
+2019-07-07 15:03:43,640 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:15] - INFO: Test case execute end
+2019-07-07 15:03:43,640 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:12] - INFO: Test case execute begin
+2019-07-07 15:03:43,640 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:32] - INFO: send get request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-07 15:03:43,770 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:52] - INFO: get cookies PHPSESSID is: bcvleob7cch1pct2mcjjidoko2
+2019-07-07 15:03:43,771 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-07 15:03:43,935 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value info is: 登录成功
+2019-07-07 15:03:43,936 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=business&a=add 
+2019-07-07 15:03:44,089 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:15] - INFO: Test case execute end
+2019-07-07 15:03:44,089 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:12] - INFO: Test case execute begin
+2019-07-07 15:03:44,089 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:32] - INFO: send get request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-07 15:03:44,261 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:52] - INFO: get cookies PHPSESSID is: 1sbssj8g5qsdu617ghfjhb3f45
+2019-07-07 15:03:44,261 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-07 15:03:44,451 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value info is: 登录成功
+2019-07-07 15:03:44,452 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=business&a=add 
+2019-07-07 15:03:44,613 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:15] - INFO: Test case execute end
+2019-07-07 15:09:53,269 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:12] - INFO: Test case execute begin
+2019-07-07 15:09:53,270 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:32] - INFO: send get request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-07 15:09:53,400 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:52] - INFO: get cookies PHPSESSID is: 1sc0i625dlr4eij6m1lv83g951
+2019-07-07 15:09:53,401 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-07 15:09:53,569 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value info is: 登录成功
+2019-07-07 15:09:53,570 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=customer&a=add
+2019-07-07 15:09:53,887 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=business&a=add
+2019-07-07 15:09:54,471 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:15] - INFO: Test case execute end
+2019-07-07 15:09:54,471 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:12] - INFO: Test case execute begin
+2019-07-07 15:09:54,472 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:32] - INFO: send get request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-07 15:09:54,620 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:52] - INFO: get cookies PHPSESSID is: 1kf0r419s0mql5vqckmsc58q31
+2019-07-07 15:09:54,620 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-07 15:09:54,800 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value info is: 登录成功
+2019-07-07 15:09:54,800 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=business&a=add 
+2019-07-07 15:09:54,953 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:15] - INFO: Test case execute end
+2019-07-07 15:09:54,953 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:12] - INFO: Test case execute begin
+2019-07-07 15:09:54,953 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:32] - INFO: send get request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-07 15:09:55,101 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:52] - INFO: get cookies PHPSESSID is: 63oudpg9vjovv7g2ogm10dev94
+2019-07-07 15:09:55,101 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-07 15:09:55,300 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value info is: 登录成功
+2019-07-07 15:09:55,301 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=business&a=add 
+2019-07-07 15:09:55,461 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:15] - INFO: Test case execute end
+2019-07-07 15:18:04,955 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:12] - INFO: Test case execute begin
+2019-07-07 15:18:04,955 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:32] - INFO: send get request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-07 15:18:05,097 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:52] - INFO: get cookies PHPSESSID is: 849lfn0g5n4kpfkvnsu1900tt4
+2019-07-07 15:18:05,098 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-07 15:18:05,286 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value info is: 登录成功
+2019-07-07 15:18:05,286 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=customer&a=add
+2019-07-07 15:18:05,650 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=business&a=add
+2019-07-07 15:18:05,983 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:15] - INFO: Test case execute end
+2019-07-07 15:18:05,983 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:12] - INFO: Test case execute begin
+2019-07-07 15:18:05,983 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:32] - INFO: send get request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-07 15:18:06,112 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:52] - INFO: get cookies PHPSESSID is: 8gv3t91pbhcp1nh8ol1vlaedb5
+2019-07-07 15:18:06,113 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-07 15:18:06,281 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value info is: 登录成功
+2019-07-07 15:18:06,282 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=business&a=add 
+2019-07-07 15:18:06,416 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:15] - INFO: Test case execute end
+2019-07-07 15:18:06,416 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:12] - INFO: Test case execute begin
+2019-07-07 15:18:06,416 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:32] - INFO: send get request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-07 15:18:06,545 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:52] - INFO: get cookies PHPSESSID is: dv73t8at3naqtutc0r8ife76r6
+2019-07-07 15:18:06,545 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-07 15:18:06,723 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value info is: 登录成功
+2019-07-07 15:18:06,724 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=business&a=add 
+2019-07-07 15:18:06,867 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:15] - INFO: Test case execute end
+2019-07-07 15:19:48,746 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:12] - INFO: Test case execute begin
+2019-07-07 15:19:48,746 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:32] - INFO: send get request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-07 15:19:48,883 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:52] - INFO: get cookies PHPSESSID is: 5kqa3rkd1g22rvgi6um91rjqf7
+2019-07-07 15:19:48,884 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-07 15:19:49,049 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value info is: 登录成功
+2019-07-07 15:19:49,049 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=customer&a=add
+2019-07-07 15:19:49,364 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=business&a=add
+2019-07-07 15:19:49,680 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:15] - INFO: Test case execute end
+2019-07-07 15:19:49,681 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:12] - INFO: Test case execute begin
+2019-07-07 15:19:49,681 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:32] - INFO: send get request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-07 15:19:49,816 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:52] - INFO: get cookies PHPSESSID is: at35dspq8ilp7bf5rbuvsj2p21
+2019-07-07 15:19:49,816 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-07 15:19:49,993 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value info is: 登录成功
+2019-07-07 15:19:49,994 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=business&a=add 
+2019-07-07 15:19:50,132 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:15] - INFO: Test case execute end
+2019-07-07 15:19:50,133 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:12] - INFO: Test case execute begin
+2019-07-07 15:19:50,133 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:32] - INFO: send get request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-07 15:19:50,264 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:52] - INFO: get cookies PHPSESSID is: r2om4m0goe9if1p7a34200r2p7
+2019-07-07 15:19:50,264 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-07 15:19:50,439 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value info is: 登录成功
+2019-07-07 15:19:50,439 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=business&a=add 
+2019-07-07 15:19:50,599 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:15] - INFO: Test case execute end
+2019-07-08 13:53:53,799 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:12] - INFO: Test case execute begin
+2019-07-08 13:53:53,814 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:32] - INFO: send get request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-08 13:53:54,095 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:52] - INFO: get cookies PHPSESSID is: 5g56kq01ig4cdvhrebo89gmum6
+2019-07-08 13:53:54,095 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-08 13:53:54,330 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value info is: 用户信息不存在！
+2019-07-08 13:53:54,345 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:15] - INFO: Test case execute end
+2019-07-08 13:54:23,017 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:12] - INFO: Test case execute begin
+2019-07-08 13:54:23,017 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:32] - INFO: send get request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-08 13:54:23,236 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:52] - INFO: get cookies PHPSESSID is: 1ikt9sq2th3ee193qce7qvpi51
+2019-07-08 13:54:23,236 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-08 13:54:23,518 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value info is: 登录成功
+2019-07-08 13:54:23,518 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=business&a=add 
+2019-07-08 13:54:23,736 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:15] - INFO: Test case execute end
+2019-07-08 13:54:23,736 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:12] - INFO: Test case execute begin
+2019-07-08 13:54:23,736 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:32] - INFO: send get request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-08 13:54:23,986 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:52] - INFO: get cookies PHPSESSID is: efc05tdjt0kk7eo6uf7ifua972
+2019-07-08 13:54:23,986 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-08 13:54:24,299 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value info is: 登录成功
+2019-07-08 13:54:24,299 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=business&a=add 
+2019-07-08 13:54:24,549 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:15] - INFO: Test case execute end
+2019-07-08 15:08:18,880 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:12] - INFO: Test case execute begin
+2019-07-08 15:08:18,880 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:32] - INFO: send get request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-08 15:08:19,052 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:52] - INFO: get cookies PHPSESSID is: j6k99vilj1uk4g09ipfd6eh4s0
+2019-07-08 15:08:19,052 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-08 15:08:19,256 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value info is: 登录成功
+2019-07-08 15:08:19,256 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=business&a=add 
+2019-07-08 15:08:19,443 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:15] - INFO: Test case execute end
+2019-07-08 15:08:19,443 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:12] - INFO: Test case execute begin
+2019-07-08 15:08:19,443 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:32] - INFO: send get request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-08 15:08:19,615 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:52] - INFO: get cookies PHPSESSID is: kpn49ppk56l437lo5r5k3g9g47
+2019-07-08 15:08:19,615 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-08 15:08:19,818 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value info is: 登录成功
+2019-07-08 15:08:19,818 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=business&a=add 
+2019-07-08 15:08:20,006 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:15] - INFO: Test case execute end
+2019-07-08 15:47:05,630 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:13] - INFO: Test case execute begin
+2019-07-08 15:47:05,630 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:32] - INFO: send get request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-08 15:47:05,801 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:52] - INFO: get cookies PHPSESSID is: bvmmjuf8rrcg97412buiijj1r3
+2019-07-08 15:47:05,801 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-08 15:47:05,973 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value info is: 登录成功
+2019-07-08 15:47:05,973 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=business&a=add 
+2019-07-08 15:47:06,145 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:17] - INFO: Test case execute end
+2019-07-08 15:47:06,145 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:13] - INFO: Test case execute begin
+2019-07-08 15:47:06,145 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:32] - INFO: send get request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-08 15:47:08,255 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:52] - INFO: get cookies PHPSESSID is: q904hpedl71lu9nv2t8foeqjf7
+2019-07-08 15:47:08,255 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-08 15:47:08,458 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value info is: 登录成功
+2019-07-08 15:47:08,458 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=business&a=add 
+2019-07-08 15:47:08,630 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:17] - INFO: Test case execute end
+2019-07-08 15:51:25,387 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:13] - INFO: Test case execute begin
+2019-07-08 15:51:25,387 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:32] - INFO: send get request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-08 15:51:25,558 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:52] - INFO: get cookies PHPSESSID is: sqalq0p8cbf9pbfodmu2eqtst4
+2019-07-08 15:51:25,558 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-08 15:51:25,762 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value info is: 登录成功
+2019-07-08 15:51:25,762 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=business&a=add 
+2019-07-08 15:51:25,918 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:17] - INFO: Test case execute end
+2019-07-08 15:51:25,933 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:13] - INFO: Test case execute begin
+2019-07-08 15:51:25,933 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:32] - INFO: send get request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-08 15:51:26,092 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:52] - INFO: get cookies PHPSESSID is: 71jgpf3ogsjcouhh60s4gfhqm2
+2019-07-08 15:51:26,092 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-08 15:51:26,283 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value info is: 登录成功
+2019-07-08 15:51:26,283 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=business&a=add 
+2019-07-08 15:51:26,458 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:17] - INFO: Test case execute end
+2019-07-08 15:51:56,777 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:13] - INFO: Test case execute begin
+2019-07-08 15:51:56,778 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:32] - INFO: send get request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-08 15:51:56,943 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:52] - INFO: get cookies PHPSESSID is: o4rh37mtulfv3a351jaj8agbs0
+2019-07-08 15:51:56,943 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-08 15:51:57,125 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value info is: 登录成功
+2019-07-08 15:51:57,140 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=business&a=add 
+2019-07-08 15:51:57,312 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:17] - INFO: Test case execute end
+2019-07-08 15:51:57,312 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:13] - INFO: Test case execute begin
+2019-07-08 15:51:57,312 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:32] - INFO: send get request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-08 15:51:57,469 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:52] - INFO: get cookies PHPSESSID is: 4f1nqv9phf1kc4anl71e2f2lc5
+2019-07-08 15:51:57,469 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=user&a=login
+2019-07-08 15:51:57,672 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value info is: 登录成功
+2019-07-08 15:51:57,672 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://my.jxycrm.com/index.php?m=business&a=add 
+2019-07-08 15:51:57,844 - E:\python-workSpace\interfaceTraining\testCase\BaseCase.py[line:17] - INFO: Test case execute end

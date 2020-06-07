@@ -1,0 +1,73 @@
+[
+  {
+    "config": {
+      "name": "testcase description",
+      "variables": [
+        {
+          "phpsessid": ""
+        },
+        {
+          "info": ""
+        }
+      ]
+    }
+  },
+  {
+    "test": {
+      "name": "refreshPHPSESSID",
+      "request": {
+        "url": "https://my.crm.cc/index.php?m=user&a=login",
+        "method": "get"
+      },
+      "extract": [
+        {
+          "phpsessid": "cookies.PHPSESSID"
+        }
+      ],
+      "validate": [
+        {
+          "eq": {
+            "status_code": "200"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "test": {
+      "name": "refreshPHPSESSID",
+      "request": {
+        "url": "https://my.crm.cc/index.php?m=user&a=login",
+        "method": "post"
+      },
+      "headers": [
+        {
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+        {
+          "charset": "utf-8"
+        },
+        {
+          "Cookie": "PHPSESSID=$phpsessid"
+        }
+      ],
+      "json": {
+        "name": "19926451606",
+        "password": "900e0313b981caa9f83ed5d0a01e9c58",
+        "config_id": ""
+      },
+      "extract": [
+        {
+          "info": "content.info"
+        }
+      ],
+      "validate": [
+        {
+          "eq": {
+            "info": "登录成功"
+          }
+        }
+      ]
+    }
+  }
+]

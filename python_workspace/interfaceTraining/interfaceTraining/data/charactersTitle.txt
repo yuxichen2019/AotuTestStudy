@@ -1,0 +1,7 @@
+一个txt文件中的数据格式为：
+C4D
+C4D/maya
+C4D
+C4D/su
+C4D/max/AE
+统计每个字段出现的次数，如C4D，su,请用Python代码实现该程序

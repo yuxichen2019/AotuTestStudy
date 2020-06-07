@@ -1,0 +1,48 @@
+2019-12-29 17:36:04,874 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://127.0.0.1:9090/api/notes
+2019-12-29 17:36:05,054 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:70] - INFO: get json fields value id error!!!
+2019-12-29 17:36:47,765 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://127.0.0.1:9090/api/notes
+2019-12-29 17:36:47,923 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value title is: aaa
+2019-12-29 17:37:13,311 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://127.0.0.1:9090/api/notes
+2019-12-29 17:37:13,483 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:70] - INFO: get json fields value id error!!!
+2019-12-29 17:37:30,178 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://127.0.0.1:9090/api/notes
+2019-12-29 17:37:30,326 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value title is: aaa
+2019-12-29 17:37:36,772 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://127.0.0.1:9090/api/notes
+2019-12-29 17:37:36,900 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value title is: aaa123465
+2019-12-29 17:38:03,994 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://127.0.0.1:9090/api/notes
+2019-12-29 17:38:04,114 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value title is: aaa123465
+2019-12-29 17:38:18,994 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://127.0.0.1:9090/api/notes
+2019-12-29 17:38:19,115 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value title is: aaa123465
+2019-12-29 17:38:47,295 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://127.0.0.1:9090/api/notes
+2019-12-29 17:38:47,513 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:70] - INFO: get json fields value id error!!!
+2019-12-29 17:46:18,499 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://127.0.0.1:9090/api/notes
+2019-12-29 17:46:18,547 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:70] - INFO: get json fields value title error!!!
+2019-12-29 17:47:08,888 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://127.0.0.1:9090/api/notes
+2019-12-29 17:47:08,998 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value title is: vxvxc
+2019-12-29 17:49:43,632 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://127.0.0.1:9090/api/notes
+2019-12-29 17:49:43,795 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value title is: 邵苣
+2019-12-29 17:50:00,069 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://127.0.0.1:9090/api/notes
+2019-12-29 17:50:00,194 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value title is: 陈仟
+2019-12-29 17:50:14,615 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://127.0.0.1:9090/api/notes
+2019-12-29 17:50:14,763 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value title is: 吴頢
+2019-12-29 17:53:14,483 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://127.0.0.1:9090/api/notes
+2019-12-29 17:53:14,584 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value title is: 姚浄
+2019-12-29 17:53:14,584 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:70] - INFO: get json fields value id error!!!
+2019-12-29 17:54:36,693 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://127.0.0.1:9090/api/notes
+2019-12-29 17:54:36,890 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value title is: 韩帉
+2019-12-29 17:55:51,452 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://127.0.0.1:9090/api/notes
+2019-12-29 17:55:51,585 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value title is: 陈馬
+2019-12-29 17:57:22,647 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://127.0.0.1:9090/api/notes
+2019-12-29 17:57:22,764 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value title is: 王柰
+2019-12-29 17:57:22,764 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:70] - INFO: get json fields value id error!!!
+2019-12-29 18:00:08,294 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://127.0.0.1:9090/api/notes
+2019-12-29 18:00:08,388 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value title is: 舒椵
+2019-12-29 18:01:16,084 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://127.0.0.1:9090/api/notes
+2019-12-29 18:01:16,162 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value title is: 舒橬
+2019-12-29 18:01:25,553 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://127.0.0.1:9090/api/notes
+2019-12-29 18:01:25,709 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value title is: 祁折
+2019-12-29 18:02:29,584 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://127.0.0.1:9090/api/notes
+2019-12-29 18:02:29,646 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value title is: 毛窭
+2019-12-29 18:02:29,646 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value id is: 22
+2019-12-29 18:02:41,230 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:29] - INFO: send post request to site http://127.0.0.1:9090/api/notes
+2019-12-29 18:02:41,521 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value title is: 舒陚
+2019-12-29 18:02:41,521 - E:\python-workSpace\interfaceTraining\framework\BlueRose.py[line:67] - INFO: get json fields value id is: 23
