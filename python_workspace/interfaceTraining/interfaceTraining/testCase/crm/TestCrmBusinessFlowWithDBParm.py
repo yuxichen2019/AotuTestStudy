@@ -7,7 +7,7 @@ from ddt import data, unpack, ddt
 from framework.UtilsDB import UtilsDB
 from framework.UtilsDate import UtilsDate
 from framework.UtilsRandom import UtilsRandom
-from testCase.BaseCase import BaseCase
+from testCase.student.BaseCase import BaseCase
 
 utilsDB = UtilsDB("localhost", "studentinfo", "root", "root")
 

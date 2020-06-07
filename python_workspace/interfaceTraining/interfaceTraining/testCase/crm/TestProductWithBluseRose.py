@@ -4,10 +4,9 @@ from HTMLTestRunner_cn import HTMLTestRunner
 
 from ddt import ddt, data, unpack
 
-from framework.UtilsDate import UtilsDate
 from framework.UtilsFile import UtilsFile
 from framework.UtilsRandom import UtilsRandom
-from testCase.BaseCase import BaseCase
+from testCase.student.BaseCase import BaseCase
 
 
 @ddt

@@ -1,4 +1,5 @@
 import random
+import time
 
 
 class UtilsRandom(object):
@@ -36,9 +37,52 @@ class UtilsRandom(object):
     def getNo(count):
         return "".join(random.choice("0123456789") for i in range(count))
 
+    #随机生成身份证号码
+    @staticmethod
+    def getIdcard():
+        #前六位
+        first_list = ['362402', '362421', '362422', '362423', '362424', '362425', '362426', '362427', '362428',
+                      '362429', '362430', '362432', '110100', '110101', '110102', '110103', '110104', '110105',
+                      '110106', '110107', '110108', '110109', '110111']
+        first = random.choice(first_list)
+
+        '''生成年份'''
+        now = time.strftime('%Y')
+        #1948为第一代身份证执行年份,now-18直接过滤掉小于18岁出生的年份
+        second = random.randint(1948,int(now)-18)
+        age = int(now) - second
+
+
+        '''生成月份'''
+        three = random.randint(1,12)
+        #月份小于10以下，前面加上0填充
+        if three < 10:
+            three = '0' + str(three)
+
+        '''生成日期'''
+        four = random.randint(1,31)
+        #日期小于10以下，前面加上0填充
+        if four < 10:
+            four = '0' + str(four)
+
+        '''生成身份证后四位'''
+        #后面序号低于相应位数，前面加上0填充
+        five = random.randint(1,9999)
+        if five < 10:
+            five = '000' + str(five)
+
+        elif 10 < five < 100:
+            five = '00' + str(five)
+
+        elif 100 < five < 1000:
+            five = '0' + str(five)
+
+        IDcard = str(first)+str(second)+str(three)+str(four)+str(five)
+        return IDcard
 
 if __name__ == '__main__':
     print("随机获取的中文名：" + UtilsRandom.getChineseName())
     print("随机生成的手机号码：" + UtilsRandom.getMobilePhone())
     print("随机生成的邮箱：" + UtilsRandom.getEmail())
     print("随机生成的数字：" + UtilsRandom.getNo(3))
+    print('随机生成的身份证号码：' + UtilsRandom.getIdcard())
