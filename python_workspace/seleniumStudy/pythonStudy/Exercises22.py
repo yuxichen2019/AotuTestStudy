@@ -9,6 +9,7 @@
 有人向队员打听比赛的名单。a说他不和x比，c说他不和x,z比，请编程序找出三队赛手的名单。'''
 
 
+
 for i in range(ord('x'),ord('z') + 1):
     for j in range(ord('x'),ord('z') + 1):
         if i != j:
