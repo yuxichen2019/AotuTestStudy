@@ -28,3 +28,17 @@ for i in range(1,5):
                     print('*')
                 else:
                     print("*",end='')
+
+
+for i in range(1,4):
+    for j in range(1,8,):
+        if j not in range(i+1,8-i):
+            if j !=7:
+                print(' ',end='')
+            else:
+                print(' ')
+        else:
+            if j==7:
+                print('*')
+            else:
+                print('*',end='')
