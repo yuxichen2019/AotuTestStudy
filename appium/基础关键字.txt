@@ -1,0 +1,28 @@
+*** Keywords ***
+关闭APP
+    Close Application
+
+打开APP
+    Open Application    http://127.0.0.1:4723/wd/hub    platformName=Android    platformVersion=5.1    appPackage=com.tencent.mm    appActivity=ui.LauncherUI    unicodeKeyboard=true
+    ...    resetKeyboard=true    deviceName=192.168.136.101:5555    noReset=true
+
+等待元素出现
+    [Arguments]    ${condition}    ${timeout}
+    #Wait Until Element Is Visible    ${condition}    ${timeout}
+    log    现在已经不需要等待了
+
+输入数据
+    [Arguments]    ${condition}    ${value}
+    Input Text    ${condition}    ${value}
+
+点击元素
+    [Arguments]    ${condition}
+    Click Element    ${condition}
+
+长按元素
+    [Arguments]    ${condition}
+    Long Press    ${condition}    10
+
+通过索引点击元素
+    [Arguments]    ${condition}    ${index}
+    Click ElementsByIndex    ${condition}    ${index}
