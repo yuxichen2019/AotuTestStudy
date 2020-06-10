@@ -16,7 +16,7 @@ class TestStudentManagement(BaseCase):
     idcard = UtilsRandom.getIdcard()
 
 
-    def testadd_student(self):
+    def add_student(self):
 
         url = self.baseURL  +  '/student/insert'
         data={
@@ -30,10 +30,19 @@ class TestStudentManagement(BaseCase):
         header = {"Content-Type": "application/json","charset": "utf-8"}
         response = self.requests.sendRequests(url, data=json.dumps(data), headers=header)
         self.assertEqual(response.status_code, 200)
-        print(self.studentName + self.idcard)
+        print(self.studentName + '  '+ self.idcard)
 
 
-    def testadd_student_score(self):
+    def getstudentIdbyname(self):
+        self.name=self.studentName
+        url1=self.baseURL + '/student/find/name/' + self.name
+        response1=self.requests.sendRequests(url1,method='get')
+        result=self.requests.getJsonFilesValue(response1,'data')
+        stuId=result[0]['studentId']
+        return stuId
+
+
+    def add_student_score(self):
         url = self.baseURL + '/score/insert'
         data={
                 "examId": "",
@@ -41,7 +50,7 @@ class TestStudentManagement(BaseCase):
                 "gradeId": "大三",
                 "classId": "3班",
                 "studentName": self.studentName,
-                "studentId": "005",
+                "studentId": self.getstudentIdbyname(),
                 "chineseScore": "90",
                 "mathScore": "91",
                 "englishScore": "92",
@@ -54,15 +63,22 @@ class TestStudentManagement(BaseCase):
         self.assertEqual(response.status_code, 200)
 
 
-    def testget_all_score(self):
-        url = self.baseURL + '/score/get/all'
+    def get_all_score(self):
+        #通过学号查询成绩
+        dict={}
+        url = self.baseURL + '/score/get/student/' + str(self.getstudentIdbyname())
         header = {"Content-Type": "application/json", "charset": "utf-8"}
         response = self.requests.sendRequests(url, method='get', headers=header)
-        print(response.text)
+        result=self.requests.getJsonFilesValue(response,'data')
+        dict['姓名：'] = self.studentName
+        dict['语文：'] = result[0]['chineseScore']
+        dict['数学：'] = result[0]['mathScore']
+        dict['英语：'] = result[0]['englishScore']
+        print(dict)
         self.assertEqual(response.status_code, 200)
 
 
-    def testclear_table(self):
+    def clear_table(self):
         # db = UtilsDB("localhost", "test", "root", "123456")
         db=UtilsDB(url='localhost', dbName='test', userName='root', passWord='123456')
         sql1='delete from score;'
@@ -70,7 +86,13 @@ class TestStudentManagement(BaseCase):
         db.editData(sql1)
         db.editData(sql2)
 
+    def teststuentflow(self):
+        self.add_student()
+        self.add_student_score()
+        self.get_all_score()
+        self.clear_table()
+
 
 if __name__ == '__main__':
     a=TestStudentManagement()
-    a.testclear_table()
+    a.teststuentflow()
