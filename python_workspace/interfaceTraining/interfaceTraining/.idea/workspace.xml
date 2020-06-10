@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43638f8f-88d7-4df4-9db7-65865434fab0" name="Default" comment="" />
+    <list default="true" id="43638f8f-88d7-4df4-9db7-65865434fab0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/interfaceTraining.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/interfaceTraining.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/log/blueRose.log" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/log/blueRose.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/student/StudentManagement.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/student/StudentManagement.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,87 +94,37 @@
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1077435196">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="46" />
-          <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="13" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.2" value="13" />
-          <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.26" value="2" />
-          <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.30" value="1" />
-          <entry key="project.open.time.31" value="1" />
-          <entry key="project.open.time.32" value="1" />
-          <entry key="project.open.time.34" value="3" />
-          <entry key="project.open.time.35" value="1" />
-          <entry key="project.open.time.36" value="3" />
-          <entry key="project.open.time.37" value="2" />
-          <entry key="project.open.time.40" value="1" />
-          <entry key="project.open.time.41" value="1" />
-          <entry key="project.open.time.43" value="2" />
-          <entry key="project.open.time.44" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="55" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="2019-04-25" value="1" />
-          <entry key="csv" value="12" />
-          <entry key="html" value="1" />
-          <entry key="json" value="6" />
-          <entry key="log" value="6" />
-          <entry key="py" value="170" />
-          <entry key="sql" value="1" />
-          <entry key="txt" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSV" value="4" />
-          <entry key="HTML" value="1" />
-          <entry key="JSON" value="6" />
-          <entry key="PLAIN_TEXT" value="21" />
-          <entry key="Python" value="170" />
-          <entry key="SQL" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="csv" value="75" />
-          <entry key="dummy" value="1" />
-          <entry key="json" value="93" />
-          <entry key="py" value="5716" />
-          <entry key="txt" value="108" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSV" value="2" />
-          <entry key="JSON" value="93" />
-          <entry key="PLAIN_TEXT" value="182" />
-          <entry key="Python" value="5716" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="interfaceTraining" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pythonStudy/GroupCounter.py">
+        <entry file="file://$PROJECT_DIR$/testCase/student/StudentManagement.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="502">
+              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testCase/student/BaseCase.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-486">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/BlueRose.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -190,6 +148,9 @@
     <dirStrings>
       <dir>E:\python-workSpace\interfaceTraining</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -240,6 +201,7 @@
         <option value="$PROJECT_DIR$/framework/BlueRose.py" />
         <option value="$PROJECT_DIR$/framework/UtilsDB.py" />
         <option value="$PROJECT_DIR$/pythonStudy/GroupCounter.py" />
+        <option value="$PROJECT_DIR$/testCase/student/StudentManagement.py" />
       </list>
     </option>
   </component>
@@ -253,11 +215,13 @@
     <option name="width" value="1378" />
     <option name="height" value="725" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -265,20 +229,179 @@
               <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
               <item name="interfaceTraining" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interfaceTraining" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interfaceTraining" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="BlueRose.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interfaceTraining" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="BlueRose.py" type="8704e2dd:PyFileNode" />
+              <item name="BlueRose" type="dd8bbb05:PyElementNode" />
+            </path>
+            <path>
+              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interfaceTraining" type="462c0819:PsiDirectoryNode" />
+              <item name="testCase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interfaceTraining" type="462c0819:PsiDirectoryNode" />
+              <item name="testCase" type="462c0819:PsiDirectoryNode" />
+              <item name="student" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interfaceTraining" type="462c0819:PsiDirectoryNode" />
+              <item name="testCase" type="462c0819:PsiDirectoryNode" />
+              <item name="student" type="462c0819:PsiDirectoryNode" />
+              <item name="BaseCase.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interfaceTraining" type="462c0819:PsiDirectoryNode" />
+              <item name="testCase" type="462c0819:PsiDirectoryNode" />
+              <item name="student" type="462c0819:PsiDirectoryNode" />
+              <item name="BaseCase.py" type="8704e2dd:PyFileNode" />
+              <item name="BaseCase" type="dd8bbb05:PyElementNode" />
+            </path>
+            <path>
+              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interfaceTraining" type="462c0819:PsiDirectoryNode" />
+              <item name="testCase" type="462c0819:PsiDirectoryNode" />
+              <item name="student" type="462c0819:PsiDirectoryNode" />
+              <item name="StudentManagement.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interfaceTraining" type="462c0819:PsiDirectoryNode" />
+              <item name="testCase" type="462c0819:PsiDirectoryNode" />
+              <item name="student" type="462c0819:PsiDirectoryNode" />
+              <item name="StudentManagement.py" type="8704e2dd:PyFileNode" />
+              <item name="TestStudentManagement" type="dd8bbb05:PyElementNode" />
+            </path>
+            <path>
+              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="requests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="requests" type="462c0819:PsiDirectoryNode" />
+              <item name="api.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python37" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python37" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python37" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python37" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="requests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="python37" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="requests" type="462c0819:PsiDirectoryNode" />
+              <item name="api.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="requests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="requests" type="462c0819:PsiDirectoryNode" />
+              <item name="api.py" type="8704e2dd:PyFileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="D:/RandomLibrary" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -306,7 +429,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.GroupCounter">
+  <component name="RunManager" selected="Python tests.Unittests in StudentManagement.py">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -371,30 +503,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for TestSpringBootAdd.TestSpringBootAdd" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="interfaceTraining" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase/springBoot" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestSpringBootAdd.TestSpringBootAdd&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for TestSpringBootAdd.TestSpringBootAdd.test_springBootAdd" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="interfaceTraining" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -408,6 +516,21 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;TestSpringBootAdd.TestSpringBootAdd.test_springBootAdd&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in StudentManagement.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="interfaceTraining" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase/student" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testCase/student/StudentManagement.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests in TestSpringBootAdd.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -426,19 +549,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for TestSpringBootAdd.TestSpringBootAdd.test_springBootAdd" />
-      <item itemvalue="Python tests.Unittests for TestSpringBootAdd.TestSpringBootAdd" />
-      <item itemvalue="Python tests.Unittests in TestSpringBootAdd.py" />
       <item itemvalue="Python.UtilsDB" />
       <item itemvalue="Python.GroupCounter" />
+      <item itemvalue="Python tests.Unittests for TestSpringBootAdd.TestSpringBootAdd.test_springBootAdd" />
+      <item itemvalue="Python tests.Unittests in TestSpringBootAdd.py" />
+      <item itemvalue="Python tests.Unittests in StudentManagement.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in StudentManagement.py" />
         <item itemvalue="Python.GroupCounter" />
         <item itemvalue="Python.UtilsDB" />
         <item itemvalue="Python tests.Unittests for TestSpringBootAdd.TestSpringBootAdd.test_springBootAdd" />
         <item itemvalue="Python tests.Unittests in TestSpringBootAdd.py" />
-        <item itemvalue="Python tests.Unittests for TestSpringBootAdd.TestSpringBootAdd" />
       </list>
     </recent_temporary>
   </component>
@@ -452,40 +575,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535446195893</updated>
+      <workItem from="1591702280800" duration="13799000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_TestSpringBootAdd_TestSpringBootAdd_test_springBootAdd - 2019.12.29 at 17h 50m 14s.xml">
-      <configuration name="Unittests for TestSpringBootAdd.TestSpringBootAdd.test_springBootAdd" configurationId="tests" />
+    <history-entry file="Unittests_in_StudentManagement_py - 2020.06.10 at 16h 07m 34s.xml">
+      <configuration name="Unittests in StudentManagement.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_TestSpringBootAdd_TestSpringBootAdd_test_springBootAdd - 2019.12.29 at 17h 53m 14s.xml">
-      <configuration name="Unittests for TestSpringBootAdd.TestSpringBootAdd.test_springBootAdd" configurationId="tests" />
+    <history-entry file="Unittests_in_StudentManagement_py - 2020.06.10 at 16h 09m 28s.xml">
+      <configuration name="Unittests in StudentManagement.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_TestSpringBootAdd_TestSpringBootAdd_test_springBootAdd - 2019.12.29 at 17h 54m 36s.xml">
-      <configuration name="Unittests for TestSpringBootAdd.TestSpringBootAdd.test_springBootAdd" configurationId="tests" />
+    <history-entry file="Unittests_in_StudentManagement_py - 2020.06.10 at 17h 06m 34s.xml">
+      <configuration name="Unittests in StudentManagement.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestSpringBootAdd_py - 2019.12.29 at 17h 55m 51s.xml">
-      <configuration name="Unittests in TestSpringBootAdd.py" configurationId="tests" />
+    <history-entry file="Unittests_in_StudentManagement_py - 2020.06.10 at 17h 07m 47s.xml">
+      <configuration name="Unittests in StudentManagement.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestSpringBootAdd_py - 2019.12.29 at 17h 57m 22s.xml">
-      <configuration name="Unittests in TestSpringBootAdd.py" configurationId="tests" />
+    <history-entry file="Unittests_in_StudentManagement_py - 2020.06.10 at 17h 10m 02s.xml">
+      <configuration name="Unittests in StudentManagement.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_TestSpringBootAdd_TestSpringBootAdd_test_springBootAdd - 2019.12.29 at 18h 00m 08s.xml">
-      <configuration name="Unittests for TestSpringBootAdd.TestSpringBootAdd.test_springBootAdd" configurationId="tests" />
+    <history-entry file="Unittests_in_StudentManagement_py - 2020.06.10 at 17h 15m 57s.xml">
+      <configuration name="Unittests in StudentManagement.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_TestSpringBootAdd_TestSpringBootAdd_test_springBootAdd - 2019.12.29 at 18h 01m 16s.xml">
-      <configuration name="Unittests for TestSpringBootAdd.TestSpringBootAdd.test_springBootAdd" configurationId="tests" />
+    <history-entry file="Unittests_in_StudentManagement_py - 2020.06.10 at 17h 30m 02s.xml">
+      <configuration name="Unittests in StudentManagement.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_TestSpringBootAdd_TestSpringBootAdd_test_springBootAdd - 2019.12.29 at 18h 01m 25s.xml">
-      <configuration name="Unittests for TestSpringBootAdd.TestSpringBootAdd.test_springBootAdd" configurationId="tests" />
+    <history-entry file="Unittests_in_StudentManagement_py - 2020.06.10 at 17h 30m 22s.xml">
+      <configuration name="Unittests in StudentManagement.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_TestSpringBootAdd_TestSpringBootAdd_test_springBootAdd - 2019.12.29 at 18h 02m 29s.xml">
-      <configuration name="Unittests for TestSpringBootAdd.TestSpringBootAdd.test_springBootAdd" configurationId="tests" />
+    <history-entry file="Unittests_in_StudentManagement_py - 2020.06.10 at 17h 38m 37s.xml">
+      <configuration name="Unittests in StudentManagement.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_TestSpringBootAdd_TestSpringBootAdd_test_springBootAdd - 2019.12.29 at 18h 02m 41s.xml">
-      <configuration name="Unittests for TestSpringBootAdd.TestSpringBootAdd.test_springBootAdd" configurationId="tests" />
+    <history-entry file="Unittests_in_StudentManagement_py - 2020.06.10 at 17h 39m 27s.xml">
+      <configuration name="Unittests in StudentManagement.py" configurationId="tests" />
     </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13799000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -497,22 +624,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.6640379" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24195279" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32862905" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4984686" weight="0.79116464" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.78571427" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4984686" visible="true" weight="0.21452513" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6592179" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015314" side_tool="true" weight="0.74041814" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.17541899" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -551,9 +679,6 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -565,22 +690,10 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/interfaceTraining$Unittests_in_StudentManagement_py.coverage" NAME="Unittests in StudentManagement.py Coverage Results" MODIFIED="1591782003025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/student" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Python/Python36/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="301" column="4" selection-start-line="301" selection-start-column="4" selection-end-line="301" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/crm/TestCrmBusinessFlowWithJson.py" />
-    <entry file="file://$PROJECT_DIR$/pythonStudy/StudentSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pythonStudy/CallStudent.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -620,9 +733,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Python/Python36/Lib/unittest/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://D:/Python/Python36/Lib/unittest/__init__.py" />
     <entry file="file://$PROJECT_DIR$/pythonStudy/studentGrade.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -632,10 +743,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test.py" />
     <entry file="file://$PROJECT_DIR$/data/data.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="10575">
           <caret line="235" column="32" selection-start-line="235" selection-start-column="32" selection-end-line="235" selection-end-column="32" />
@@ -747,14 +854,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/userAccount.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-15">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
@@ -782,13 +881,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Python/Python37/Lib/site-packages/requests-2.21.0-py3.7.egg/requests/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
-          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/Python/Python37/Lib/site-packages/requests-2.21.0-py3.7.egg/requests/api.py" />
     <entry file="file://$PROJECT_DIR$/pythonStudy/CardId.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2415">
@@ -876,23 +969,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/BlueRose.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/BaseCase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/BaseCase.py" />
     <entry file="file://$PROJECT_DIR$/data/characters.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -902,8 +979,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pythonStudy/GroupCounter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
+        <state relative-caret-position="297">
           <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/student/BaseCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/python37/Lib/site-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="106" column="4" selection-start-line="106" selection-start-column="4" selection-end-line="106" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/BlueRose.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/student/StudentManagement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
         </state>
       </provider>
     </entry>
