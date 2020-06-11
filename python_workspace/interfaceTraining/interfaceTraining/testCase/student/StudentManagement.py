@@ -1,9 +1,12 @@
-# -*- coding: utf-8 -*- 
+# -*- coding: utf-8 -*-
 # 2020/6/7 16:24 
 # interfaceTraining
 # StudentManagement.py 
 # company
 import json
+import os
+import unittest
+from HTMLTestRunner_cn import HTMLTestRunner
 
 from framework.UtilsDB import UtilsDB
 from framework.UtilsRandom import UtilsRandom
@@ -94,5 +97,6 @@ class TestStudentManagement(BaseCase):
 
 
 if __name__ == '__main__':
-    a=TestStudentManagement()
-    a.teststuentflow()
+    report_path = os.path.dirname(__file__) + '/report/' + 'TestStudentManagement.html'
+    suite = unittest.TestLoader().loadTestsFromTestCase(TestStudentManagement)
+    runner=HTMLTestRunner()
