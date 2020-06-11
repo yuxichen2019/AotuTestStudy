@@ -1,0 +1,65 @@
+*** Settings ***
+Library           RequestsLibrary
+Resource          基础关键字.txt
+
+*** Keywords ***
+登录CRM
+    [Arguments]    ${username}    ${password}    ${phpsessid}    # 用户名,密码,phpsessid
+    ${header}    Create Dictionary    Content-Type=application/x-www-form-urlencoded    charset=utf-8    Cookie=${phpsessid}
+    ${data}    Create Dictionary    name=${username}    password=${password}
+    Create Session    api    http://my.jxycrm.com
+    ${response}    Post Request    api    index.php?m=user&a=login    data=${data}    headers=${header}
+    log    ${response.status_code}
+    log    ABC${response.content}
+    ${content}    To Json    ${response.content}
+    ${info}    Get From Dictionary    ${content}    info
+    log    登录结果是：${info}
+    [Return]    ${info}    # 返回登录结果
+
+创建客户
+    [Arguments]    ${phpsessid}    ${customerName}
+    ${header}    Create Dictionary    Content-Type=application/x-www-form-urlencoded    charset=utf-8    Cookie=${phpsessid}
+    ${data}    Create Dictionary    name= ${customerName}    owner_role_id= 1    owner_name= gavin    customer_code=${customerName}    customer_status= 意向客户    address[city]=市辖区    origin=电话营销    con_contacts[contacts_address][state]=北京市    con_contacts[contacts_address][city]=市辖区
+    Create Session    api    http://my.jxycrm.com
+    ${response}    Post Request    api    index.php?m=customer&a=add    data=${data}    headers=${header}
+    log    ${response.status_code}
+    ${statusCode}    Set Variable    ${response.status_code}
+    [Return]    ${statusCode}
+
+刷新PHPSESSID
+    Create Session    api    http://my.jxycrm.com
+    ${response}    Get Request    api    /index.php?m=user&a=login
+    log    ${response}
+    ${phpsessidValue}    Get Cookies    res=${response}    key=PHPSESSID
+    should not be empty    ${phpsessidValue}
+    ${phpsessid}    Set Variable    PHPSESSID=${phpsessidValue}
+    log    获取到的令牌是：${phpsessid}
+    [Return]    ${phpsessid}
+
+创建工单
+    [Arguments]    ${phpsessid}    ${workName}
+    ${header}    Create Dictionary    Content-Type=application/x-www-form-urlencoded    charset=utf-8    Cookie=${phpsessid}
+    ${data}    Create Dictionary    category_id=1    name=${workName}    owner_role_id=1    executor_role_ids=,1,    observe_role_ids=,,    relation_object_type=1    origin=电话营销    priority=1    source=官网
+    Create Session    api    http://my.jxycrm.com
+    ${response}    Post Request    api    index.php?m=workorder&a=add    data=${data}    headers=${header}
+    log    ${response.status_code}
+    ${statusCode}    Set Variable    ${response.status_code}
+    [Return]    ${statusCode}
+
+创建CRM工单
+    [Arguments]    ${username}    ${password}
+    #登录前刷新PHPSESSID
+    ${phpsessid}    刷新PHPSESSID
+    #登录CRM系统
+    ${loginInfo}    登录CRM    ${username}    ${password}    ${phpsessid}
+    should contain    ${loginInfo}    登录成功
+    #创建工单
+    FOR    ${n}    IN RANGE    1    5
+    ${chineseName}    随机获取中文姓名
+    log    创建的工单是：${chineseName}
+    ${actualResult}    创建工单    ${phpsessid}    ${chineseName}
+    #断言结果
+    ${expectResult}    Convert To Integer    200
+    should be equal    ${actualResult}    ${expectResult}
+    log    第${n}个工单
+    log    结束循环

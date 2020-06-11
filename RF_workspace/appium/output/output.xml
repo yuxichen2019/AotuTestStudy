@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170521 11:01:18.343" generator="Robot 3.0.2 (Python 2.7.13 on win32)">
+<suite source="E:\robootWorkSpace\appium" id="s1" name="Appium">
+<suite source="E:\robootWorkSpace\appium\微信.txt" id="s1-s1" name="微信">
+<test id="s1-s1-t1" name="微信发送消息">
+<kw name="Open Application" library="AppiumLibrary">
+<doc>Opens a new application to given Appium server.</doc>
+<arguments>
+<arg>http://127.0.0.1:4723/wd/hub</arg>
+<arg>platformName=Android</arg>
+<arg>platformVersion=4.4.2</arg>
+<arg>deviceName=9482b8e5</arg>
+<arg>appPackage=com.tencent.mm</arg>
+<arg>appActivity=ui.LauncherUI</arg>
+<arg>unicodeKeyboard=true</arg>
+<arg>resetKeyboard=true</arg>
+</arguments>
+<status status="PASS" endtime="20170521 11:01:32.415" starttime="20170521 11:01:18.856"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>id=bd3</arg>
+<arg>60s</arg>
+</arguments>
+<status status="PASS" endtime="20170521 11:01:36.307" starttime="20170521 11:01:32.416"></status>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>id=bd3</arg>
+<arg>Gavin520Hellen</arg>
+</arguments>
+<msg timestamp="20170521 11:01:36.310" level="INFO">Typing text 'Gavin520Hellen' into text field 'id=bd3'</msg>
+<status status="PASS" endtime="20170521 11:01:42.406" starttime="20170521 11:01:36.308"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=bd4</arg>
+</arguments>
+<msg timestamp="20170521 11:01:42.408" level="INFO">Clicking element 'id=bd4'.</msg>
+<status status="PASS" endtime="20170521 11:01:43.385" starttime="20170521 11:01:42.407"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>name=通讯录</arg>
+<arg>30s</arg>
+</arguments>
+<status status="PASS" endtime="20170521 11:01:48.134" starttime="20170521 11:01:43.386"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>name=通讯录</arg>
+</arguments>
+<msg timestamp="20170521 11:01:48.137" level="INFO">Clicking element 'name=通讯录'.</msg>
+<status status="PASS" endtime="20170521 11:01:48.559" starttime="20170521 11:01:48.135"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>accessibility_id=搜索</arg>
+</arguments>
+<msg timestamp="20170521 11:01:48.562" level="INFO">Clicking element 'accessibility_id=搜索'.</msg>
+<status status="PASS" endtime="20170521 11:01:50.987" starttime="20170521 11:01:48.560"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>id=gr</arg>
+<arg>60s</arg>
+</arguments>
+<status status="PASS" endtime="20170521 11:01:52.478" starttime="20170521 11:01:50.988"></status>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>id=gr</arg>
+<arg>老师</arg>
+</arguments>
+<msg timestamp="20170521 11:01:52.480" level="INFO">Typing text '老师' into text field 'id=gr'</msg>
+<status status="PASS" endtime="20170521 11:01:59.801" starttime="20170521 11:01:52.479"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>name=高老师</arg>
+<arg>60s</arg>
+</arguments>
+<status status="PASS" endtime="20170521 11:02:00.763" starttime="20170521 11:01:59.802"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>name=高老师</arg>
+</arguments>
+<msg timestamp="20170521 11:02:00.765" level="INFO">Clicking element 'name=高老师'.</msg>
+<status status="PASS" endtime="20170521 11:02:01.088" starttime="20170521 11:02:00.764"></status>
+</kw>
+<kw type="for" name="${n} IN RANGE [ 1 | 3 ]">
+<kw type="foritem" name="${n} = 1">
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>id=a3b</arg>
+<arg>30s</arg>
+</arguments>
+<status status="PASS" endtime="20170521 11:02:03.078" starttime="20170521 11:02:01.092"></status>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>id=a3b</arg>
+<arg>快点了，等你很久了，到底来不来啊！！！</arg>
+</arguments>
+<msg timestamp="20170521 11:02:03.080" level="INFO">Typing text '快点了，等你很久了，到底来不来啊！！！' into text field 'id=a3b'</msg>
+<status status="PASS" endtime="20170521 11:02:09.862" starttime="20170521 11:02:03.079"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>name=发送</arg>
+</arguments>
+<msg timestamp="20170521 11:02:09.865" level="INFO">Clicking element 'name=发送'.</msg>
+<status status="PASS" endtime="20170521 11:02:11.690" starttime="20170521 11:02:09.863"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=a3_</arg>
+</arguments>
+<msg timestamp="20170521 11:02:11.691" level="INFO">Clicking element 'id=a3_'.</msg>
+<status status="PASS" endtime="20170521 11:02:13.657" starttime="20170521 11:02:11.691"></status>
+</kw>
+<kw name="Long Press" library="AppiumLibrary">
+<doc>Long press the element</doc>
+<arguments>
+<arg>id=a3c</arg>
+</arguments>
+<status status="PASS" endtime="20170521 11:02:17.030" starttime="20170521 11:02:13.658"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=a3_</arg>
+</arguments>
+<msg timestamp="20170521 11:02:17.031" level="INFO">Clicking element 'id=a3_'.</msg>
+<status status="PASS" endtime="20170521 11:02:18.638" starttime="20170521 11:02:17.030"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${n}</arg>
+</arguments>
+<msg timestamp="20170521 11:02:18.642" level="INFO">1</msg>
+<status status="PASS" endtime="20170521 11:02:18.643" starttime="20170521 11:02:18.640"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:02:18.643" starttime="20170521 11:02:01.091"></status>
+</kw>
+<kw type="foritem" name="${n} = 2">
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>id=a3b</arg>
+<arg>30s</arg>
+</arguments>
+<status status="PASS" endtime="20170521 11:02:19.465" starttime="20170521 11:02:18.645"></status>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>id=a3b</arg>
+<arg>快点了，等你很久了，到底来不来啊！！！</arg>
+</arguments>
+<msg timestamp="20170521 11:02:19.468" level="INFO">Typing text '快点了，等你很久了，到底来不来啊！！！' into text field 'id=a3b'</msg>
+<status status="PASS" endtime="20170521 11:02:27.313" starttime="20170521 11:02:19.466"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>name=发送</arg>
+</arguments>
+<msg timestamp="20170521 11:02:27.314" level="INFO">Clicking element 'name=发送'.</msg>
+<status status="PASS" endtime="20170521 11:02:28.492" starttime="20170521 11:02:27.313"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=a3_</arg>
+</arguments>
+<msg timestamp="20170521 11:02:28.494" level="INFO">Clicking element 'id=a3_'.</msg>
+<status status="PASS" endtime="20170521 11:02:30.646" starttime="20170521 11:02:28.493"></status>
+</kw>
+<kw name="Long Press" library="AppiumLibrary">
+<doc>Long press the element</doc>
+<arguments>
+<arg>id=a3c</arg>
+</arguments>
+<status status="PASS" endtime="20170521 11:02:33.773" starttime="20170521 11:02:30.647"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=a3_</arg>
+</arguments>
+<msg timestamp="20170521 11:02:33.776" level="INFO">Clicking element 'id=a3_'.</msg>
+<status status="PASS" endtime="20170521 11:02:35.343" starttime="20170521 11:02:33.774"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${n}</arg>
+</arguments>
+<msg timestamp="20170521 11:02:35.344" level="INFO">2</msg>
+<status status="PASS" endtime="20170521 11:02:35.345" starttime="20170521 11:02:35.343"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:02:35.345" starttime="20170521 11:02:18.644"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:02:35.345" starttime="20170521 11:02:01.089"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>outside loop</arg>
+</arguments>
+<msg timestamp="20170521 11:02:35.346" level="INFO">outside loop</msg>
+<status status="PASS" endtime="20170521 11:02:35.346" starttime="20170521 11:02:35.345"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=gg</arg>
+</arguments>
+<msg timestamp="20170521 11:02:35.348" level="INFO">Clicking element 'id=gg'.</msg>
+<status status="PASS" endtime="20170521 11:02:37.458" starttime="20170521 11:02:35.347"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=go</arg>
+</arguments>
+<msg timestamp="20170521 11:02:37.460" level="INFO">Clicking element 'id=go'.</msg>
+<status status="PASS" endtime="20170521 11:02:38.368" starttime="20170521 11:02:37.459"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>name=我</arg>
+</arguments>
+<msg timestamp="20170521 11:02:38.369" level="INFO">Clicking element 'name=我'.</msg>
+<status status="PASS" endtime="20170521 11:02:40.746" starttime="20170521 11:02:38.368"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>name=设置</arg>
+</arguments>
+<msg timestamp="20170521 11:02:40.747" level="INFO">Clicking element 'name=设置'.</msg>
+<status status="PASS" endtime="20170521 11:02:42.873" starttime="20170521 11:02:40.746"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>name=退出</arg>
+</arguments>
+<msg timestamp="20170521 11:02:42.876" level="INFO">Clicking element 'name=退出'.</msg>
+<status status="PASS" endtime="20170521 11:02:44.393" starttime="20170521 11:02:42.874"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>name=退出当前帐号</arg>
+</arguments>
+<msg timestamp="20170521 11:02:44.397" level="INFO">Clicking element 'name=退出当前帐号'.</msg>
+<status status="PASS" endtime="20170521 11:02:45.485" starttime="20170521 11:02:44.395"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>name=退出</arg>
+</arguments>
+<msg timestamp="20170521 11:02:45.487" level="INFO">Clicking element 'name=退出'.</msg>
+<status status="PASS" endtime="20170521 11:02:46.775" starttime="20170521 11:02:45.486"></status>
+</kw>
+<kw type="teardown" name="关闭APP" library="基础关键字">
+<kw name="Close Application" library="AppiumLibrary">
+<doc>Closes the current application.</doc>
+<status status="PASS" endtime="20170521 11:02:49.030" starttime="20170521 11:02:46.780"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:02:49.031" starttime="20170521 11:02:46.777"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:02:49.031" critical="yes" starttime="20170521 11:01:18.853"></status>
+</test>
+<test id="s1-s1-t2" name="微信发送信息分层实现">
+<kw type="setup" name="打开APP" library="基础关键字">
+<kw name="Open Application" library="AppiumLibrary">
+<doc>Opens a new application to given Appium server.</doc>
+<arguments>
+<arg>http://127.0.0.1:4723/wd/hub</arg>
+<arg>platformName=Android</arg>
+<arg>platformVersion=4.4.2</arg>
+<arg>appPackage=com.tencent.mm</arg>
+<arg>appActivity=ui.LauncherUI</arg>
+<arg>unicodeKeyboard=true</arg>
+<arg>resetKeyboard=true</arg>
+<arg>deviceName=9482b8e5</arg>
+</arguments>
+<status status="PASS" endtime="20170521 11:03:02.923" starttime="20170521 11:02:49.042"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:03:02.924" starttime="20170521 11:02:49.040"></status>
+</kw>
+<kw name="登陆微信" library="业务关键字">
+<arguments>
+<arg>Gavin520Hellen</arg>
+</arguments>
+<kw name="等待元素出现" library="基础关键字">
+<arguments>
+<arg>id=bd3</arg>
+<arg>60s</arg>
+</arguments>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>${condition}</arg>
+<arg>${timeout}</arg>
+</arguments>
+<status status="PASS" endtime="20170521 11:03:07.848" starttime="20170521 11:03:02.929"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:03:07.849" starttime="20170521 11:03:02.927"></status>
+</kw>
+<kw name="输入数据" library="基础关键字">
+<arguments>
+<arg>id=bd3</arg>
+<arg>${passWord}</arg>
+</arguments>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${condition}</arg>
+<arg>${value}</arg>
+</arguments>
+<msg timestamp="20170521 11:03:07.855" level="INFO">Typing text 'Gavin520Hellen' into text field 'id=bd3'</msg>
+<status status="PASS" endtime="20170521 11:03:13.090" starttime="20170521 11:03:07.853"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:03:13.091" starttime="20170521 11:03:07.850"></status>
+</kw>
+<kw name="点击元素" library="基础关键字">
+<arguments>
+<arg>id=bd4</arg>
+</arguments>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${condition}</arg>
+</arguments>
+<msg timestamp="20170521 11:03:13.096" level="INFO">Clicking element 'id=bd4'.</msg>
+<status status="PASS" endtime="20170521 11:03:14.126" starttime="20170521 11:03:13.095"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:03:14.127" starttime="20170521 11:03:13.092"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:03:14.127" starttime="20170521 11:03:02.925"></status>
+</kw>
+<kw name="通讯录搜索好友" library="业务关键字">
+<arguments>
+<arg>老师</arg>
+<arg>name=高老师</arg>
+</arguments>
+<kw name="等待元素出现" library="基础关键字">
+<arguments>
+<arg>name=通讯录</arg>
+<arg>30s</arg>
+</arguments>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>${condition}</arg>
+<arg>${timeout}</arg>
+</arguments>
+<status status="PASS" endtime="20170521 11:03:17.661" starttime="20170521 11:03:14.131"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:03:17.662" starttime="20170521 11:03:14.129"></status>
+</kw>
+<kw name="点击元素" library="基础关键字">
+<arguments>
+<arg>name=通讯录</arg>
+</arguments>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${condition}</arg>
+</arguments>
+<msg timestamp="20170521 11:03:17.663" level="INFO">Clicking element 'name=通讯录'.</msg>
+<status status="PASS" endtime="20170521 11:03:19.452" starttime="20170521 11:03:17.663"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:03:19.453" starttime="20170521 11:03:17.662"></status>
+</kw>
+<kw name="点击元素" library="基础关键字">
+<arguments>
+<arg>accessibility_id=搜索</arg>
+</arguments>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${condition}</arg>
+</arguments>
+<msg timestamp="20170521 11:03:19.458" level="INFO">Clicking element 'accessibility_id=搜索'.</msg>
+<status status="PASS" endtime="20170521 11:03:19.961" starttime="20170521 11:03:19.455"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:03:19.962" starttime="20170521 11:03:19.453"></status>
+</kw>
+<kw name="等待元素出现" library="基础关键字">
+<arguments>
+<arg>id=gr</arg>
+<arg>60s</arg>
+</arguments>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>${condition}</arg>
+<arg>${timeout}</arg>
+</arguments>
+<status status="PASS" endtime="20170521 11:03:21.997" starttime="20170521 11:03:19.965"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:03:21.998" starttime="20170521 11:03:19.963"></status>
+</kw>
+<kw name="输入数据" library="基础关键字">
+<arguments>
+<arg>id=gr</arg>
+<arg>${searchCondition}</arg>
+</arguments>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${condition}</arg>
+<arg>${value}</arg>
+</arguments>
+<msg timestamp="20170521 11:03:22.003" level="INFO">Typing text '老师' into text field 'id=gr'</msg>
+<status status="PASS" endtime="20170521 11:03:27.914" starttime="20170521 11:03:22.002"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:03:27.915" starttime="20170521 11:03:21.999"></status>
+</kw>
+<kw name="等待元素出现" library="基础关键字">
+<arguments>
+<arg>${friend}</arg>
+<arg>60S</arg>
+</arguments>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>${condition}</arg>
+<arg>${timeout}</arg>
+</arguments>
+<status status="PASS" endtime="20170521 11:03:28.968" starttime="20170521 11:03:27.919"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:03:28.969" starttime="20170521 11:03:27.916"></status>
+</kw>
+<kw name="点击元素" library="基础关键字">
+<arguments>
+<arg>${friend}</arg>
+</arguments>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${condition}</arg>
+</arguments>
+<msg timestamp="20170521 11:03:28.975" level="INFO">Clicking element 'name=高老师'.</msg>
+<status status="PASS" endtime="20170521 11:03:29.355" starttime="20170521 11:03:28.973"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:03:29.356" starttime="20170521 11:03:28.970"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:03:29.357" starttime="20170521 11:03:14.128"></status>
+</kw>
+<kw type="for" name="${n} IN RANGE [ 1 | 3 ]">
+<kw type="foritem" name="${n} = 1">
+<kw name="发送文字与语音信息" library="业务关键字">
+<arguments>
+<arg>快点了，等你很久了，到底来不来啊！！！</arg>
+</arguments>
+<kw name="等待元素出现" library="基础关键字">
+<arguments>
+<arg>id=a3b</arg>
+<arg>30s</arg>
+</arguments>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>${condition}</arg>
+<arg>${timeout}</arg>
+</arguments>
+<status status="PASS" endtime="20170521 11:03:30.968" starttime="20170521 11:03:29.365"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:03:30.969" starttime="20170521 11:03:29.362"></status>
+</kw>
+<kw name="输入数据" library="基础关键字">
+<arguments>
+<arg>id=a3b</arg>
+<arg>${content}</arg>
+</arguments>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${condition}</arg>
+<arg>${value}</arg>
+</arguments>
+<msg timestamp="20170521 11:03:30.973" level="INFO">Typing text '快点了，等你很久了，到底来不来啊！！！' into text field 'id=a3b'</msg>
+<status status="PASS" endtime="20170521 11:03:37.955" starttime="20170521 11:03:30.972"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:03:37.956" starttime="20170521 11:03:30.970"></status>
+</kw>
+<kw name="点击元素" library="基础关键字">
+<arguments>
+<arg>name=发送</arg>
+</arguments>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${condition}</arg>
+</arguments>
+<msg timestamp="20170521 11:03:37.960" level="INFO">Clicking element 'name=发送'.</msg>
+<status status="PASS" endtime="20170521 11:03:39.374" starttime="20170521 11:03:37.958"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:03:39.374" starttime="20170521 11:03:37.956"></status>
+</kw>
+<kw name="点击元素" library="基础关键字">
+<arguments>
+<arg>id=a3_</arg>
+</arguments>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${condition}</arg>
+</arguments>
+<msg timestamp="20170521 11:03:39.378" level="INFO">Clicking element 'id=a3_'.</msg>
+<status status="PASS" endtime="20170521 11:03:41.010" starttime="20170521 11:03:39.377"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:03:41.010" starttime="20170521 11:03:39.375"></status>
+</kw>
+<kw name="长按元素" library="基础关键字">
+<arguments>
+<arg>id=a3c</arg>
+</arguments>
+<kw name="Long Press" library="AppiumLibrary">
+<doc>Long press the element</doc>
+<arguments>
+<arg>${condition}</arg>
+</arguments>
+<status status="PASS" endtime="20170521 11:03:43.990" starttime="20170521 11:03:41.012"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:03:43.991" starttime="20170521 11:03:41.011"></status>
+</kw>
+<kw name="点击元素" library="基础关键字">
+<arguments>
+<arg>id=a3_</arg>
+</arguments>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${condition}</arg>
+</arguments>
+<msg timestamp="20170521 11:03:43.997" level="INFO">Clicking element 'id=a3_'.</msg>
+<status status="PASS" endtime="20170521 11:03:45.633" starttime="20170521 11:03:43.995"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:03:45.635" starttime="20170521 11:03:43.992"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:03:45.636" starttime="20170521 11:03:29.360"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${n}</arg>
+</arguments>
+<msg timestamp="20170521 11:03:45.640" level="INFO">1</msg>
+<status status="PASS" endtime="20170521 11:03:45.641" starttime="20170521 11:03:45.638"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:03:45.642" starttime="20170521 11:03:29.359"></status>
+</kw>
+<kw type="foritem" name="${n} = 2">
+<kw name="发送文字与语音信息" library="业务关键字">
+<arguments>
+<arg>快点了，等你很久了，到底来不来啊！！！</arg>
+</arguments>
+<kw name="等待元素出现" library="基础关键字">
+<arguments>
+<arg>id=a3b</arg>
+<arg>30s</arg>
+</arguments>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>${condition}</arg>
+<arg>${timeout}</arg>
+</arguments>
+<status status="PASS" endtime="20170521 11:03:47.076" starttime="20170521 11:03:45.648"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:03:47.077" starttime="20170521 11:03:45.645"></status>
+</kw>
+<kw name="输入数据" library="基础关键字">
+<arguments>
+<arg>id=a3b</arg>
+<arg>${content}</arg>
+</arguments>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${condition}</arg>
+<arg>${value}</arg>
+</arguments>
+<msg timestamp="20170521 11:03:47.084" level="INFO">Typing text '快点了，等你很久了，到底来不来啊！！！' into text field 'id=a3b'</msg>
+<status status="PASS" endtime="20170521 11:03:54.358" starttime="20170521 11:03:47.082"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:03:54.359" starttime="20170521 11:03:47.078"></status>
+</kw>
+<kw name="点击元素" library="基础关键字">
+<arguments>
+<arg>name=发送</arg>
+</arguments>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${condition}</arg>
+</arguments>
+<msg timestamp="20170521 11:03:54.363" level="INFO">Clicking element 'name=发送'.</msg>
+<status status="PASS" endtime="20170521 11:03:57.233" starttime="20170521 11:03:54.361"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:03:57.233" starttime="20170521 11:03:54.359"></status>
+</kw>
+<kw name="点击元素" library="基础关键字">
+<arguments>
+<arg>id=a3_</arg>
+</arguments>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${condition}</arg>
+</arguments>
+<msg timestamp="20170521 11:03:57.237" level="INFO">Clicking element 'id=a3_'.</msg>
+<status status="PASS" endtime="20170521 11:03:59.849" starttime="20170521 11:03:57.236"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:03:59.850" starttime="20170521 11:03:57.234"></status>
+</kw>
+<kw name="长按元素" library="基础关键字">
+<arguments>
+<arg>id=a3c</arg>
+</arguments>
+<kw name="Long Press" library="AppiumLibrary">
+<doc>Long press the element</doc>
+<arguments>
+<arg>${condition}</arg>
+</arguments>
+<status status="PASS" endtime="20170521 11:04:02.123" starttime="20170521 11:03:59.854"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:04:02.123" starttime="20170521 11:03:59.851"></status>
+</kw>
+<kw name="点击元素" library="基础关键字">
+<arguments>
+<arg>id=a3_</arg>
+</arguments>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${condition}</arg>
+</arguments>
+<msg timestamp="20170521 11:04:02.127" level="INFO">Clicking element 'id=a3_'.</msg>
+<status status="PASS" endtime="20170521 11:04:03.527" starttime="20170521 11:04:02.126"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:04:03.527" starttime="20170521 11:04:02.124"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:04:03.528" starttime="20170521 11:03:45.643"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${n}</arg>
+</arguments>
+<msg timestamp="20170521 11:04:03.529" level="INFO">2</msg>
+<status status="PASS" endtime="20170521 11:04:03.530" starttime="20170521 11:04:03.529"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:04:03.530" starttime="20170521 11:03:45.642"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:04:03.530" starttime="20170521 11:03:29.358"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>结束循环</arg>
+</arguments>
+<msg timestamp="20170521 11:04:03.531" level="INFO">结束循环</msg>
+<status status="PASS" endtime="20170521 11:04:03.532" starttime="20170521 11:04:03.531"></status>
+</kw>
+<kw name="退出微信" library="业务关键字">
+<kw name="点击元素" library="基础关键字">
+<arguments>
+<arg>id=gg</arg>
+</arguments>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${condition}</arg>
+</arguments>
+<msg timestamp="20170521 11:04:03.535" level="INFO">Clicking element 'id=gg'.</msg>
+<status status="PASS" endtime="20170521 11:04:06.952" starttime="20170521 11:04:03.535"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:04:06.954" starttime="20170521 11:04:03.534"></status>
+</kw>
+<kw name="点击元素" library="基础关键字">
+<arguments>
+<arg>id=go</arg>
+</arguments>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${condition}</arg>
+</arguments>
+<msg timestamp="20170521 11:04:06.960" level="INFO">Clicking element 'id=go'.</msg>
+<status status="PASS" endtime="20170521 11:04:08.088" starttime="20170521 11:04:06.958"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:04:08.089" starttime="20170521 11:04:06.955"></status>
+</kw>
+<kw name="点击元素" library="基础关键字">
+<arguments>
+<arg>name=我</arg>
+</arguments>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${condition}</arg>
+</arguments>
+<msg timestamp="20170521 11:04:08.092" level="INFO">Clicking element 'name=我'.</msg>
+<status status="PASS" endtime="20170521 11:04:10.066" starttime="20170521 11:04:08.091"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:04:10.067" starttime="20170521 11:04:08.090"></status>
+</kw>
+<kw name="点击元素" library="基础关键字">
+<arguments>
+<arg>name=设置</arg>
+</arguments>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${condition}</arg>
+</arguments>
+<msg timestamp="20170521 11:04:10.071" level="INFO">Clicking element 'name=设置'.</msg>
+<status status="PASS" endtime="20170521 11:04:11.811" starttime="20170521 11:04:10.070"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:04:11.812" starttime="20170521 11:04:10.068"></status>
+</kw>
+<kw name="点击元素" library="基础关键字">
+<arguments>
+<arg>name=退出</arg>
+</arguments>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${condition}</arg>
+</arguments>
+<msg timestamp="20170521 11:04:11.817" level="INFO">Clicking element 'name=退出'.</msg>
+<status status="PASS" endtime="20170521 11:04:13.086" starttime="20170521 11:04:11.815"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:04:13.086" starttime="20170521 11:04:11.813"></status>
+</kw>
+<kw name="点击元素" library="基础关键字">
+<arguments>
+<arg>name=退出当前帐号</arg>
+</arguments>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${condition}</arg>
+</arguments>
+<msg timestamp="20170521 11:04:13.090" level="INFO">Clicking element 'name=退出当前帐号'.</msg>
+<status status="PASS" endtime="20170521 11:04:14.156" starttime="20170521 11:04:13.089"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:04:14.162" starttime="20170521 11:04:13.087"></status>
+</kw>
+<kw name="点击元素" library="基础关键字">
+<arguments>
+<arg>name=退出</arg>
+</arguments>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${condition}</arg>
+</arguments>
+<msg timestamp="20170521 11:04:14.168" level="INFO">Clicking element 'name=退出'.</msg>
+<status status="PASS" endtime="20170521 11:04:15.010" starttime="20170521 11:04:14.166"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:04:15.011" starttime="20170521 11:04:14.163"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:04:15.013" starttime="20170521 11:04:03.532"></status>
+</kw>
+<kw type="teardown" name="关闭APP" library="基础关键字">
+<kw name="Close Application" library="AppiumLibrary">
+<doc>Closes the current application.</doc>
+<status status="PASS" endtime="20170521 11:04:17.211" starttime="20170521 11:04:15.016"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:04:17.211" starttime="20170521 11:04:15.014"></status>
+</kw>
+<status status="PASS" endtime="20170521 11:04:17.212" critical="yes" starttime="20170521 11:02:49.033"></status>
+</test>
+<status status="PASS" endtime="20170521 11:04:17.218" starttime="20170521 11:01:18.456"></status>
+</suite>
+<status status="PASS" endtime="20170521 11:04:17.226" starttime="20170521 11:01:18.361"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="2">Critical Tests</stat>
+<stat fail="0" pass="2">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Appium" pass="2">Appium</stat>
+<stat fail="0" id="s1-s1" name="微信" pass="2">Appium.微信</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

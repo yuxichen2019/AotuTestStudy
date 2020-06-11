@@ -1,0 +1,7 @@
+*** Settings ***
+Library           RandomLibrary
+
+*** Keywords ***
+随机获取中文姓名
+    ${chineseName}    Get Chinese Name
+    [Return]    ${chineseName}

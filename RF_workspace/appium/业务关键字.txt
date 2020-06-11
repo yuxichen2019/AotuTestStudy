@@ -1,0 +1,44 @@
+*** Settings ***
+Resource          基础关键字.txt
+
+*** Keywords ***
+登陆微信
+    [Arguments]    ${passWord}
+    等待元素出现    id=hz    60s
+    输入数据    id=hz    ${passWord}
+    点击元素    id=c1u
+
+通讯录搜索好友
+    [Arguments]    ${searchCondition}    ${friend}
+    等待元素出现    xpath=//android.widget.TextView[@text="通讯录"]    60s
+    点击元素    xpath=//android.widget.TextView[@text="通讯录"]
+    点击元素    accessibility_id=搜索
+    等待元素出现    id=hz    60s
+    输入数据    id=hz    ${searchCondition}
+    等待元素出现    ${friend}    60S
+    点击元素    ${friend}
+
+发送文字与语音信息
+    [Arguments]    ${content}
+    等待元素出现    id=a5e    30s
+    输入数据    id=a5e    ${content}
+    点击元素    name=发送
+    点击元素    id=a5c
+    #长按元素    id=a5f
+    点击元素    id=a5c
+
+退出微信
+    点击元素    id=gr
+    点击元素    id=gz
+    点击元素    name=我
+    点击元素    name=设置
+    点击元素    name=退出
+    点击元素    name=退出当前帐号
+    点击元素    name=退出
+
+发送表情
+    点击元素    id=a5g
+    通过索引点击元素    id=cop    1
+    通过索引点击元素    id=cop    2
+    通过索引点击元素    id=cop    3
+    点击元素    name=发送
