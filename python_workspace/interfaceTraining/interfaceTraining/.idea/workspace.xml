@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43638f8f-88d7-4df4-9db7-65865434fab0" name="Default" comment="" />
+    <list default="true" id="43638f8f-88d7-4df4-9db7-65865434fab0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../../SeleniumLibrary-master/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SeleniumLibrary-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SeleniumLibrary-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/interfaceTraining.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/interfaceTraining.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/log/blueRose.log" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/log/blueRose.log" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,92 +94,8 @@
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1077435196">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="46" />
-          <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="13" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.2" value="13" />
-          <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.26" value="2" />
-          <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.30" value="1" />
-          <entry key="project.open.time.31" value="1" />
-          <entry key="project.open.time.32" value="1" />
-          <entry key="project.open.time.34" value="3" />
-          <entry key="project.open.time.35" value="1" />
-          <entry key="project.open.time.36" value="3" />
-          <entry key="project.open.time.37" value="2" />
-          <entry key="project.open.time.40" value="1" />
-          <entry key="project.open.time.41" value="1" />
-          <entry key="project.open.time.43" value="2" />
-          <entry key="project.open.time.44" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="55" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="2019-04-25" value="1" />
-          <entry key="csv" value="12" />
-          <entry key="html" value="1" />
-          <entry key="json" value="6" />
-          <entry key="log" value="6" />
-          <entry key="py" value="170" />
-          <entry key="sql" value="1" />
-          <entry key="txt" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSV" value="4" />
-          <entry key="HTML" value="1" />
-          <entry key="JSON" value="6" />
-          <entry key="PLAIN_TEXT" value="21" />
-          <entry key="Python" value="170" />
-          <entry key="SQL" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="csv" value="75" />
-          <entry key="dummy" value="1" />
-          <entry key="json" value="93" />
-          <entry key="py" value="5716" />
-          <entry key="txt" value="108" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSV" value="2" />
-          <entry key="JSON" value="93" />
-          <entry key="PLAIN_TEXT" value="182" />
-          <entry key="Python" value="5716" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="interfaceTraining" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pythonStudy/GroupCounter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -191,57 +115,8 @@
       <dir>E:\python-workSpace\interfaceTraining</dir>
     </dirStrings>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/framework/ReadHTML.py" />
-        <option value="$PROJECT_DIR$/framework/wapper.py" />
-        <option value="$PROJECT_DIR$/framework/class_wrapper.py" />
-        <option value="$PROJECT_DIR$/framework/wrapper_class.py" />
-        <option value="$PROJECT_DIR$/framework/UtilsRandom.py" />
-        <option value="$PROJECT_DIR$/testCase/crm/TestCreateCustomer.py" />
-        <option value="$PROJECT_DIR$/framework/BluseRose.py" />
-        <option value="$PROJECT_DIR$/data/testCase_refreshPhpsessid.json" />
-        <option value="$PROJECT_DIR$/testCase/crm/TestCrmBusinessFlowWithJson.py" />
-        <option value="$PROJECT_DIR$/data/characters.txt" />
-        <option value="$PROJECT_DIR$/data/charactersTitle.txt" />
-        <option value="$PROJECT_DIR$/pythonStudy/StudentSort.py" />
-        <option value="$PROJECT_DIR$/framework/UtilsJson.py" />
-        <option value="$PROJECT_DIR$/framework/Logger.py" />
-        <option value="$PROJECT_DIR$/test/test.py" />
-        <option value="$PROJECT_DIR$/testCase/crm/TestCrmBusinessFlowNew.py" />
-        <option value="$PROJECT_DIR$/testCase/RunAllCases.py" />
-        <option value="$PROJECT_DIR$/testCase/crm/TestCrmBusinessFlowWithBluseRose1.py" />
-        <option value="$PROJECT_DIR$/data/userAccount.csv" />
-        <option value="$PROJECT_DIR$/framework/UtilsDate.py" />
-        <option value="$PROJECT_DIR$/testCase/crm/RunAllCases.py" />
-        <option value="$PROJECT_DIR$/pythonStudy/UtilsRamdonCode.py" />
-        <option value="$PROJECT_DIR$/testCase/crm/TestCrmBusinessFlow.py" />
-        <option value="$PROJECT_DIR$/framework/UtilsFile.py" />
-        <option value="$PROJECT_DIR$/testCase/crm/TestProductWithBluseRose.py" />
-        <option value="$PROJECT_DIR$/RunAllCases.py" />
-        <option value="$PROJECT_DIR$/pythonStudy/thread/child.py" />
-        <option value="$PROJECT_DIR$/pythonStudy/thread/father.py" />
-        <option value="$PROJECT_DIR$/pythonStudy/thread/process.py" />
-        <option value="$PROJECT_DIR$/pythonStudy/thread/pool.py" />
-        <option value="$PROJECT_DIR$/pythonStudy/thread/multiprocess_queue.py" />
-        <option value="$PROJECT_DIR$/pythonStudy/wrapper/logging_tool.py" />
-        <option value="$PROJECT_DIR$/pythonStudy/wrapper/decorator.py" />
-        <option value="$PROJECT_DIR$/pythonStudy/wrapper/new_logging_tool.py" />
-        <option value="$PROJECT_DIR$/pythonStudy/wrapper/Foo.py" />
-        <option value="$PROJECT_DIR$/pythonStudy/wrapper/Counter.py" />
-        <option value="$PROJECT_DIR$/testCase/crm/TestCrmBusinessFlowWithBluseRose.py" />
-        <option value="$PROJECT_DIR$/testCase/BaseCase.py" />
-        <option value="$PROJECT_DIR$/testCase/crm/TestCrmBusinessFlowWithDBParm.py" />
-        <option value="$PROJECT_DIR$/pythonStudy/CardId.py" />
-        <option value="$PROJECT_DIR$/testCase/springBoot/IO_Test.py" />
-        <option value="$PROJECT_DIR$/testCase/crm/TestCrmBusinessWithBluseRose.py" />
-        <option value="$PROJECT_DIR$/testCase/springBoot/TestSpringBootAdd.py" />
-        <option value="$PROJECT_DIR$/framework/BlueRose.py" />
-        <option value="$PROJECT_DIR$/framework/UtilsDB.py" />
-        <option value="$PROJECT_DIR$/pythonStudy/GroupCounter.py" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -249,49 +124,32 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1378" />
-    <option name="height" value="725" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interfaceTraining" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1cz13ciLZOwuQVY8cIqzwZOWPa1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="D:/RandomLibrary" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../seleniumStudy" />
     <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\python-workSpace\interfaceTraining" />
-      <recent name="E:\python-workSpace\interfaceTraining\testCase" />
-      <recent name="E:\python-workSpace\interfaceTraining\wapper" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\python-workSpace\interfaceTraining\data" />
       <recent name="E:\python-workSpace\interfaceTraining\framework" />
       <recent name="E:\python-workSpace\interfaceTraining\testCase\springBoot" />
       <recent name="E:\python-workSpace\interfaceTraining\testCase\crm" />
       <recent name="E:\python-workSpace\interfaceTraining\pythonStudy" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\yuxichen\AotuTestStudy\python_workspace\interfaceTraining\interfaceTraining\testCase\student" />
+      <recent name="E:\python-workSpace\interfaceTraining" />
+      <recent name="E:\python-workSpace\interfaceTraining\testCase" />
+      <recent name="E:\python-workSpace\interfaceTraining\wapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -306,7 +164,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.GroupCounter">
+  <component name="RunManager" selected="Python tests.Unittests in StudentManagement.py">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -327,29 +194,7 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="GroupCounter" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="interfaceTraining" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonStudy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonStudy/GroupCounter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="UtilsDB" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="UtilsRandom" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="interfaceTraining" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -361,8 +206,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/framework/UtilsDB.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/framework/UtilsRandom.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -371,74 +215,83 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
+    <configuration name="UtilsRandomID" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="interfaceTraining" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/framework" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/framework/UtilsRandomID.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for TestSpringBootAdd.TestSpringBootAdd" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for StudentManagement.TestStudentManagement" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="interfaceTraining" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase/springBoot" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase/student" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestSpringBootAdd.TestSpringBootAdd&quot;" />
+      <option name="_new_target" value="&quot;StudentManagement.TestStudentManagement&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for TestSpringBootAdd.TestSpringBootAdd.test_springBootAdd" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in BaseCase.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="interfaceTraining" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase/springBoot" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase/student" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestSpringBootAdd.TestSpringBootAdd.test_springBootAdd&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testCase/student/BaseCase.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in TestSpringBootAdd.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in StudentManagement.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="interfaceTraining" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase/springBoot" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase/student" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/testCase/springBoot/TestSpringBootAdd.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testCase/student/StudentManagement.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for TestSpringBootAdd.TestSpringBootAdd.test_springBootAdd" />
-      <item itemvalue="Python tests.Unittests for TestSpringBootAdd.TestSpringBootAdd" />
-      <item itemvalue="Python tests.Unittests in TestSpringBootAdd.py" />
-      <item itemvalue="Python.UtilsDB" />
-      <item itemvalue="Python.GroupCounter" />
+      <item itemvalue="Python.UtilsRandomID" />
+      <item itemvalue="Python tests.Unittests in StudentManagement.py" />
+      <item itemvalue="Python tests.Unittests for StudentManagement.TestStudentManagement" />
+      <item itemvalue="Python tests.Unittests in BaseCase.py" />
+      <item itemvalue="Python.UtilsRandom" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.GroupCounter" />
-        <item itemvalue="Python.UtilsDB" />
-        <item itemvalue="Python tests.Unittests for TestSpringBootAdd.TestSpringBootAdd.test_springBootAdd" />
-        <item itemvalue="Python tests.Unittests in TestSpringBootAdd.py" />
-        <item itemvalue="Python tests.Unittests for TestSpringBootAdd.TestSpringBootAdd" />
+        <item itemvalue="Python tests.Unittests in StudentManagement.py" />
+        <item itemvalue="Python.UtilsRandom" />
+        <item itemvalue="Python.UtilsRandomID" />
+        <item itemvalue="Python tests.Unittests in BaseCase.py" />
+        <item itemvalue="Python tests.Unittests for StudentManagement.TestStudentManagement" />
       </list>
     </recent_temporary>
   </component>
@@ -453,39 +306,22 @@
       <option name="presentableId" value="Default" />
       <updated>1535446195893</updated>
     </task>
+    <task id="LOCAL-00001" summary="9">
+      <created>1591527049315</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591527049316</updated>
+    </task>
+    <task id="LOCAL-00002" summary="9">
+      <created>1591527528102</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591527528102</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="Unittests_for_TestSpringBootAdd_TestSpringBootAdd_test_springBootAdd - 2019.12.29 at 17h 50m 14s.xml">
-      <configuration name="Unittests for TestSpringBootAdd.TestSpringBootAdd.test_springBootAdd" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_TestSpringBootAdd_TestSpringBootAdd_test_springBootAdd - 2019.12.29 at 17h 53m 14s.xml">
-      <configuration name="Unittests for TestSpringBootAdd.TestSpringBootAdd.test_springBootAdd" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_TestSpringBootAdd_TestSpringBootAdd_test_springBootAdd - 2019.12.29 at 17h 54m 36s.xml">
-      <configuration name="Unittests for TestSpringBootAdd.TestSpringBootAdd.test_springBootAdd" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestSpringBootAdd_py - 2019.12.29 at 17h 55m 51s.xml">
-      <configuration name="Unittests in TestSpringBootAdd.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestSpringBootAdd_py - 2019.12.29 at 17h 57m 22s.xml">
-      <configuration name="Unittests in TestSpringBootAdd.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_TestSpringBootAdd_TestSpringBootAdd_test_springBootAdd - 2019.12.29 at 18h 00m 08s.xml">
-      <configuration name="Unittests for TestSpringBootAdd.TestSpringBootAdd.test_springBootAdd" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_TestSpringBootAdd_TestSpringBootAdd_test_springBootAdd - 2019.12.29 at 18h 01m 16s.xml">
-      <configuration name="Unittests for TestSpringBootAdd.TestSpringBootAdd.test_springBootAdd" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_TestSpringBootAdd_TestSpringBootAdd_test_springBootAdd - 2019.12.29 at 18h 01m 25s.xml">
-      <configuration name="Unittests for TestSpringBootAdd.TestSpringBootAdd.test_springBootAdd" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_TestSpringBootAdd_TestSpringBootAdd_test_springBootAdd - 2019.12.29 at 18h 02m 29s.xml">
-      <configuration name="Unittests for TestSpringBootAdd.TestSpringBootAdd.test_springBootAdd" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_TestSpringBootAdd_TestSpringBootAdd_test_springBootAdd - 2019.12.29 at 18h 02m 41s.xml">
-      <configuration name="Unittests for TestSpringBootAdd.TestSpringBootAdd.test_springBootAdd" configurationId="tests" />
-    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -496,63 +332,28 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.6640379" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32862905" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4984686" weight="0.79116464" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.78571427" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3285968" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015314" side_tool="true" weight="0.74041814" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24961714" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="4" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3911672" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32862905" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4984686" weight="0.79116464" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.78571427" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3285968" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015314" side_tool="true" weight="0.74041814" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24961714" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="4" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="9" />
+    <option name="LAST_COMMIT_MESSAGE" value="9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -564,348 +365,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://D:/Python/Python36/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="301" column="4" selection-start-line="301" selection-start-column="4" selection-end-line="301" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/crm/TestCrmBusinessFlowWithJson.py" />
-    <entry file="file://$PROJECT_DIR$/pythonStudy/StudentSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonStudy/CallStudent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/blueRose.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/crm/TestCrmBusinessFlowNew.py" />
-    <entry file="file://$PROJECT_DIR$/data/testCase_refreshPhpsessid.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/UtilsRandom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="36" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/TestCRM_report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="218" column="9" selection-start-line="218" selection-start-column="9" selection-end-line="218" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/charactersTitle.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python/Python36/Lib/unittest/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonStudy/studentGrade.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.py" />
-    <entry file="file://$PROJECT_DIR$/data/data.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="10575">
-          <caret line="235" column="32" selection-start-line="235" selection-start-column="32" selection-end-line="235" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonStudy/ScoreOrder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/crm/RunAllCases.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="13" column="58" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonStudy/Student.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/log/blueRose.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/log/blueRose.log.2019-04-25" />
-    <entry file="file://$PROJECT_DIR$/RunAllCases.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonStudy/thread/child.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonStudy/thread/father.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonStudy/thread/process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonStudy/thread/pool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonStudy/thread/multiprocess_queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonStudy/wrapper/logging_tool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonStudy/wrapper/decorator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonStudy/wrapper/Foo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonStudy/wrapper/Counter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/UtilsDate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="25" selection-start-line="21" selection-start-column="4" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/userAccount.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-15">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/Logger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonStudy/wrapper/new_logging_tool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/crm/TestCrmBusinessFlowWithDBParm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1750">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python/Python37/Lib/site-packages/requests-2.21.0-py3.7.egg/requests/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
-          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonStudy/CardId.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2415">
-          <caret line="70" column="23" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/springBoot/IO_Test.py" />
-    <entry file="file://$PROJECT_DIR$/testCase/crm/TestCrmBusinessWithBluseRose.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="18" column="19" selection-start-line="18" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/crm/TestCrmBusinessFlow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="41" column="21" selection-start-line="41" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/UtilsFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonStudy/UtilsRamdonCode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#22#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/db.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/UtilsDB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="87" column="1" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/crm/TestProductWithBluseRose.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="37" column="2" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/UtilsJson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="111" column="10" selection-start-line="111" selection-start-column="10" selection-end-line="111" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/crm/TestCrmBusinessFlowWithBluseRose.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="22" column="18" selection-start-line="22" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/springBoot/TestSpringBootAdd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/BlueRose.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/BaseCase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/characters.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonStudy/GroupCounter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
