@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43638f8f-88d7-4df4-9db7-65865434fab0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/interfaceTraining.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/interfaceTraining.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCase/log/blueRose.log" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/log/blueRose.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCase/student/StudentManagement.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/student/StudentManagement.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,26 +96,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testCase/student/StudentManagement.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+            <state relative-caret-position="779">
+              <caret line="101" column="24" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testCase/student/BaseCase.py">
+        <entry file="file://$PROJECT_DIR$/testCase/springBoot/TestSpringBootAdd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-486">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework/BlueRose.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+            <state relative-caret-position="621">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -144,6 +129,7 @@
       <find>初始化</find>
       <find>js</find>
       <find>Java</find>
+      <find>studentName</find>
     </findStrings>
     <dirStrings>
       <dir>E:\python-workSpace\interfaceTraining</dir>
@@ -201,6 +187,7 @@
         <option value="$PROJECT_DIR$/framework/BlueRose.py" />
         <option value="$PROJECT_DIR$/framework/UtilsDB.py" />
         <option value="$PROJECT_DIR$/pythonStudy/GroupCounter.py" />
+        <option value="$PROJECT_DIR$/testCase/student/BaseCase.py" />
         <option value="$PROJECT_DIR$/testCase/student/StudentManagement.py" />
       </list>
     </option>
@@ -221,7 +208,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,20 +218,7 @@
             <path>
               <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
               <item name="interfaceTraining" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interfaceTraining" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="BlueRose.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interfaceTraining" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="BlueRose.py" type="8704e2dd:PyFileNode" />
-              <item name="BlueRose" type="dd8bbb05:PyElementNode" />
+              <item name="pythonStudy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
@@ -256,22 +229,28 @@
               <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
               <item name="interfaceTraining" type="462c0819:PsiDirectoryNode" />
               <item name="testCase" type="462c0819:PsiDirectoryNode" />
-              <item name="student" type="462c0819:PsiDirectoryNode" />
+              <item name="springBoot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
               <item name="interfaceTraining" type="462c0819:PsiDirectoryNode" />
               <item name="testCase" type="462c0819:PsiDirectoryNode" />
-              <item name="student" type="462c0819:PsiDirectoryNode" />
-              <item name="BaseCase.py" type="8704e2dd:PyFileNode" />
+              <item name="springBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="TestSpringBootAdd.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interfaceTraining" type="462c0819:PsiDirectoryNode" />
+              <item name="testCase" type="462c0819:PsiDirectoryNode" />
+              <item name="springBoot" type="462c0819:PsiDirectoryNode" />
+              <item name="TestSpringBootAdd.py" type="8704e2dd:PyFileNode" />
+              <item name="TestSpringBootAdd" type="dd8bbb05:PyElementNode" />
             </path>
             <path>
               <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
               <item name="interfaceTraining" type="462c0819:PsiDirectoryNode" />
               <item name="testCase" type="462c0819:PsiDirectoryNode" />
               <item name="student" type="462c0819:PsiDirectoryNode" />
-              <item name="BaseCase.py" type="8704e2dd:PyFileNode" />
-              <item name="BaseCase" type="dd8bbb05:PyElementNode" />
             </path>
             <path>
               <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
@@ -290,108 +269,20 @@
             </path>
             <path>
               <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="interfaceTraining" type="462c0819:PsiDirectoryNode" />
+              <item name="RunAllCases.py" type="8704e2dd:PyFileNode" />
             </path>
             <path>
               <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="requests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="requests" type="462c0819:PsiDirectoryNode" />
-              <item name="api.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="python37" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="python37" type="462c0819:PsiDirectoryNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="python37" type="462c0819:PsiDirectoryNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="python37" type="462c0819:PsiDirectoryNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="requests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="python37" type="462c0819:PsiDirectoryNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="requests" type="462c0819:PsiDirectoryNode" />
-              <item name="api.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="requests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interfaceTraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="requests" type="462c0819:PsiDirectoryNode" />
-              <item name="api.py" type="8704e2dd:PyFileNode" />
+              <item name="interfaceTraining" type="462c0819:PsiDirectoryNode" />
+              <item name="RunAllCases.py" type="8704e2dd:PyFileNode" />
+              <item name="RunAllCases" type="dd8bbb05:PyElementNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -575,14 +466,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535446195893</updated>
-      <workItem from="1591702280800" duration="13799000" />
+      <workItem from="1591702280800" duration="14238000" />
+      <workItem from="1591837455000" duration="1718000" />
+      <workItem from="1591879195143" duration="338000" />
     </task>
+    <task id="LOCAL-00001" summary="1、新建学生-&gt;新建当前学生的成绩（语文，数学，英文）-&gt;查询当前学生的所有成绩-&gt;删除学生成绩表，删除学生表">
+      <created>1591782142783</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591782142783</updated>
+    </task>
+    <task id="LOCAL-00002" summary="接口自动化">
+      <created>1591879516611</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591879516611</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_StudentManagement_py - 2020.06.10 at 16h 07m 34s.xml">
-      <configuration name="Unittests in StudentManagement.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_StudentManagement_py - 2020.06.10 at 16h 09m 28s.xml">
       <configuration name="Unittests in StudentManagement.py" configurationId="tests" />
     </history-entry>
@@ -610,9 +515,12 @@
     <history-entry file="Unittests_in_StudentManagement_py - 2020.06.10 at 17h 39m 27s.xml">
       <configuration name="Unittests in StudentManagement.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_StudentManagement_py - 2020.06.10 at 17h 40m 03s.xml">
+      <configuration name="Unittests in StudentManagement.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13799000" />
+    <option name="totallyTimeSpent" value="16294000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -624,15 +532,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24195279" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24839056" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32862905" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4984686" visible="true" weight="0.21452513" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4984686" weight="0.2592179" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.6592179" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -679,6 +587,11 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1、新建学生-&gt;新建当前学生的成绩（语文，数学，英文）-&gt;查询当前学生的所有成绩-&gt;删除学生成绩表，删除学生表" />
+    <MESSAGE value="接口自动化" />
+    <option name="LAST_COMMIT_MESSAGE" value="接口自动化" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -694,13 +607,6 @@
     <SUITE FILE_PATH="coverage/interfaceTraining$Unittests_in_StudentManagement_py.coverage" NAME="Unittests in StudentManagement.py Coverage Results" MODIFIED="1591782003025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/student" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pythonStudy/CallStudent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log/blueRose.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -776,13 +682,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testCase/log/blueRose.log.2019-04-25" />
-    <entry file="file://$PROJECT_DIR$/RunAllCases.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pythonStudy/thread/child.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -959,16 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/springBoot/TestSpringBootAdd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testCase/BaseCase.py" />
     <entry file="file://$PROJECT_DIR$/data/characters.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -984,13 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/student/BaseCase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/python/python37/Lib/site-packages/requests/api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
@@ -1000,18 +882,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/framework/BlueRose.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        <state relative-caret-position="513">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/student/BaseCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RunAllCases.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testCase/student/StudentManagement.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+        <state relative-caret-position="779">
+          <caret line="101" column="24" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/springBoot/TestSpringBootAdd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
