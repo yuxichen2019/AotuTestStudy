@@ -1,6 +1,7 @@
 *** Settings ***
 Library           RequestsLibrary
 Resource          基础关键字.txt
+Library           Collections
 
 *** Keywords ***
 登录CRM
