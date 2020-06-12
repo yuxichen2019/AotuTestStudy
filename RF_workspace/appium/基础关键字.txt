@@ -1,10 +1,12 @@
+*** Settings ***
+Library           AppiumLibrary
+
 *** Keywords ***
 关闭APP
     Close Application
 
 打开APP
-    Open Application    http://127.0.0.1:4723/wd/hub    platformName=Android    platformVersion=5.1    appPackage=com.tencent.mm    appActivity=ui.LauncherUI    unicodeKeyboard=true
-    ...    resetKeyboard=true    deviceName=192.168.136.101:5555    noReset=true
+    Open Application    http://127.0.0.1:4723/wd/hub    platformName=Android    platformVersion=5.1    appPackage=com.tencent.mm    appActivity=ui.LauncherUI    unicodeKeyboard=true    resetKeyboard=true    deviceName=192.168.136.101:5555    noReset=true
 
 等待元素出现
     [Arguments]    ${condition}    ${timeout}

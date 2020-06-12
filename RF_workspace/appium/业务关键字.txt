@@ -1,5 +1,6 @@
 *** Settings ***
 Resource          基础关键字.txt
+Library           AppiumLibrary
 
 *** Keywords ***
 登陆微信

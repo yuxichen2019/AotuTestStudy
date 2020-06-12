@@ -2,64 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4fc2be5-5b2a-46fb-b50b-5256c55dee38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/.idea/SeleniumLibrary-master.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/base/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/base/context.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/base/librarycomponent.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/base/robotlibcore.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/errors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/alert.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/browsermanagement.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/cookie.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/element.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/formelement.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/frames.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/javascript.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/runonfailure.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/screenshot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/selectelement.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/tableelement.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/waiting.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/webdrivertools.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/window.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/locators/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/locators/customlocator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/locators/elementfinder.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/locators/windowmanager.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/utils/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/utils/events/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/utils/events/event.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/utils/events/scope_event.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/utils/librarylistener.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/utils/seleniumversion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/utils/types.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/dist/robotframework_seleniumlibrary-4.0.0.dev1-py3.7.egg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/src/robotframework_seleniumlibrary.egg-info/PKG-INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/src/robotframework_seleniumlibrary.egg-info/SOURCES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/src/robotframework_seleniumlibrary.egg-info/dependency_links.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/src/robotframework_seleniumlibrary.egg-info/requires.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/src/robotframework_seleniumlibrary.egg-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/androidResourcesMonitor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/androidResourcesMonitor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/commonUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/commonUtil.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/cpuUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/cpuUtil.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appiumTraining/.idea/appiumTraining.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../appiumTraining/.idea/appiumTraining.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appiumTraining/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../appiumTraining/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appiumTraining/monitor/result/cpustatus.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../appiumTraining/monitor/result/cpustatus.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appiumTraining/monitor/result/meminfo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../appiumTraining/monitor/result/meminfo.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appiumTraining/monitor/result/power.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../appiumTraining/monitor/result/power.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appiumTraining/monitor/result/traffic.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../appiumTraining/monitor/result/traffic.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appiumTraining/result/log/sunFlower.log" beforeDir="false" afterPath="$PROJECT_DIR$/../appiumTraining/result/log/sunFlower.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appiumTraining/result/log/sunFlower.log.2019-04-21" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appiumTraining/testcase/TestWeichat.py" beforeDir="false" afterPath="$PROJECT_DIR$/../appiumTraining/testcase/TestWeichat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RF_workspace/appium/业务关键字.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../RF_workspace/appium/业务关键字.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RF_workspace/appium/基础关键字.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../RF_workspace/appium/基础关键字.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RF_workspace/appium/微信.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -192,7 +137,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1378" />
     <option name="height" value="725" />
   </component>
@@ -455,15 +400,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563790074587</updated>
-      <workItem from="1591933378165" duration="2216000" />
+      <workItem from="1591933378165" duration="2571000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2216000" />
+    <option name="totallyTimeSpent" value="2571000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50117373" side_tool="true" weight="0.24972856" />
