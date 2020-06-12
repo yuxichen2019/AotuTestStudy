@@ -2,7 +2,6 @@
 import os
 import traceback
 from PyQt4 import QtCore
-
 from PyQt4.QtCore import *
 from utils.fileUtil import FileUtil
 from utils.timeUtil import TimeUtil

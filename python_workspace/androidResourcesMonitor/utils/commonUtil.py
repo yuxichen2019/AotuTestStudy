@@ -17,7 +17,7 @@ class CommonUtil(object):
                 return pid
         except:
             traceback.print_exc()
-
+            #Python使用traceback.print_exc()来代替print e 来输出详细的异常信息
 
 # if __name__ == "__main__":
 #     fileUtil = FileUtil("cpustatus.csv")

@@ -2,92 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4fc2be5-5b2a-46fb-b50b-5256c55dee38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/androidResourcesMonitor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/M.spec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MainWindows.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MainWindows.spec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/MainWindows/Analysis-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/MainWindows/EXE-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/MainWindows/MainWindows.exe.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/MainWindows/PKG-00.pkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/MainWindows/PKG-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/MainWindows/PYZ-00.pyz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/MainWindows/PYZ-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/MainWindows/base_library.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/MainWindows/warn-MainWindows.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/MainWindows/xref-MainWindows.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/cpu.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/memory.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/netWork.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/power.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/2019-07-22-19-26-18.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/2020-01-11-17-10-38.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/qt.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/2019-07-22-19-14-39.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/monitor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/pause.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/setup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/start.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/stop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images.qrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images_qr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/start.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/SplashScreen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/commonUtil.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/cpuUtil.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/fileUtil.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/memoryUtil.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/monkeyUtil.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/networkUtil.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/powerUtil.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/reportUtil.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/timeUtil.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/mainTabs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/monkey.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/resources.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appiumTraining/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appiumTraining/.idea/appiumTraining.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appiumTraining/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appiumTraining/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appiumTraining/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appiumTraining/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/log/sunFlower.log.2019-04-26" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-30/2020-05-30-10_54_25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-30/2020-05-30-10_55_47.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-30/2020-05-30-10_57_48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-30/2020-05-30-11_02_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-30/2020-05-30-11_03_56.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-30/2020-05-30-11_41_59.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-30/2020-05-30-11_48_21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-30/2020-05-30-11_51_47.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-30/2020-05-30-11_54_09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-30/2020-05-30-12_21_59.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-30/2020-05-30-12_51_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-30/2020-05-30-13_41_31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-30/2020-05-30-14_35_38.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-30/2020-05-30-17_05_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-31/2020-05-31-14_51_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-31/2020-05-31-15_41_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-31/2020-05-31-17_50_08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-31/2020-05-31-17_50_44.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-31/2020-05-31-18_27_29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appiumTraining/result/screenshot/2020-05-31/2020-05-31-18_28_41.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/.idea/SeleniumLibrary-master.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/base/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/base/context.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/base/librarycomponent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/base/robotlibcore.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/errors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/alert.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/browsermanagement.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/cookie.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/element.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/formelement.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/frames.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/javascript.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/runonfailure.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/screenshot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/selectelement.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/tableelement.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/waiting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/webdrivertools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/keywords/window.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/locators/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/locators/customlocator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/locators/elementfinder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/locators/windowmanager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/utils/events/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/utils/events/event.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/utils/events/scope_event.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/utils/librarylistener.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/utils/seleniumversion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/build/lib/SeleniumLibrary/utils/types.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/dist/robotframework_seleniumlibrary-4.0.0.dev1-py3.7.egg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/src/robotframework_seleniumlibrary.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/src/robotframework_seleniumlibrary.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/src/robotframework_seleniumlibrary.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/src/robotframework_seleniumlibrary.egg-info/requires.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumLibrary-master/src/robotframework_seleniumlibrary.egg-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/androidResourcesMonitor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/androidResourcesMonitor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/commonUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/commonUtil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/cpuUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/cpuUtil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appiumTraining/.idea/appiumTraining.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../appiumTraining/.idea/appiumTraining.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appiumTraining/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../appiumTraining/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../appiumTraining/monitor/result/cpustatus.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../appiumTraining/monitor/result/cpustatus.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../appiumTraining/monitor/result/meminfo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../appiumTraining/monitor/result/meminfo.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../appiumTraining/monitor/result/power.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../appiumTraining/monitor/result/power.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../appiumTraining/monitor/result/traffic.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../appiumTraining/monitor/result/traffic.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appiumTraining/monitor/traffic.py" beforeDir="false" afterPath="$PROJECT_DIR$/../appiumTraining/monitor/traffic.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../appiumTraining/result/log/sunFlower.log" beforeDir="false" afterPath="$PROJECT_DIR$/../appiumTraining/result/log/sunFlower.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../appiumTraining/result/log/sunFlower.log.2018-09-20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../appiumTraining/result/log/sunFlower.log.2019-04-21" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../appiumTraining/testcase/TestWeichat.py" beforeDir="false" afterPath="$PROJECT_DIR$/../appiumTraining/testcase/TestWeichat.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,8 +71,113 @@
     <SUITE FILE_PATH="coverage/androidResourcesMonitor$MainWindows.coverage" NAME="MainWindows Coverage Results" MODIFIED="1572877015751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/androidResourcesMonitor$cpuUtil.coverage" NAME="cpuUtil Coverage Results" MODIFIED="1563805968352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MainWindows.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="729">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/M.spec">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images_qr.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/resources.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1350">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/commonUtil.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/cpuUtil.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+              <folding>
+                <element signature="e#17#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-777419083/PyQt4/QtCore/QThread.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="755">
+              <caret line="148" column="24" selection-start-line="148" selection-start-column="4" selection-end-line="148" selection-end-column="24" />
+              <folding>
+                <element signature="e#142#161#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/timeUtil.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/fileUtil.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MainWindows.spec">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/utils/commonUtil.py" />
+        <option value="$PROJECT_DIR$/utils/cpuUtil.py" />
+      </list>
+    </option>
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -116,16 +192,166 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="width" value="1378" />
+    <option name="height" value="725" />
+  </component>
   <component name="ProjectId" id="1cf1HbotEk86hVzdSaMYERiuCm6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="androidResourcesMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="androidResourcesMonitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="androidResourcesMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="androidResourcesMonitor" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="androidResourcesMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="androidResourcesMonitor" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="commonUtil.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="androidResourcesMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="androidResourcesMonitor" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="commonUtil.py" type="8704e2dd:PyFileNode" />
+              <item name="CommonUtil" type="dd8bbb05:PyElementNode" />
+            </path>
+            <path>
+              <item name="androidResourcesMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="androidResourcesMonitor" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="cpuUtil.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="androidResourcesMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="androidResourcesMonitor" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="cpuUtil.py" type="8704e2dd:PyFileNode" />
+              <item name="CpuUtil" type="dd8bbb05:PyElementNode" />
+            </path>
+            <path>
+              <item name="androidResourcesMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="androidResourcesMonitor" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="androidResourcesMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="androidResourcesMonitor" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="resources.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="androidResourcesMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="androidResourcesMonitor" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="resources.py" type="8704e2dd:PyFileNode" />
+              <item name="ResourcesWidget" type="dd8bbb05:PyElementNode" />
+            </path>
+            <path>
+              <item name="androidResourcesMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="androidResourcesMonitor" type="462c0819:PsiDirectoryNode" />
+              <item name="images_qr.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="androidResourcesMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="androidResourcesMonitor" type="462c0819:PsiDirectoryNode" />
+              <item name="MainWindows.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="androidResourcesMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="androidResourcesMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="androidResourcesMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="-777419083" type="70582d5e:PySkeletonsNode" />
+            </path>
+            <path>
+              <item name="androidResourcesMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="-777419083" type="70582d5e:PySkeletonsNode" />
+              <item name="PyQt4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="androidResourcesMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="-777419083" type="70582d5e:PySkeletonsNode" />
+              <item name="PyQt4" type="462c0819:PsiDirectoryNode" />
+              <item name="QtCore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="androidResourcesMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="-777419083" type="70582d5e:PySkeletonsNode" />
+              <item name="PyQt4" type="462c0819:PsiDirectoryNode" />
+              <item name="QtCore" type="462c0819:PsiDirectoryNode" />
+              <item name="QThread.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="androidResourcesMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="-777419083" type="70582d5e:PySkeletonsNode" />
+              <item name="PyQt4" type="462c0819:PsiDirectoryNode" />
+              <item name="QtCore" type="462c0819:PsiDirectoryNode" />
+              <item name="QThread.py" type="8704e2dd:PyFileNode" />
+              <item name="QThread" type="dd8bbb05:PyElementNode" />
+            </path>
+            <path>
+              <item name="androidResourcesMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="-777419083" type="70582d5e:PySkeletonsNode" />
+              <item name="PyQt4" type="462c0819:PsiDirectoryNode" />
+              <item name="QtCore" type="462c0819:PsiDirectoryNode" />
+              <item name="QTimer.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="androidResourcesMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (seleniumStudy) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="-777419083" type="70582d5e:PySkeletonsNode" />
+              <item name="PyQt4" type="462c0819:PsiDirectoryNode" />
+              <item name="QtCore" type="462c0819:PsiDirectoryNode" />
+              <item name="QTimer.py" type="8704e2dd:PyFileNode" />
+              <item name="QTimer" type="dd8bbb05:PyElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../appiumTraining" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -196,6 +422,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/memoryUtil.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -228,8 +455,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563790074587</updated>
+      <workItem from="1591933378165" duration="2216000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2216000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" sideWeight="0.50117373" side_tool="true" weight="0.24972856" />
+      <window_info active="true" content_ui="combo" x="745" y="94" width="429" height="852" id="Project" order="1" sideWeight="0.4988263" visible="true" weight="0.23283261" />
+      <window_info id="Structure" order="2" sideWeight="0.50117373" side_tool="true" weight="0.24972856" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Python Console" order="4" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.50117373" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.46948355" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="SciView" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -240,11 +497,116 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/start.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainWindows.spec">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainWindows.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/M.spec">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/timeUtil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/fileUtil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-777419083/PyQt4/QtCore/QTimer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="83" column="16" lean-forward="true" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-777419083/PyQt4/QtCore/QThread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="755">
+          <caret line="148" column="24" selection-start-line="148" selection-start-column="4" selection-end-line="148" selection-end-column="24" />
+          <folding>
+            <element signature="e#142#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/cpuUtil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="e#17#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images_qr.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/commonUtil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/resources.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

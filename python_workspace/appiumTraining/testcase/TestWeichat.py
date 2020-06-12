@@ -22,7 +22,7 @@ class TestWebChat(BaseCase):
     def sendMsgToFriend(self):
         count = 1
         while True:
-            if count > 1:
+            if count > 15:
                 break
             # 输入文字消息
             self.driver.send_keys("id=com.tencent.mm:id/ak7", "等你等了这么久"+str(count))
@@ -39,7 +39,7 @@ class TestWebChat(BaseCase):
             # 点击发送语音按钮
             self.driver.click("des=切换到按住说话")
             # 长按，按住说话
-            self.driver.long_press("des=按住说话",10)
+            self.driver.long_press("des=按住说话",3)
 
             # 点击 + 号
             self.driver.click('id=com.tencent.mm:id/ajp')
@@ -47,7 +47,7 @@ class TestWebChat(BaseCase):
             # 点击拍摄
             self.driver.click_index("id=com.tencent.mm:id/p9",1)
             # 长按录制按钮3秒
-            self.driver.long_press("id=com.tencent.mm:id/coe", 10)
+            self.driver.long_press("id=com.tencent.mm:id/coe", 3)
             # 点击完成
             self.driver.click('id=com.tencent.mm:id/bfa')
             # 切换回键盘
