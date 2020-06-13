@@ -29,8 +29,8 @@ Library           AppiumLibrary
     点击元素    id=a5c
 
 退出微信
-    点击元素    id=gr
-    点击元素    id=gz
+    点击元素    id=rn
+    Comment    点击元素    id=gz
     点击元素    name=我
     点击元素    name=设置
     点击元素    name=退出

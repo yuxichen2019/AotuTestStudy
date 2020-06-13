@@ -17,7 +17,6 @@ class TestWebChat(BaseCase):
         # 点击好友名称
         self.driver.click("id=com.tencent.mm:id/g8b")
 
-
     # 给好友发消息
     def sendMsgToFriend(self):
         count = 1
