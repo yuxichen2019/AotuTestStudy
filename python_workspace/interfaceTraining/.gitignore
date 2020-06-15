@@ -12,7 +12,7 @@ gen
 
 /testCase/report/
 /testCase/result/
-/result/
+log/
 testCase/grid/Baidu_test_report.html
 testCase/grid/Baidu_test_report1.html
 /report/
