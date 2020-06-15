@@ -1,0 +1,115 @@
+2020-05-25 11:11:26,002 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:20] - INFO: __init__ has been executed
+2020-05-25 11:11:26,005 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: initDriver has been executed for element chrome
+2020-05-25 11:11:28,954 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:20] - INFO: max_window has been executed
+2020-05-25 11:11:30,089 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: get has been executed for element http://my.crm.cc/index.php?m=user&a=login
+2020-05-25 11:11:33,302 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: send_keys has been executed for element id=name
+2020-05-25 11:11:33,303 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element id=name
+2020-05-25 11:11:33,649 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: send_keys has been executed for element id=password
+2020-05-25 11:11:33,649 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element id=password
+2020-05-25 11:11:33,949 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element id=loginsub
+2020-05-25 11:11:33,949 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element id=loginsub
+2020-05-25 11:11:34,233 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element xpath=//span[text()='商机管理']
+2020-05-25 11:11:34,233 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element xpath=//span[text()='商机管理']
+2020-05-25 11:11:36,724 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element id=business-index
+2020-05-25 11:11:36,724 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element id=business-index
+2020-05-25 11:11:38,197 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element xpath=//*[@name="status_id"]/option[2]
+2020-05-25 11:11:38,197 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element xpath=//*[@name="status_id"]/option[2]
+2020-05-25 11:11:39,482 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: send_keys has been executed for element xpath=//input[@input_type='time']
+2020-05-25 11:11:39,482 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element xpath=//input[@input_type='time']
+2020-05-25 11:12:09,991 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:20] - INFO: get_screenshot has been executed
+2020-05-25 11:12:10,346 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:170] - ERROR: Time out can not find the element,the screen shot is:E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\testCase\result\screenshot\2020-05-25\2020-05-25-11_12_09.png
+Traceback (most recent call last):
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 159, in find_element
+    EC.visibility_of_element_located((By.XPATH, value)))
+  File "D:\python\python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2020-05-25 11:12:23,227 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:20] - INFO: __init__ has been executed
+2020-05-25 11:12:23,228 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: initDriver has been executed for element chrome
+2020-05-25 11:12:25,688 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:20] - INFO: max_window has been executed
+2020-05-25 11:12:26,810 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: get has been executed for element http://my.crm.cc/index.php?m=user&a=login
+2020-05-25 11:12:28,603 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: send_keys has been executed for element id=name
+2020-05-25 11:12:28,604 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element id=name
+2020-05-25 11:12:29,059 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: send_keys has been executed for element id=password
+2020-05-25 11:12:29,059 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element id=password
+2020-05-25 11:12:29,423 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element id=loginsub
+2020-05-25 11:12:29,423 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element id=loginsub
+2020-05-25 11:12:29,740 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element xpath=//span[text()='商机管理']
+2020-05-25 11:12:29,741 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element xpath=//span[text()='商机管理']
+2020-05-25 11:12:34,175 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element id=business-index
+2020-05-25 11:12:34,175 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element id=business-index
+2020-05-25 11:12:35,856 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element xpath=//a[@class="btn btn-primary btn-sm pull-left"]
+2020-05-25 11:12:35,856 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element xpath=//a[@class="btn btn-primary btn-sm pull-left"]
+2020-05-25 11:12:37,334 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element xpath=//*[@name="status_id"]/option[2]
+2020-05-25 11:12:37,334 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element xpath=//*[@name="status_id"]/option[2]
+2020-05-25 11:12:37,536 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: send_keys has been executed for element xpath=//input[@input_type='time']
+2020-05-25 11:12:37,536 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element xpath=//input[@input_type='time']
+2020-05-25 11:12:38,208 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element id=save_submit
+2020-05-25 11:12:38,208 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element id=save_submit
+2020-05-25 11:13:48,142 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:20] - INFO: __init__ has been executed
+2020-05-25 11:13:48,142 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: initDriver has been executed for element chrome
+2020-05-25 11:13:50,564 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:20] - INFO: max_window has been executed
+2020-05-25 11:13:51,680 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: get has been executed for element http://my.crm.cc/index.php?m=user&a=login
+2020-05-25 11:13:53,891 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: send_keys has been executed for element id=name
+2020-05-25 11:13:53,891 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element id=name
+2020-05-25 11:13:54,378 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: send_keys has been executed for element id=password
+2020-05-25 11:13:54,379 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element id=password
+2020-05-25 11:13:54,577 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element id=loginsub
+2020-05-25 11:13:54,577 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element id=loginsub
+2020-05-25 11:13:54,791 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element xpath=//span[text()='商机管理']
+2020-05-25 11:13:54,792 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element xpath=//span[text()='商机管理']
+2020-05-25 11:13:57,611 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element id=business-index
+2020-05-25 11:13:57,611 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element id=business-index
+2020-05-25 11:13:59,356 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element xpath=//a[@class="btn btn-primary btn-sm pull-left"]
+2020-05-25 11:13:59,356 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element xpath=//a[@class="btn btn-primary btn-sm pull-left"]
+2020-05-25 11:14:00,976 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element xpath=//*[@name="status_id"]/option[2]
+2020-05-25 11:14:00,976 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element xpath=//*[@name="status_id"]/option[2]
+2020-05-25 11:14:01,110 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: send_keys has been executed for element xpath=//input[@input_type='time']
+2020-05-25 11:14:01,110 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element xpath=//input[@input_type='time']
+2020-05-25 11:14:01,664 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element id=save_submit
+2020-05-25 11:14:01,664 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element id=save_submit
+2020-05-25 11:14:24,222 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:20] - INFO: __init__ has been executed
+2020-05-25 11:14:24,223 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: initDriver has been executed for element chrome
+2020-05-25 11:14:26,696 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:20] - INFO: max_window has been executed
+2020-05-25 11:14:27,816 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: get has been executed for element http://my.crm.cc/index.php?m=user&a=login
+2020-05-25 11:14:29,551 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: send_keys has been executed for element id=name
+2020-05-25 11:14:29,551 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element id=name
+2020-05-25 11:14:30,085 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: send_keys has been executed for element id=password
+2020-05-25 11:14:30,086 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element id=password
+2020-05-25 11:14:30,314 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element id=loginsub
+2020-05-25 11:14:30,314 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element id=loginsub
+2020-05-25 11:14:30,599 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element xpath=//span[text()='商机管理']
+2020-05-25 11:14:30,600 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element xpath=//span[text()='商机管理']
+2020-05-25 11:14:33,428 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element id=business-index
+2020-05-25 11:14:33,428 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element id=business-index
+2020-05-25 11:14:35,157 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element xpath=//a[@class="btn btn-primary btn-sm pull-left"]
+2020-05-25 11:14:35,157 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element xpath=//a[@class="btn btn-primary btn-sm pull-left"]
+2020-05-25 11:14:37,059 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element xpath=//*[@name="status_id"]/option[4]
+2020-05-25 11:14:37,059 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element xpath=//*[@name="status_id"]/option[4]
+2020-05-25 11:14:37,201 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: send_keys has been executed for element xpath=//input[@input_type='time']
+2020-05-25 11:14:37,201 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element xpath=//input[@input_type='time']
+2020-05-25 11:14:37,689 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element id=save_submit
+2020-05-25 11:14:37,689 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element id=save_submit
+2020-05-25 11:16:16,032 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:20] - INFO: __init__ has been executed
+2020-05-25 11:16:16,032 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: initDriver has been executed for element chrome
+2020-05-25 11:16:18,918 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:20] - INFO: max_window has been executed
+2020-05-25 11:16:20,044 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: get has been executed for element http://my.crm.cc/index.php?m=user&a=login
+2020-05-25 11:16:25,665 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: send_keys has been executed for element id=name
+2020-05-25 11:16:25,665 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element id=name
+2020-05-25 11:16:25,853 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: send_keys has been executed for element id=password
+2020-05-25 11:16:25,853 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element id=password
+2020-05-25 11:16:26,004 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element id=loginsub
+2020-05-25 11:16:26,005 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element id=loginsub
+2020-05-25 11:16:26,160 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element xpath=//span[text()='商机管理']
+2020-05-25 11:16:26,161 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element xpath=//span[text()='商机管理']
+2020-05-25 11:16:29,156 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element id=business-index
+2020-05-25 11:16:29,156 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element id=business-index
+2020-05-25 11:16:30,624 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element xpath=//a[@class="btn btn-primary btn-sm pull-left"]
+2020-05-25 11:16:30,624 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element xpath=//a[@class="btn btn-primary btn-sm pull-left"]
+2020-05-25 11:16:32,235 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element xpath=//select[@name="status_id"]/option[4]
+2020-05-25 11:16:32,235 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element xpath=//select[@name="status_id"]/option[4]
+2020-05-25 11:16:32,324 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: send_keys has been executed for element xpath=//input[@input_type='time']
+2020-05-25 11:16:32,324 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element xpath=//input[@input_type='time']
+2020-05-25 11:16:32,667 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element id=save_submit
+2020-05-25 11:16:32,668 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element id=save_submit

@@ -1,8 +1,0 @@
-2020-06-12 11:18:13,775 - E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py[line:65] - ERROR: Time out can not find the element,the screen shot is:E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\result\screenshot\2020-06-12\2020-06-12-11_18_12.png
-Traceback (most recent call last):
-  File "E:\yuxichen\AotuTestStudy\python_workspace\appiumTraining\framework\SunFlower.py", line 50, in wait_element
-    WebDriverWait(self.driver, seconds).until(lambda x: x.find_element_by_id(value))
-  File "D:\python\python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-
