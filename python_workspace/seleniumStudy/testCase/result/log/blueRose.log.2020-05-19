@@ -1,0 +1,19 @@
+2020-05-19 17:56:35,724 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:20] - INFO: __init__ has been executed
+2020-05-19 17:56:35,731 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: initDriver has been executed for element chrome
+2020-05-19 17:56:39,061 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:20] - INFO: max_window has been executed
+2020-05-19 17:56:40,198 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: get has been executed for element http://www.baidu.com
+2020-05-19 17:56:42,535 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: send_keys has been executed for element id=kw
+2020-05-19 17:56:42,536 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element id=kw
+2020-05-19 17:56:43,361 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element id=su
+2020-05-19 17:56:43,361 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element id=su
+2020-05-19 18:08:23,400 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:20] - INFO: __init__ has been executed
+2020-05-19 18:08:23,400 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: initMultitaskDriver has been executed for element chrome
+2020-05-19 18:08:28,422 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:82] - ERROR: Not found this browser,You can enter 'firefox', 'chrome', 'ie'.
+2020-05-19 18:41:04,664 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:20] - INFO: __init__ has been executed
+2020-05-19 18:41:04,664 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: initDriver has been executed for element chrome
+2020-05-19 18:41:07,408 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:20] - INFO: max_window has been executed
+2020-05-19 18:41:08,534 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: get has been executed for element http://www.baidu.com
+2020-05-19 18:41:10,609 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: send_keys has been executed for element id=kw
+2020-05-19 18:41:10,609 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element id=kw
+2020-05-19 18:41:11,149 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: click has been executed for element id=su
+2020-05-19 18:41:11,149 - E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py[line:18] - INFO: find_element has been executed for element id=su
