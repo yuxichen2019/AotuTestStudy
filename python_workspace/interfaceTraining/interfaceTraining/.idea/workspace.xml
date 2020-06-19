@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9700fd27-79ce-4868-ad02-e75c5b396c02" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../RF_workspace/Interface/InterfaceCRM.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../RF_workspace/appium/业务关键字.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../RF_workspace/appium/业务关键字.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../RF_workspace/appium/微信.robot" beforeDir="false" afterPath="$PROJECT_DIR$/../../../RF_workspace/appium/微信.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../appiumTraining/.idea/appiumTraining.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../appiumTraining/.idea/appiumTraining.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../appiumTraining/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../appiumTraining/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../appiumTraining/testcase/TestWeichat.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../appiumTraining/testcase/TestWeichat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/interfaceTraining.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/interfaceTraining.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCase/log/blueRose.log" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/log/blueRose.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCase/log/blueRose.log.2019-07-16" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCase/log/blueRose.log.2019-10-20" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +74,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
