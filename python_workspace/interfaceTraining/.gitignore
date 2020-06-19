@@ -10,9 +10,9 @@ out
 gen
 .html
 
-/testCase/report/
+
 /testCase/result/
-log/
+/result/
 testCase/grid/Baidu_test_report.html
 testCase/grid/Baidu_test_report1.html
-/report/
+/report/*
