@@ -6,15 +6,12 @@ Library           AppiumLibrary
 *** Test Cases ***
 微信发送消息
     Open Application    http://127.0.0.1:4723/wd/hub    platformName=Android    platformVersion=7.0    deviceName=K6T6R17124002359    appPackage=com.tencent.mm    appActivity=com.tencent.mm.ui.LauncherUI    unicodeKeyboard=true    resetKeyboard=true    noReset=true
-    Comment    Wait Until Element Is Visible    id=bfl    60s
-    Comment    Input Text    id=bfl    yb092226
-    Comment    Click Element    id=d2y    #登录
-    Wait Until Element Is Visible    id=f4u    30s    #放大镜
+    Input Text    id=bfl    yb092226
+    Click Element    id=d2y    #登录
     Click Element    id=f4u
     Input Text    id=bfl    yu
-    Wait Until Element Is Visible    id=g8b    60s
     Click Element    id=g8b    #点击好友名称
-    FOR    ${n}    IN RANGE    2
+    FOR    ${n}    IN RANGE    1
         Wait Until Element Is Visible    id=ak7    30s
         Input Text    id=ak7    快点了，等你很久了，到底来不来啊！！！${n}
         Click Element    id=amr    #发送
@@ -29,7 +26,8 @@ Library           AppiumLibrary
         log    ${n}
     END
     log    outside loop
-    Comment    Wait Until Element Is Visible    id=rn    20
+    Click Element    id=rn
+    Click Element    id=aai
     Comment    Click Element    id=rn
     [Teardown]    退出微信
 
@@ -37,7 +35,7 @@ Library           AppiumLibrary
     [Tags]    A
     [Setup]    打开APP
     登陆微信    ujm159yhn753
-    通讯录搜索好友    gavin    name=高焰-Gavin
+    通讯录搜索好友    yu    name=高焰-Gavin
     FOR    ${n}    IN RANGE    1    3
     发送文字与语音信息    快点了，等你很久了，到底来不来啊！！！
     发送表情

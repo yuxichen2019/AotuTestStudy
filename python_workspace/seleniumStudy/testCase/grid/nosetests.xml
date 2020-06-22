@@ -1,1 +1,1027 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="3" errors="0" failures="0" skip="0"><testcase classname="testCase.grid.TestBaiduSearchRemote1.TestBaiduSearchRemote1" name="test_baiduSearchRemote1" time="15.249"></testcase><testcase classname="testCase.grid.TestBaiduSearchRemote.TestBaiduSearchRemote" name="test_baiduSearchRemote" time="17.088"></testcase><testcase classname="testCase.grid.TestBaiduSearchRemote2.TestBaiduSearchRemote2" name="test_baiduSearchRemote1" time="16.366"></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="3" errors="0" failures="1" skip="0"><testcase classname="testCase.grid.TestBaiduSearchRemote2.TestBaiduSearchRemote2" name="test_baiduSearchRemote1" time="6.276"><failure type="builtins.AssertionError" message="&#10;-------------------- &gt;&gt; begin captured logging &lt;&lt; --------------------&#10;E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\testCase\result\log\blueRose.log: INFO: __init__ has been executed&#10;E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\testCase\result\log\blueRose.log: INFO: initMultitaskDriver has been executed for element chrome&#10;selenium.webdriver.remote.remote_connection: INFO: Could not connect to port 4444 on host 127.0.0.1&#10;selenium.webdriver.remote.remote_connection: INFO: Could not get IP address for host: 127.0.0.1&#10;selenium.webdriver.remote.remote_connection: DEBUG: POST http://127.0.0.1:4444/wd/hub/session {&quot;capabilities&quot;: {&quot;firstMatch&quot;: [{}], &quot;alwaysMatch&quot;: {&quot;browserName&quot;: &quot;chrome&quot;, &quot;platformName&quot;: &quot;any&quot;}}, &quot;desiredCapabilities&quot;: {&quot;browserName&quot;: &quot;chrome&quot;, &quot;version&quot;: &quot;&quot;, &quot;platform&quot;: &quot;ANY&quot;}}&#10;urllib3.connectionpool: DEBUG: Starting new HTTP connection (1): 127.0.0.1:4444&#10;urllib3.util.retry: DEBUG: Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)&#10;urllib3.connectionpool: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00000134B5D5DD08&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session&#10;urllib3.connectionpool: DEBUG: Starting new HTTP connection (2): 127.0.0.1:4444&#10;urllib3.util.retry: DEBUG: Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)&#10;urllib3.connectionpool: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00000134B5D526C8&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session&#10;urllib3.connectionpool: DEBUG: Starting new HTTP connection (3): 127.0.0.1:4444&#10;urllib3.util.retry: DEBUG: Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)&#10;urllib3.connectionpool: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00000134B5D6BF08&gt;: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session&#10;urllib3.connectionpool: DEBUG: Starting new HTTP connection (4): 127.0.0.1:4444&#10;E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\testCase\result\log\blueRose.log: ERROR: Not found this browser,You can enter 'firefox', 'chrome', 'ie'.&#10;--------------------- &gt;&gt; end captured logging &lt;&lt; ---------------------"><![CDATA[  File "d:\python\python37\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "d:\python\python37\lib\unittest\case.py", line 624, in run
+    self.setUp()
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\testCase\grid\TestBaiduSearchRemote2.py", line 14, in setUp
+    self.driver = BlueRose(browser="chrome", isMultitask=True)
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 20, in wrapper
+    return func(*args, **kwargs)
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 35, in __init__
+    self.initMultitaskDriver(browser, serverUrl='http://127.0.0.1:4444/wd/hub')
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 20, in wrapper
+    return func(*args, **kwargs)
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 82, in initMultitaskDriver
+    assert False
+
+-------------------- >> begin captured logging << --------------------
+E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\testCase\result\log\blueRose.log: INFO: __init__ has been executed
+E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\testCase\result\log\blueRose.log: INFO: initMultitaskDriver has been executed for element chrome
+selenium.webdriver.remote.remote_connection: INFO: Could not connect to port 4444 on host 127.0.0.1
+selenium.webdriver.remote.remote_connection: INFO: Could not get IP address for host: 127.0.0.1
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://127.0.0.1:4444/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any"}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY"}}
+urllib3.connectionpool: DEBUG: Starting new HTTP connection (1): 127.0.0.1:4444
+urllib3.util.retry: DEBUG: Incremented Retry for (url='/wd/hub/session'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+urllib3.connectionpool: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000134B5D5DD08>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+urllib3.connectionpool: DEBUG: Starting new HTTP connection (2): 127.0.0.1:4444
+urllib3.util.retry: DEBUG: Incremented Retry for (url='/wd/hub/session'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+urllib3.connectionpool: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000134B5D526C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+urllib3.connectionpool: DEBUG: Starting new HTTP connection (3): 127.0.0.1:4444
+urllib3.util.retry: DEBUG: Incremented Retry for (url='/wd/hub/session'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+urllib3.connectionpool: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000134B5D6BF08>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+urllib3.connectionpool: DEBUG: Starting new HTTP connection (4): 127.0.0.1:4444
+E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\testCase\result\log\blueRose.log: ERROR: Not found this browser,You can enter 'firefox', 'chrome', 'ie'.
+--------------------- >> end captured logging << ---------------------]]></failure><system-err><![CDATA[--- Logging error ---
+Traceback (most recent call last):
+  File "d:\python\python37\lib\logging\handlers.py", line 70, in emit
+    self.doRollover()
+  File "d:\python\python37\lib\logging\handlers.py", line 394, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "d:\python\python37\lib\logging\handlers.py", line 111, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log' -> 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log.2020-05-25'
+Call stack:
+  File "<string>", line 1, in <module>
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 105, in spawn_main
+    exitcode = _main(fd)
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 118, in _main
+    return self._bootstrap()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 297, in _bootstrap
+    self.run()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 652, in runner
+    keyboardCaught, shouldStop, loaderClass, resultClass, config)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 715, in __runner
+    test(result)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 46, in __call__
+    return self.run(*arg, **kwarg)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 134, in run
+    self.runTest(result)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 152, in runTest
+    test(result)
+  File "d:\python\python37\lib\unittest\case.py", line 676, in __call__
+    return self.run(*args, **kwds)
+  File "d:\python\python37\lib\unittest\case.py", line 624, in run
+    self.setUp()
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\testCase\grid\TestBaiduSearchRemote2.py", line 14, in setUp
+    self.driver = BlueRose(browser="chrome", isMultitask=True)
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 19, in wrapper
+    logger.info(func.__name__ + ' has been executed')
+Message: '__init__ has been executed'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "d:\python\python37\lib\logging\handlers.py", line 70, in emit
+    self.doRollover()
+  File "d:\python\python37\lib\logging\handlers.py", line 394, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "d:\python\python37\lib\logging\handlers.py", line 111, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log' -> 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log.2020-05-25'
+Call stack:
+  File "<string>", line 1, in <module>
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 105, in spawn_main
+    exitcode = _main(fd)
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 118, in _main
+    return self._bootstrap()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 297, in _bootstrap
+    self.run()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 652, in runner
+    keyboardCaught, shouldStop, loaderClass, resultClass, config)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 715, in __runner
+    test(result)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 46, in __call__
+    return self.run(*arg, **kwarg)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 134, in run
+    self.runTest(result)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 152, in runTest
+    test(result)
+  File "d:\python\python37\lib\unittest\case.py", line 676, in __call__
+    return self.run(*args, **kwds)
+  File "d:\python\python37\lib\unittest\case.py", line 624, in run
+    self.setUp()
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\testCase\grid\TestBaiduSearchRemote2.py", line 14, in setUp
+    self.driver = BlueRose(browser="chrome", isMultitask=True)
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 20, in wrapper
+    return func(*args, **kwargs)
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 35, in __init__
+    self.initMultitaskDriver(browser, serverUrl='http://127.0.0.1:4444/wd/hub')
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 17, in wrapper
+    logger.info(func.__name__ + ' has been executed for element ' + args[1])
+Message: 'initMultitaskDriver has been executed for element chrome'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "d:\python\python37\lib\site-packages\urllib3\connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "d:\python\python37\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "d:\python\python37\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\python\python37\lib\site-packages\urllib3\connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "d:\python\python37\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "d:\python\python37\lib\http\client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "d:\python\python37\lib\http\client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "d:\python\python37\lib\http\client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "d:\python\python37\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "d:\python\python37\lib\http\client.py", line 966, in send
+    self.connect()
+  File "d:\python\python37\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "d:\python\python37\lib\site-packages\urllib3\connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000134B5DA4648>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 75, in initMultitaskDriver
+    desired_capabilities=DesiredCapabilities.CHROME)
+  File "d:\python\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "d:\python\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "d:\python\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "d:\python\python37\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "d:\python\python37\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 402, in _request
+    resp = http.request(method, url, body=body, headers=headers)
+  File "d:\python\python37\lib\site-packages\urllib3\request.py", line 80, in request
+    method, url, fields=fields, headers=headers, **urlopen_kw
+  File "d:\python\python37\lib\site-packages\urllib3\request.py", line 171, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "d:\python\python37\lib\site-packages\urllib3\poolmanager.py", line 336, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "d:\python\python37\lib\site-packages\urllib3\connectionpool.py", line 765, in urlopen
+    **response_kw
+  File "d:\python\python37\lib\site-packages\urllib3\connectionpool.py", line 765, in urlopen
+    **response_kw
+  File "d:\python\python37\lib\site-packages\urllib3\connectionpool.py", line 765, in urlopen
+    **response_kw
+  File "d:\python\python37\lib\site-packages\urllib3\connectionpool.py", line 725, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "d:\python\python37\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4444): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000134B5DA4648>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\python\python37\lib\logging\handlers.py", line 70, in emit
+    self.doRollover()
+  File "d:\python\python37\lib\logging\handlers.py", line 394, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "d:\python\python37\lib\logging\handlers.py", line 111, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log' -> 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log.2020-05-25'
+Call stack:
+  File "<string>", line 1, in <module>
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 105, in spawn_main
+    exitcode = _main(fd)
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 118, in _main
+    return self._bootstrap()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 297, in _bootstrap
+    self.run()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 652, in runner
+    keyboardCaught, shouldStop, loaderClass, resultClass, config)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 715, in __runner
+    test(result)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 46, in __call__
+    return self.run(*arg, **kwarg)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 134, in run
+    self.runTest(result)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 152, in runTest
+    test(result)
+  File "d:\python\python37\lib\unittest\case.py", line 676, in __call__
+    return self.run(*args, **kwds)
+  File "d:\python\python37\lib\unittest\case.py", line 624, in run
+    self.setUp()
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\testCase\grid\TestBaiduSearchRemote2.py", line 14, in setUp
+    self.driver = BlueRose(browser="chrome", isMultitask=True)
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 20, in wrapper
+    return func(*args, **kwargs)
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 35, in __init__
+    self.initMultitaskDriver(browser, serverUrl='http://127.0.0.1:4444/wd/hub')
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 20, in wrapper
+    return func(*args, **kwargs)
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 81, in initMultitaskDriver
+    self.logger.error("Not found this browser,You can enter 'firefox', 'chrome', 'ie'.")
+Message: "Not found this browser,You can enter 'firefox', 'chrome', 'ie'."
+Arguments: ()
+]]></system-err></testcase><testcase classname="testCase.grid.TestBaiduSearchRemote.TestBaiduSearchRemote" name="test_baiduSearchRemote" time="14.925"><system-err><![CDATA[--- Logging error ---
+Traceback (most recent call last):
+  File "d:\python\python37\lib\logging\handlers.py", line 70, in emit
+    self.doRollover()
+  File "d:\python\python37\lib\logging\handlers.py", line 394, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "d:\python\python37\lib\logging\handlers.py", line 111, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log' -> 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log.2020-05-25'
+Call stack:
+  File "<string>", line 1, in <module>
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 105, in spawn_main
+    exitcode = _main(fd)
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 118, in _main
+    return self._bootstrap()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 297, in _bootstrap
+    self.run()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 652, in runner
+    keyboardCaught, shouldStop, loaderClass, resultClass, config)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 715, in __runner
+    test(result)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 46, in __call__
+    return self.run(*arg, **kwarg)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 134, in run
+    self.runTest(result)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 152, in runTest
+    test(result)
+  File "d:\python\python37\lib\unittest\case.py", line 676, in __call__
+    return self.run(*args, **kwds)
+  File "d:\python\python37\lib\unittest\case.py", line 624, in run
+    self.setUp()
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\testCase\grid\TestBaiduSearchRemote.py", line 13, in setUp
+    self.driver = BlueRose(browser="chrome", isMultitask=False)
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 19, in wrapper
+    logger.info(func.__name__ + ' has been executed')
+Message: '__init__ has been executed'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "d:\python\python37\lib\logging\handlers.py", line 70, in emit
+    self.doRollover()
+  File "d:\python\python37\lib\logging\handlers.py", line 394, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "d:\python\python37\lib\logging\handlers.py", line 111, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log' -> 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log.2020-05-25'
+Call stack:
+  File "<string>", line 1, in <module>
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 105, in spawn_main
+    exitcode = _main(fd)
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 118, in _main
+    return self._bootstrap()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 297, in _bootstrap
+    self.run()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 652, in runner
+    keyboardCaught, shouldStop, loaderClass, resultClass, config)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 715, in __runner
+    test(result)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 46, in __call__
+    return self.run(*arg, **kwarg)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 134, in run
+    self.runTest(result)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 152, in runTest
+    test(result)
+  File "d:\python\python37\lib\unittest\case.py", line 676, in __call__
+    return self.run(*args, **kwds)
+  File "d:\python\python37\lib\unittest\case.py", line 624, in run
+    self.setUp()
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\testCase\grid\TestBaiduSearchRemote.py", line 13, in setUp
+    self.driver = BlueRose(browser="chrome", isMultitask=False)
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 20, in wrapper
+    return func(*args, **kwargs)
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 37, in __init__
+    self.initDriver(browser)
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 17, in wrapper
+    logger.info(func.__name__ + ' has been executed for element ' + args[1])
+Message: 'initDriver has been executed for element chrome'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "d:\python\python37\lib\logging\handlers.py", line 70, in emit
+    self.doRollover()
+  File "d:\python\python37\lib\logging\handlers.py", line 394, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "d:\python\python37\lib\logging\handlers.py", line 111, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log' -> 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log.2020-05-25'
+Call stack:
+  File "<string>", line 1, in <module>
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 105, in spawn_main
+    exitcode = _main(fd)
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 118, in _main
+    return self._bootstrap()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 297, in _bootstrap
+    self.run()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 652, in runner
+    keyboardCaught, shouldStop, loaderClass, resultClass, config)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 715, in __runner
+    test(result)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 46, in __call__
+    return self.run(*arg, **kwarg)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 134, in run
+    self.runTest(result)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 152, in runTest
+    test(result)
+  File "d:\python\python37\lib\unittest\case.py", line 676, in __call__
+    return self.run(*args, **kwds)
+  File "d:\python\python37\lib\unittest\case.py", line 624, in run
+    self.setUp()
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\testCase\grid\TestBaiduSearchRemote.py", line 16, in setUp
+    self.driver.max_window()
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 19, in wrapper
+    logger.info(func.__name__ + ' has been executed')
+Message: 'max_window has been executed'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "d:\python\python37\lib\logging\handlers.py", line 70, in emit
+    self.doRollover()
+  File "d:\python\python37\lib\logging\handlers.py", line 394, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "d:\python\python37\lib\logging\handlers.py", line 111, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log' -> 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log.2020-05-25'
+Call stack:
+  File "<string>", line 1, in <module>
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 105, in spawn_main
+    exitcode = _main(fd)
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 118, in _main
+    return self._bootstrap()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 297, in _bootstrap
+    self.run()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 652, in runner
+    keyboardCaught, shouldStop, loaderClass, resultClass, config)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 715, in __runner
+    test(result)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 46, in __call__
+    return self.run(*arg, **kwarg)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 134, in run
+    self.runTest(result)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 152, in runTest
+    test(result)
+  File "d:\python\python37\lib\unittest\case.py", line 676, in __call__
+    return self.run(*args, **kwds)
+  File "d:\python\python37\lib\unittest\case.py", line 628, in run
+    testMethod()
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\testCase\grid\TestBaiduSearchRemote.py", line 23, in test_baiduSearchRemote
+    self.driver.get("http://www.baidu.com")
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 17, in wrapper
+    logger.info(func.__name__ + ' has been executed for element ' + args[1])
+Message: 'get has been executed for element http://www.baidu.com'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "d:\python\python37\lib\logging\handlers.py", line 70, in emit
+    self.doRollover()
+  File "d:\python\python37\lib\logging\handlers.py", line 394, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "d:\python\python37\lib\logging\handlers.py", line 111, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log' -> 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log.2020-05-25'
+Call stack:
+  File "<string>", line 1, in <module>
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 105, in spawn_main
+    exitcode = _main(fd)
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 118, in _main
+    return self._bootstrap()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 297, in _bootstrap
+    self.run()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 652, in runner
+    keyboardCaught, shouldStop, loaderClass, resultClass, config)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 715, in __runner
+    test(result)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 46, in __call__
+    return self.run(*arg, **kwarg)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 134, in run
+    self.runTest(result)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 152, in runTest
+    test(result)
+  File "d:\python\python37\lib\unittest\case.py", line 676, in __call__
+    return self.run(*args, **kwds)
+  File "d:\python\python37\lib\unittest\case.py", line 628, in run
+    testMethod()
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\testCase\grid\TestBaiduSearchRemote.py", line 25, in test_baiduSearchRemote
+    self.driver.send_keys("id=kw", "selenium")
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 17, in wrapper
+    logger.info(func.__name__ + ' has been executed for element ' + args[1])
+Message: 'send_keys has been executed for element id=kw'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "d:\python\python37\lib\logging\handlers.py", line 70, in emit
+    self.doRollover()
+  File "d:\python\python37\lib\logging\handlers.py", line 394, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "d:\python\python37\lib\logging\handlers.py", line 111, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log' -> 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log.2020-05-25'
+Call stack:
+  File "<string>", line 1, in <module>
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 105, in spawn_main
+    exitcode = _main(fd)
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 118, in _main
+    return self._bootstrap()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 297, in _bootstrap
+    self.run()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 652, in runner
+    keyboardCaught, shouldStop, loaderClass, resultClass, config)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 715, in __runner
+    test(result)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 46, in __call__
+    return self.run(*arg, **kwarg)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 134, in run
+    self.runTest(result)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 152, in runTest
+    test(result)
+  File "d:\python\python37\lib\unittest\case.py", line 676, in __call__
+    return self.run(*args, **kwds)
+  File "d:\python\python37\lib\unittest\case.py", line 628, in run
+    testMethod()
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\testCase\grid\TestBaiduSearchRemote.py", line 25, in test_baiduSearchRemote
+    self.driver.send_keys("id=kw", "selenium")
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 20, in wrapper
+    return func(*args, **kwargs)
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 231, in send_keys
+    element=self.find_element(element)
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 17, in wrapper
+    logger.info(func.__name__ + ' has been executed for element ' + args[1])
+Message: 'find_element has been executed for element id=kw'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "d:\python\python37\lib\logging\handlers.py", line 70, in emit
+    self.doRollover()
+  File "d:\python\python37\lib\logging\handlers.py", line 394, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "d:\python\python37\lib\logging\handlers.py", line 111, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log' -> 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log.2020-05-25'
+Call stack:
+  File "<string>", line 1, in <module>
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 105, in spawn_main
+    exitcode = _main(fd)
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 118, in _main
+    return self._bootstrap()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 297, in _bootstrap
+    self.run()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 652, in runner
+    keyboardCaught, shouldStop, loaderClass, resultClass, config)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 715, in __runner
+    test(result)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 46, in __call__
+    return self.run(*arg, **kwarg)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 134, in run
+    self.runTest(result)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 152, in runTest
+    test(result)
+  File "d:\python\python37\lib\unittest\case.py", line 676, in __call__
+    return self.run(*args, **kwds)
+  File "d:\python\python37\lib\unittest\case.py", line 628, in run
+    testMethod()
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\testCase\grid\TestBaiduSearchRemote.py", line 27, in test_baiduSearchRemote
+    self.driver.click("id=su")
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 17, in wrapper
+    logger.info(func.__name__ + ' has been executed for element ' + args[1])
+Message: 'click has been executed for element id=su'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "d:\python\python37\lib\logging\handlers.py", line 70, in emit
+    self.doRollover()
+  File "d:\python\python37\lib\logging\handlers.py", line 394, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "d:\python\python37\lib\logging\handlers.py", line 111, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log' -> 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log.2020-05-25'
+Call stack:
+  File "<string>", line 1, in <module>
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 105, in spawn_main
+    exitcode = _main(fd)
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 118, in _main
+    return self._bootstrap()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 297, in _bootstrap
+    self.run()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 652, in runner
+    keyboardCaught, shouldStop, loaderClass, resultClass, config)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 715, in __runner
+    test(result)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 46, in __call__
+    return self.run(*arg, **kwarg)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 134, in run
+    self.runTest(result)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 152, in runTest
+    test(result)
+  File "d:\python\python37\lib\unittest\case.py", line 676, in __call__
+    return self.run(*args, **kwds)
+  File "d:\python\python37\lib\unittest\case.py", line 628, in run
+    testMethod()
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\testCase\grid\TestBaiduSearchRemote.py", line 27, in test_baiduSearchRemote
+    self.driver.click("id=su")
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 20, in wrapper
+    return func(*args, **kwargs)
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 266, in click
+    self.find_element(element).click()
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 17, in wrapper
+    logger.info(func.__name__ + ' has been executed for element ' + args[1])
+Message: 'find_element has been executed for element id=su'
+Arguments: ()
+]]></system-err></testcase><testcase classname="testCase.grid.TestBaiduSearchRemote1.TestBaiduSearchRemote1" name="test_baiduSearchRemote1" time="14.544"><system-err><![CDATA[--- Logging error ---
+Traceback (most recent call last):
+  File "d:\python\python37\lib\logging\handlers.py", line 70, in emit
+    self.doRollover()
+  File "d:\python\python37\lib\logging\handlers.py", line 394, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "d:\python\python37\lib\logging\handlers.py", line 111, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log' -> 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log.2020-05-25'
+Call stack:
+  File "<string>", line 1, in <module>
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 105, in spawn_main
+    exitcode = _main(fd)
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 118, in _main
+    return self._bootstrap()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 297, in _bootstrap
+    self.run()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 652, in runner
+    keyboardCaught, shouldStop, loaderClass, resultClass, config)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 715, in __runner
+    test(result)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 46, in __call__
+    return self.run(*arg, **kwarg)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 134, in run
+    self.runTest(result)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 152, in runTest
+    test(result)
+  File "d:\python\python37\lib\unittest\case.py", line 676, in __call__
+    return self.run(*args, **kwds)
+  File "d:\python\python37\lib\unittest\case.py", line 624, in run
+    self.setUp()
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\testCase\grid\TestBaiduSearchRemote1.py", line 14, in setUp
+    self.driver = BlueRose(browser="chrome", isMultitask=False)
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 19, in wrapper
+    logger.info(func.__name__ + ' has been executed')
+Message: '__init__ has been executed'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "d:\python\python37\lib\logging\handlers.py", line 70, in emit
+    self.doRollover()
+  File "d:\python\python37\lib\logging\handlers.py", line 394, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "d:\python\python37\lib\logging\handlers.py", line 111, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log' -> 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log.2020-05-25'
+Call stack:
+  File "<string>", line 1, in <module>
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 105, in spawn_main
+    exitcode = _main(fd)
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 118, in _main
+    return self._bootstrap()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 297, in _bootstrap
+    self.run()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 652, in runner
+    keyboardCaught, shouldStop, loaderClass, resultClass, config)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 715, in __runner
+    test(result)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 46, in __call__
+    return self.run(*arg, **kwarg)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 134, in run
+    self.runTest(result)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 152, in runTest
+    test(result)
+  File "d:\python\python37\lib\unittest\case.py", line 676, in __call__
+    return self.run(*args, **kwds)
+  File "d:\python\python37\lib\unittest\case.py", line 624, in run
+    self.setUp()
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\testCase\grid\TestBaiduSearchRemote1.py", line 14, in setUp
+    self.driver = BlueRose(browser="chrome", isMultitask=False)
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 20, in wrapper
+    return func(*args, **kwargs)
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 37, in __init__
+    self.initDriver(browser)
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 17, in wrapper
+    logger.info(func.__name__ + ' has been executed for element ' + args[1])
+Message: 'initDriver has been executed for element chrome'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "d:\python\python37\lib\logging\handlers.py", line 70, in emit
+    self.doRollover()
+  File "d:\python\python37\lib\logging\handlers.py", line 394, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "d:\python\python37\lib\logging\handlers.py", line 111, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log' -> 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log.2020-05-25'
+Call stack:
+  File "<string>", line 1, in <module>
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 105, in spawn_main
+    exitcode = _main(fd)
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 118, in _main
+    return self._bootstrap()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 297, in _bootstrap
+    self.run()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 652, in runner
+    keyboardCaught, shouldStop, loaderClass, resultClass, config)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 715, in __runner
+    test(result)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 46, in __call__
+    return self.run(*arg, **kwarg)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 134, in run
+    self.runTest(result)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 152, in runTest
+    test(result)
+  File "d:\python\python37\lib\unittest\case.py", line 676, in __call__
+    return self.run(*args, **kwds)
+  File "d:\python\python37\lib\unittest\case.py", line 624, in run
+    self.setUp()
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\testCase\grid\TestBaiduSearchRemote1.py", line 17, in setUp
+    self.driver.max_window()
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 19, in wrapper
+    logger.info(func.__name__ + ' has been executed')
+Message: 'max_window has been executed'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "d:\python\python37\lib\logging\handlers.py", line 70, in emit
+    self.doRollover()
+  File "d:\python\python37\lib\logging\handlers.py", line 394, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "d:\python\python37\lib\logging\handlers.py", line 111, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log' -> 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log.2020-05-25'
+Call stack:
+  File "<string>", line 1, in <module>
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 105, in spawn_main
+    exitcode = _main(fd)
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 118, in _main
+    return self._bootstrap()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 297, in _bootstrap
+    self.run()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 652, in runner
+    keyboardCaught, shouldStop, loaderClass, resultClass, config)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 715, in __runner
+    test(result)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 46, in __call__
+    return self.run(*arg, **kwarg)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 134, in run
+    self.runTest(result)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 152, in runTest
+    test(result)
+  File "d:\python\python37\lib\unittest\case.py", line 676, in __call__
+    return self.run(*args, **kwds)
+  File "d:\python\python37\lib\unittest\case.py", line 628, in run
+    testMethod()
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\testCase\grid\TestBaiduSearchRemote1.py", line 22, in test_baiduSearchRemote1
+    self.driver.get("http://www.baidu.com")
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 17, in wrapper
+    logger.info(func.__name__ + ' has been executed for element ' + args[1])
+Message: 'get has been executed for element http://www.baidu.com'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "d:\python\python37\lib\logging\handlers.py", line 70, in emit
+    self.doRollover()
+  File "d:\python\python37\lib\logging\handlers.py", line 394, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "d:\python\python37\lib\logging\handlers.py", line 111, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log' -> 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log.2020-05-25'
+Call stack:
+  File "<string>", line 1, in <module>
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 105, in spawn_main
+    exitcode = _main(fd)
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 118, in _main
+    return self._bootstrap()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 297, in _bootstrap
+    self.run()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 652, in runner
+    keyboardCaught, shouldStop, loaderClass, resultClass, config)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 715, in __runner
+    test(result)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 46, in __call__
+    return self.run(*arg, **kwarg)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 134, in run
+    self.runTest(result)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 152, in runTest
+    test(result)
+  File "d:\python\python37\lib\unittest\case.py", line 676, in __call__
+    return self.run(*args, **kwds)
+  File "d:\python\python37\lib\unittest\case.py", line 628, in run
+    testMethod()
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\testCase\grid\TestBaiduSearchRemote1.py", line 24, in test_baiduSearchRemote1
+    self.driver.send_keys("id=kw", "java")
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 17, in wrapper
+    logger.info(func.__name__ + ' has been executed for element ' + args[1])
+Message: 'send_keys has been executed for element id=kw'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "d:\python\python37\lib\logging\handlers.py", line 70, in emit
+    self.doRollover()
+  File "d:\python\python37\lib\logging\handlers.py", line 394, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "d:\python\python37\lib\logging\handlers.py", line 111, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log' -> 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log.2020-05-25'
+Call stack:
+  File "<string>", line 1, in <module>
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 105, in spawn_main
+    exitcode = _main(fd)
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 118, in _main
+    return self._bootstrap()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 297, in _bootstrap
+    self.run()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 652, in runner
+    keyboardCaught, shouldStop, loaderClass, resultClass, config)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 715, in __runner
+    test(result)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 46, in __call__
+    return self.run(*arg, **kwarg)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 134, in run
+    self.runTest(result)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 152, in runTest
+    test(result)
+  File "d:\python\python37\lib\unittest\case.py", line 676, in __call__
+    return self.run(*args, **kwds)
+  File "d:\python\python37\lib\unittest\case.py", line 628, in run
+    testMethod()
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\testCase\grid\TestBaiduSearchRemote1.py", line 24, in test_baiduSearchRemote1
+    self.driver.send_keys("id=kw", "java")
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 20, in wrapper
+    return func(*args, **kwargs)
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 231, in send_keys
+    element=self.find_element(element)
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 17, in wrapper
+    logger.info(func.__name__ + ' has been executed for element ' + args[1])
+Message: 'find_element has been executed for element id=kw'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "d:\python\python37\lib\logging\handlers.py", line 70, in emit
+    self.doRollover()
+  File "d:\python\python37\lib\logging\handlers.py", line 394, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "d:\python\python37\lib\logging\handlers.py", line 111, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log' -> 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log.2020-05-25'
+Call stack:
+  File "<string>", line 1, in <module>
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 105, in spawn_main
+    exitcode = _main(fd)
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 118, in _main
+    return self._bootstrap()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 297, in _bootstrap
+    self.run()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 652, in runner
+    keyboardCaught, shouldStop, loaderClass, resultClass, config)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 715, in __runner
+    test(result)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 46, in __call__
+    return self.run(*arg, **kwarg)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 134, in run
+    self.runTest(result)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 152, in runTest
+    test(result)
+  File "d:\python\python37\lib\unittest\case.py", line 676, in __call__
+    return self.run(*args, **kwds)
+  File "d:\python\python37\lib\unittest\case.py", line 628, in run
+    testMethod()
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\testCase\grid\TestBaiduSearchRemote1.py", line 26, in test_baiduSearchRemote1
+    self.driver.click("id=su")
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 17, in wrapper
+    logger.info(func.__name__ + ' has been executed for element ' + args[1])
+Message: 'click has been executed for element id=su'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "d:\python\python37\lib\logging\handlers.py", line 70, in emit
+    self.doRollover()
+  File "d:\python\python37\lib\logging\handlers.py", line 394, in doRollover
+    self.rotate(self.baseFilename, dfn)
+  File "d:\python\python37\lib\logging\handlers.py", line 111, in rotate
+    os.rename(source, dest)
+PermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log' -> 'E:\\yuxichen\\AotuTestStudy\\python_workspace\\seleniumStudy\\testCase\\result\\log\\blueRose.log.2020-05-25'
+Call stack:
+  File "<string>", line 1, in <module>
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 105, in spawn_main
+    exitcode = _main(fd)
+  File "d:\python\python37\lib\multiprocessing\spawn.py", line 118, in _main
+    return self._bootstrap()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 297, in _bootstrap
+    self.run()
+  File "d:\python\python37\lib\multiprocessing\process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 652, in runner
+    keyboardCaught, shouldStop, loaderClass, resultClass, config)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 715, in __runner
+    test(result)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\suite.py", line 178, in __call__
+    return self.run(*arg, **kw)
+  File "d:\python\python37\lib\site-packages\nose\plugins\multiprocess.py", line 812, in run
+    test(orig)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 46, in __call__
+    return self.run(*arg, **kwarg)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 134, in run
+    self.runTest(result)
+  File "d:\python\python37\lib\site-packages\nose\case.py", line 152, in runTest
+    test(result)
+  File "d:\python\python37\lib\unittest\case.py", line 676, in __call__
+    return self.run(*args, **kwds)
+  File "d:\python\python37\lib\unittest\case.py", line 628, in run
+    testMethod()
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\testCase\grid\TestBaiduSearchRemote1.py", line 26, in test_baiduSearchRemote1
+    self.driver.click("id=su")
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 20, in wrapper
+    return func(*args, **kwargs)
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 266, in click
+    self.find_element(element).click()
+  File "E:\yuxichen\AotuTestStudy\python_workspace\seleniumStudy\framework\BlueRose.py", line 17, in wrapper
+    logger.info(func.__name__ + ' has been executed for element ' + args[1])
+Message: 'find_element has been executed for element id=su'
+Arguments: ()
+]]></system-err></testcase></testsuite>
