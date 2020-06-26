@@ -29,13 +29,14 @@ Library           AppiumLibrary
     点击元素    id=a5c
 
 退出微信
-    点击元素    id=rn
+    Comment    点击元素    id=rn
     Comment    点击元素    id=gz
-    点击元素    name=我
-    点击元素    name=设置
-    点击元素    name=退出
-    点击元素    name=退出当前帐号
-    点击元素    name=退出
+    通过索引点击元素    id=ckw    3    #点击我
+    log    clicked done
+    点击元素    xpath=//android.widget.TextView[@text=\"设置\"]     #点击设置
+    通过索引点击元素    id=g1x    1    #点击退出
+    点击元素    id=g74     #点击退出登录
+    点击元素    id=dm3    #点击退出
 
 发送表情
     点击元素    id=a5g
