@@ -2,7 +2,7 @@ import datetime
 import time
 
 
-class UtilsDate(object):
+class UtilsDate:
 
     # 获取系统日期和时间
     @staticmethod

@@ -9,7 +9,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from framework.Logger import Logger
 
 
-class BlueRose(object):
+class BlueRose:
     def logging(func):
         logger = Logger('blueRose.log', level='debug').logger
         def wrapper(*args, **kwargs):

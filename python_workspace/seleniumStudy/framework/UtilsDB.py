@@ -3,7 +3,7 @@ import os
 import pymysql
 
 
-class UtilsDB(object):
+class UtilsDB:
     def __init__(self, url,port, userName, passWord, dbName):
         self.url = url
         self.port= port

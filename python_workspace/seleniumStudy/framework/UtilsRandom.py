@@ -3,7 +3,7 @@ import random
 from framework.UtilsDate import UtilsDate
 
 
-class UtilsRandom(object):
+class UtilsRandom:
     # 随机生成中文姓名
     @staticmethod
     def getChineseName():

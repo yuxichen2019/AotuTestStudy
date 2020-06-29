@@ -2,10 +2,11 @@ import csv
 import traceback
 import os
 
-# from framework.UtilsRandom import UtilsRandom
+from framework.UtilsRandom import UtilsRandom
 
 
-class UtilsFile(object):
+
+class UtilsFile:
     filePath=''
     def __init__(self, filePath):
         self.filePath = filePath
@@ -52,12 +53,14 @@ class UtilsFile(object):
         finally:
             f.close()
 
-# if __name__ == '__main__':
-#     utilsFile = UtilsFile("../data/data.csv")
-#     fileData = []
-#     for i in range(100):
-#         fileData.append([UtilsRandom.getChineseName(), UtilsRandom.getEmail(),UtilsRandom.getMobilePhone()])
-#         # fileData.append(["姓名","邮箱","手机号码"])
-#         utilsFile.write(fileData)
-    # for line in utilsFile.read():
-    #     print(line)
+if __name__ == '__main__':
+    utilsFile = UtilsFile("../data/data.csv")
+
+    for i in range(3):
+        fileData = []
+        fileData.append(["姓名", "邮箱", "手机号码"])
+        fileData.append([UtilsRandom.getChineseName(), UtilsRandom.getEmail(),UtilsRandom.getMobilePhone()])
+        utilsFile.write(fileData)
+
+    for line in utilsFile.read():
+        print(line)

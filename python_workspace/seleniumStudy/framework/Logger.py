@@ -3,7 +3,7 @@ import os
 from logging import handlers
 
 
-class Logger(object):
+class Logger:
     level_relations = {
         'debug': logging.DEBUG,
         'info': logging.INFO,
